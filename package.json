@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "db:write": "node server/write-db.js",
+    "db:write-colors": "node server/write-color-db.js",
     "rake:svgs": "node server/pull-images.js",
     "start": "node server/server.js"
   },

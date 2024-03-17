@@ -1,0 +1,7786 @@
+{
+  "timestamp": "2024-03-17T23:52:22.181Z",
+  "fileVersion": 1,
+  "colors": [
+    {
+      "name": "bulbasaur",
+      "id": 1,
+      "colors": [
+        "#68ae28",
+        "#56931f",
+        "#7cbeb3",
+        "#68a198",
+        "#ffffff",
+        "#d60040",
+        "#006359",
+        "#0d131a",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "ivysaur",
+      "id": 2,
+      "colors": [
+        "#0d131a",
+        "#5dc1cf",
+        "#50a8b4",
+        "#ffffff",
+        "#00a63c",
+        "#009233",
+        "#c94772",
+        "#e85382",
+        "#431e37",
+        "#91308c",
+        "#008982",
+        "#00736d"
+      ]
+    },
+    {
+      "name": "venusaur",
+      "id": 3,
+      "colors": [
+        "#0d131a",
+        "#5dc1cf",
+        "#50a8b4",
+        "#ffffff",
+        "#dbdcdc",
+        "#00a63c",
+        "#009233",
+        "#c28600",
+        "#986a00",
+        "#e85382",
+        "#c94772",
+        "#fceef4",
+        "#d9ced4",
+        "#d7a400",
+        "#f9be00",
+        "#c6000b",
+        "#a30000",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "charmander",
+      "id": 4,
+      "colors": [
+        "#ef8200",
+        "#ddd583",
+        "#cf7100",
+        "#fff697",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#0d131a",
+        "#efe908",
+        "#e50020",
+        "#dbdcdc",
+        "#007f78"
+      ]
+    },
+    {
+      "name": "charmeleon",
+      "id": 5,
+      "colors": [
+        "#0d131a",
+        "#3d62ac",
+        "#fff3c2",
+        "#dbd2a9",
+        "#e73820",
+        "#c82e19",
+        "#ffffff",
+        "#e50020",
+        "#efe908"
+      ]
+    },
+    {
+      "name": "charizard",
+      "id": 6,
+      "colors": [
+        "#0d131a",
+        "#efe908",
+        "#e50020",
+        "#ddd583",
+        "#d18200",
+        "#f29600",
+        "#008086",
+        "#00666c",
+        "#ffffff",
+        "#dbdcdc",
+        "#fff697"
+      ]
+    },
+    {
+      "name": "squirtle",
+      "id": 7,
+      "colors": [
+        "#84cabf",
+        "#f2e100",
+        "#eeeeef",
+        "#cf7100",
+        "#c6000b",
+        "#ffffff",
+        "#0d131a",
+        "#cbbd00",
+        "#72b0a6",
+        "#a95b00",
+        "#c8c9ca"
+      ]
+    },
+    {
+      "name": "wartortle",
+      "id": 8,
+      "colors": [
+        "#0d131a",
+        "#afcee5",
+        "#93aec1",
+        "#88a3d4",
+        "#778db8",
+        "#ffffff",
+        "#dbdcdc",
+        "#b94100",
+        "#922f00",
+        "#fff8b0",
+        "#ddd698",
+        "#eeeeef",
+        "#c8c9ca",
+        "#ba5400",
+        "#5084c4"
+      ]
+    },
+    {
+      "name": "blastoise",
+      "id": 9,
+      "colors": [
+        "#6f4e25",
+        "#4a311c",
+        "#0d131a",
+        "#dcdbd6",
+        "#b4b4b0",
+        "#dbdcdc",
+        "#eeeeef",
+        "#c8c9ca",
+        "#3396cd",
+        "#2880ae",
+        "#ffffff",
+        "#f0e9a5",
+        "#c9c48b"
+      ]
+    },
+    {
+      "name": "caterpie",
+      "id": 10,
+      "colors": [
+        "#0d131a",
+        "#f0e78e",
+        "#c9c279",
+        "#6cba5a",
+        "#5da24d",
+        "#f9be00",
+        "#da4e70",
+        "#b8405f",
+        "#8a969d",
+        "#d6e6ae",
+        "#edadb5"
+      ]
+    },
+    {
+      "name": "metapod",
+      "id": 11,
+      "colors": [
+        "#6fb92c",
+        "#5fa124",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "butterfree",
+      "id": 12,
+      "colors": [
+        "#eeeeef",
+        "#003f4d",
+        "#0d131a",
+        "#7c70a2",
+        "#655b86",
+        "#ed85a7",
+        "#f6c8d6",
+        "#ffffff",
+        "#5dc1cf",
+        "#50a8b4"
+      ]
+    },
+    {
+      "name": "weedle",
+      "id": 13,
+      "colors": [
+        "#0d131a",
+        "#cad3cc",
+        "#a6ada8",
+        "#e3c582",
+        "#bfa56f",
+        "#e8528d",
+        "#f3b3c9",
+        "#c9467c",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "kakuna",
+      "id": 14,
+      "colors": [
+        "#f0e800",
+        "#f8f397",
+        "#cec900",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "beedrill",
+      "id": 15,
+      "colors": [
+        "#e9eff8",
+        "#c9cfd7",
+        "#6791b9",
+        "#567c9d",
+        "#dbdcdc",
+        "#b4b4b5",
+        "#f9be00",
+        "#d7a400",
+        "#152139",
+        "#0b132a",
+        "#e85377",
+        "#ed8599",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "pidgey",
+      "id": 16,
+      "colors": [
+        "#eeeeef",
+        "#f09ba5",
+        "#91301d",
+        "#f0e78e",
+        "#152139",
+        "#ffffff",
+        "#0d131a",
+        "#c9c279",
+        "#d08690",
+        "#c8c9ca",
+        "#782310",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "pidgeotto",
+      "id": 17,
+      "colors": [
+        "#e85377",
+        "#c94768",
+        "#f6aa00",
+        "#d49300",
+        "#f0e78e",
+        "#965e3a",
+        "#c9c279",
+        "#f19963",
+        "#d18456",
+        "#eeeeef",
+        "#c8c9ca",
+        "#bf794e",
+        "#152139",
+        "#ffffff",
+        "#dbdcdc",
+        "#ed8599",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "pidgeot",
+      "id": 18,
+      "colors": [
+        "#0d131a",
+        "#f19963",
+        "#d18456",
+        "#c9c279",
+        "#e85377",
+        "#c94768",
+        "#f0e78e",
+        "#bf794e",
+        "#965e3a",
+        "#152139",
+        "#ffffff",
+        "#dbdcdc",
+        "#efe908",
+        "#cec90c",
+        "#922f00",
+        "#ed8599",
+        "#eeeeef",
+        "#c8c9ca"
+      ]
+    },
+    {
+      "name": "rattata",
+      "id": 19,
+      "colors": [
+        "#fffbda",
+        "#dcd9bd",
+        "#914897",
+        "#7f3c83",
+        "#0d131a",
+        "#fdeabe",
+        "#ba0031",
+        "#ffffff",
+        "#dbdcdc",
+        "#dacaa5",
+        "#990024"
+      ]
+    },
+    {
+      "name": "raticate",
+      "id": 20,
+      "colors": [
+        "#fff1ac",
+        "#dcd096",
+        "#c18963",
+        "#986c4c",
+        "#d18200",
+        "#ab6a00",
+        "#ffffff",
+        "#dbdcdc",
+        "#922f00",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "spearow",
+      "id": 21,
+      "colors": [
+        "#f7c5ab",
+        "#d5aa95",
+        "#dacaa5",
+        "#df7e90",
+        "#bd6600",
+        "#e07a00",
+        "#fdeabe",
+        "#bc697b",
+        "#3e4e57",
+        "#ffffff",
+        "#dbdcdc",
+        "#fceef4",
+        "#d9ced4",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "fearow",
+      "id": 22,
+      "colors": [
+        "#0d131a",
+        "#e3c582",
+        "#d18344",
+        "#ab6b35",
+        "#ffffff",
+        "#dbdcdc",
+        "#f09cb4",
+        "#f8d1dc",
+        "#d5a985",
+        "#f7c498",
+        "#fff3c2",
+        "#dbd2a9"
+      ]
+    },
+    {
+      "name": "ekans",
+      "id": 23,
+      "colors": [
+        "#efe908",
+        "#cec90c",
+        "#796bae",
+        "#695c97",
+        "#922f00",
+        "#6a1a00",
+        "#ed8599",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "arbok",
+      "id": 24,
+      "colors": [
+        "#0d131a",
+        "#827aa0",
+        "#675f80",
+        "#152139",
+        "#da4e70",
+        "#efe908",
+        "#0b132a",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "pikachu",
+      "id": 25,
+      "colors": [
+        "#763a00",
+        "#ffe100",
+        "#542400",
+        "#f9be00",
+        "#0d131a",
+        "#b50005",
+        "#e50012",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "raichu",
+      "id": 26,
+      "colors": [
+        "#0d131a",
+        "#543823",
+        "#f2e100",
+        "#776b59",
+        "#cbbd00",
+        "#d7a400",
+        "#f9be00",
+        "#ffffff",
+        "#594f41",
+        "#b50005",
+        "#e50012"
+      ]
+    },
+    {
+      "name": "sandshrew",
+      "id": 27,
+      "colors": [
+        "#dcc200",
+        "#f2d4b4",
+        "#eeeeef",
+        "#d1b89d",
+        "#b49f00",
+        "#c8c9ca",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "sandslash",
+      "id": 28,
+      "colors": [
+        "#dcc200",
+        "#b49f00",
+        "#eeeeef",
+        "#c8c9ca",
+        "#a35615",
+        "#854507",
+        "#f2d4b4",
+        "#d1b89d",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "nidoran-f",
+      "id": 29,
+      "colors": [
+        "#ffffff",
+        "#dbdcdc",
+        "#d2ddf0",
+        "#b5bfd0",
+        "#eeeeef",
+        "#c8c9ca",
+        "#ca0336",
+        "#aa002b",
+        "#915e82",
+        "#65a9dc",
+        "#7f5072",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "nidorina",
+      "id": 30,
+      "colors": [
+        "#eeeeef",
+        "#c8c9ca",
+        "#a1d6d3",
+        "#8bbab7",
+        "#ffffff",
+        "#dbdcdc",
+        "#ca0336",
+        "#aa002b",
+        "#915e82",
+        "#7f5072",
+        "#65a9dc",
+        "#5892bf",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "nidoqueen",
+      "id": 31,
+      "colors": [
+        "#3396cd",
+        "#2880ae",
+        "#eeeeef",
+        "#ffffff",
+        "#fff1ac",
+        "#dcd096",
+        "#c8c9ca",
+        "#dbdcdc",
+        "#0d131a",
+        "#d8ba9d",
+        "#b19981",
+        "#746544",
+        "#5a4e33"
+      ]
+    },
+    {
+      "name": "nidoran-m",
+      "id": 32,
+      "colors": [
+        "#cd91be",
+        "#b17fa5",
+        "#eeeeef",
+        "#c8c9ca",
+        "#91308c",
+        "#ffffff",
+        "#dbdcdc",
+        "#ca0336",
+        "#008a92",
+        "#00747a",
+        "#7f257b",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "nidorino",
+      "id": 33,
+      "colors": [
+        "#cd91be",
+        "#b17fa5",
+        "#eeeeef",
+        "#c8c9ca",
+        "#008a92",
+        "#00747a",
+        "#91308c",
+        "#7f257b",
+        "#ffffff",
+        "#ed8599",
+        "#ce7486",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "nidoking",
+      "id": 34,
+      "colors": [
+        "#a586bc",
+        "#8f75a3",
+        "#dbdcdc",
+        "#b4b4b5",
+        "#00aca8",
+        "#009693",
+        "#008086",
+        "#00666c",
+        "#cccccc",
+        "#999999",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "clefairy",
+      "id": 35,
+      "colors": [
+        "#f9dad9",
+        "#d7bdbc",
+        "#0d131a",
+        "#ed8599",
+        "#922f00",
+        "#ed85ad",
+        "#524423",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "clefable",
+      "id": 36,
+      "colors": [
+        "#f7c6bd",
+        "#f09ba5",
+        "#d5aba4",
+        "#d08690",
+        "#922f00",
+        "#0d131a",
+        "#ed8599",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "vulpix",
+      "id": 37,
+      "colors": [
+        "#69392b",
+        "#854c3b",
+        "#ef8200",
+        "#ef834a",
+        "#cf7100",
+        "#bf794e",
+        "#922f00",
+        "#ed8599",
+        "#ffffff",
+        "#e8b88f",
+        "#fdeabe",
+        "#dacaa5",
+        "#ce723f",
+        "#0d131a",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "ninetales",
+      "id": 38,
+      "colors": [
+        "#fff8b0",
+        "#ddd698",
+        "#ef8200",
+        "#cf7100",
+        "#e50044",
+        "#c6003a",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "jigglypuff",
+      "id": 39,
+      "colors": [
+        "#f6c8dd",
+        "#d5adbf",
+        "#0d131a",
+        "#ffffff",
+        "#2cb5a9",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "wigglytuff",
+      "id": 40,
+      "colors": [
+        "#f6c8dd",
+        "#ffffff",
+        "#d5adbf",
+        "#dbdcdc",
+        "#0d131a",
+        "#2cb5a9",
+        "#ed8599",
+        "#922f00"
+      ]
+    },
+    {
+      "name": "zubat",
+      "id": 41,
+      "colors": [
+        "#a499c9",
+        "#8e84ae",
+        "#00aee5",
+        "#0d131a",
+        "#796bae",
+        "#695c97",
+        "#0098c7",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "golbat",
+      "id": 42,
+      "colors": [
+        "#a499c9",
+        "#8e84ae",
+        "#00aee5",
+        "#0098c7",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "oddish",
+      "id": 43,
+      "colors": [
+        "#0d131a",
+        "#00a63c",
+        "#767cba",
+        "#e9545d",
+        "#ed8599",
+        "#666ba1",
+        "#009233"
+      ]
+    },
+    {
+      "name": "gloom",
+      "id": 44,
+      "colors": [
+        "#0d131a",
+        "#b76870",
+        "#904f57",
+        "#f5e7e6",
+        "#5892bf",
+        "#46799e",
+        "#b6aed1",
+        "#ef8200",
+        "#cf7100",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "vileplume",
+      "id": 45,
+      "colors": [
+        "#0d131a",
+        "#5892bf",
+        "#46799e",
+        "#e9545d",
+        "#ed8599",
+        "#c94850",
+        "#f2984f",
+        "#c18963",
+        "#f9dbe1"
+      ]
+    },
+    {
+      "name": "paras",
+      "id": 46,
+      "colors": [
+        "#ffffff",
+        "#dbdcdc",
+        "#ef834a",
+        "#ce723f",
+        "#0d131a",
+        "#d2ecfa",
+        "#d49433",
+        "#d60040",
+        "#b50033",
+        "#f5ac3c",
+        "#b6ccd9"
+      ]
+    },
+    {
+      "name": "parasect",
+      "id": 47,
+      "colors": [
+        "#d60040",
+        "#b50033",
+        "#0d131a",
+        "#f5ac3c",
+        "#d49433",
+        "#ef834a",
+        "#ce723f",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "venonat",
+      "id": 48,
+      "colors": [
+        "#e8b67d",
+        "#c39969",
+        "#0d131a",
+        "#69308d",
+        "#5b267d",
+        "#e50020",
+        "#dcdbd6",
+        "#c60019",
+        "#b4b4b0",
+        "#e50044",
+        "#c6002f",
+        "#f1997e",
+        "#d08575"
+      ]
+    },
+    {
+      "name": "venomoth",
+      "id": 49,
+      "colors": [
+        "#cea6cc",
+        "#b390b1",
+        "#e5e3da",
+        "#c1bfb8",
+        "#beaaac",
+        "#968587",
+        "#ffffff",
+        "#dbdcdc",
+        "#afcee5",
+        "#93aec1",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "diglett",
+      "id": 50,
+      "colors": [
+        "#b9bf9c",
+        "#92967b",
+        "#0d131a",
+        "#865b15",
+        "#6a4504",
+        "#eb6d80",
+        "#cb5e71",
+        "#f6c7ce",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "dugtrio",
+      "id": 51,
+      "colors": [
+        "#b9bf9c",
+        "#92967b",
+        "#865b15",
+        "#6a4504",
+        "#ffffff",
+        "#eb6d80",
+        "#0d131a",
+        "#f6c7ce"
+      ]
+    },
+    {
+      "name": "meowth",
+      "id": 52,
+      "colors": [
+        "#cc5d00",
+        "#fff3c2",
+        "#fbd6a0",
+        "#0d131a",
+        "#f29739",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#f9be00"
+      ]
+    },
+    {
+      "name": "persian",
+      "id": 53,
+      "colors": [
+        "#f0e78e",
+        "#c9c279",
+        "#dbdcdc",
+        "#e8b67d",
+        "#c39969",
+        "#e63556",
+        "#ffffff",
+        "#c72b4a",
+        "#3c4226",
+        "#0d131a",
+        "#f2a6a3"
+      ]
+    },
+    {
+      "name": "psyduck",
+      "id": 54,
+      "colors": [
+        "#0d131a",
+        "#fff1ac",
+        "#dcd096",
+        "#f9be00",
+        "#d7a400",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "golduck",
+      "id": 55,
+      "colors": [
+        "#6c9bd2",
+        "#5d86b6",
+        "#f9f1ab",
+        "#d3cd91",
+        "#eeeeef",
+        "#c8c9ca",
+        "#ffffff",
+        "#dbdcdc",
+        "#943d12",
+        "#752d01",
+        "#e63556",
+        "#c72b4a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "mankey",
+      "id": 56,
+      "colors": [
+        "#0d131a",
+        "#f2d4b4",
+        "#a3611c",
+        "#d1b89d",
+        "#804a0c",
+        "#ffffff",
+        "#cc5d00",
+        "#d18344"
+      ]
+    },
+    {
+      "name": "primeape",
+      "id": 57,
+      "colors": [
+        "#a3611c",
+        "#515457",
+        "#804a0c",
+        "#0d131a",
+        "#f2d4b4",
+        "#d18344",
+        "#ffffff",
+        "#ab6b35",
+        "#d1b89d"
+      ]
+    },
+    {
+      "name": "growlithe",
+      "id": 58,
+      "colors": [
+        "#0d131a",
+        "#fff3c2",
+        "#dbd2a9",
+        "#ffffff",
+        "#db4f03",
+        "#b94100",
+        "#91301d",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "arcanine",
+      "id": 59,
+      "colors": [
+        "#0d131a",
+        "#b94100",
+        "#fff3c2",
+        "#dbd2a9",
+        "#db4f03",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "poliwag",
+      "id": 60,
+      "colors": [
+        "#bad4ee",
+        "#0d131a",
+        "#5892bf",
+        "#46799e",
+        "#ffffff",
+        "#dbdcdc",
+        "#f09cb4",
+        "#d0879d",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "poliwhirl",
+      "id": 61,
+      "colors": [
+        "#0d131a",
+        "#5892bf",
+        "#ffffff",
+        "#46799e",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "poliwrath",
+      "id": 62,
+      "colors": [
+        "#5892bf",
+        "#46799e",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "abra",
+      "id": 63,
+      "colors": [
+        "#edc300",
+        "#c6a400",
+        "#a4725d",
+        "#815847",
+        "#0d131a",
+        "#fffac6",
+        "#dcd8ac"
+      ]
+    },
+    {
+      "name": "kadabra",
+      "id": 64,
+      "colors": [
+        "#c8c9ca",
+        "#d7a400",
+        "#b08600",
+        "#eeeeef",
+        "#a4725d",
+        "#815847",
+        "#c6dcdb",
+        "#a7bab9",
+        "#ed8599",
+        "#ffffff",
+        "#dbdcdc",
+        "#e4eeee",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "alakazam",
+      "id": 65,
+      "colors": [
+        "#d7a400",
+        "#b08600",
+        "#a4725d",
+        "#815847",
+        "#c8c9ca",
+        "#eeeeef",
+        "#c6dcdb",
+        "#a7bab9",
+        "#e4eeee",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "machop",
+      "id": 66,
+      "colors": [
+        "#0d131a",
+        "#d3d9db",
+        "#adb2b4",
+        "#ffffff",
+        "#e50020",
+        "#ecde7b",
+        "#cbc06b"
+      ]
+    },
+    {
+      "name": "machoke",
+      "id": 67,
+      "colors": [
+        "#d2ddf0",
+        "#094b46",
+        "#ffe100",
+        "#ed8599",
+        "#152139",
+        "#b4a258",
+        "#ffffff",
+        "#922f00",
+        "#e50038",
+        "#ce7486",
+        "#b5bfd0",
+        "#dcc200",
+        "#978949",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "machamp",
+      "id": 68,
+      "colors": [
+        "#094b46",
+        "#003a35",
+        "#b0d3da",
+        "#94b3b8",
+        "#ffffff",
+        "#dbdcdc",
+        "#e50020",
+        "#c60019",
+        "#958c87",
+        "#766e6a",
+        "#fff1ac",
+        "#dcd096",
+        "#ed8599",
+        "#ce7486",
+        "#922f00",
+        "#ffe100",
+        "#dcc200",
+        "#152139",
+        "#0d131a",
+        "#e50038"
+      ]
+    },
+    {
+      "name": "bellsprout",
+      "id": 69,
+      "colors": [
+        "#0d131a",
+        "#a7d081",
+        "#bf794e",
+        "#f0e800",
+        "#cec900",
+        "#f4b1b1",
+        "#d3999b",
+        "#ffffff",
+        "#90b571"
+      ]
+    },
+    {
+      "name": "weepinbell",
+      "id": 70,
+      "colors": [
+        "#a7d081",
+        "#90b571",
+        "#0d131a",
+        "#f0e800",
+        "#bf794e",
+        "#cec900",
+        "#f4b1b1",
+        "#ffffff",
+        "#ed8599",
+        "#babc79",
+        "#d3999b"
+      ]
+    },
+    {
+      "name": "victreebel",
+      "id": 71,
+      "colors": [
+        "#0d131a",
+        "#a7d081",
+        "#90b571",
+        "#f0e800",
+        "#ffffff",
+        "#dbdcdc",
+        "#f4b1b1",
+        "#d3999b",
+        "#cec900",
+        "#bf794e",
+        "#babc79",
+        "#92945e",
+        "#965e3a"
+      ]
+    },
+    {
+      "name": "tentacool",
+      "id": 72,
+      "colors": [
+        "#0d131a",
+        "#958c87",
+        "#766e6a",
+        "#00b8ee",
+        "#00a0cf",
+        "#ffffff",
+        "#dbdcdc",
+        "#ba0031",
+        "#990024",
+        "#db8f86"
+      ]
+    },
+    {
+      "name": "tentacruel",
+      "id": 73,
+      "colors": [
+        "#958c87",
+        "#766e6a",
+        "#0d131a",
+        "#00a0cf",
+        "#00b8ee",
+        "#ba0031",
+        "#990024",
+        "#db8f86",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "geodude",
+      "id": 74,
+      "colors": [
+        "#dbd2a9",
+        "#b3ac8a",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "graveler",
+      "id": 75,
+      "colors": [
+        "#717069",
+        "#888780",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "golem",
+      "id": 76,
+      "colors": [
+        "#696838",
+        "#dbd2a9",
+        "#fff3c2",
+        "#d3965c",
+        "#ad7b49",
+        "#85834a",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc",
+        "#b50029",
+        "#8f001a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "ponyta",
+      "id": 77,
+      "colors": [
+        "#827aa0",
+        "#675f80",
+        "#f9f1ab",
+        "#d3cd91",
+        "#e95504",
+        "#ffe100",
+        "#eb6d80",
+        "#cb5e71",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "rapidash",
+      "id": 78,
+      "colors": [
+        "#e95504",
+        "#ffe100",
+        "#827aa0",
+        "#675f80",
+        "#f9f1ab",
+        "#d3cd91",
+        "#eb6d80",
+        "#cb5e71",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "slowpoke",
+      "id": 79,
+      "colors": [
+        "#ed8599",
+        "#fff1ac",
+        "#ffffff",
+        "#ce7486",
+        "#dcd096",
+        "#922f00",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "slowbro",
+      "id": 80,
+      "colors": [
+        "#b4ce8e",
+        "#ffffff",
+        "#0d131a",
+        "#ed8599",
+        "#922f00",
+        "#fff1ac",
+        "#0b6f6b",
+        "#97ae79",
+        "#dbdcdc",
+        "#6a1a00",
+        "#ce7486",
+        "#dcd096"
+      ]
+    },
+    {
+      "name": "magnemite",
+      "id": 81,
+      "colors": [
+        "#0d131a",
+        "#e50020",
+        "#c60019",
+        "#759ab5",
+        "#87b1d0",
+        "#00a4e3",
+        "#008fc5",
+        "#88bda5",
+        "#c8ded2",
+        "#77a48f",
+        "#ffffff",
+        "#dbdcdc",
+        "#888888",
+        "#b4b4b5",
+        "#f19a86",
+        "#bbd4e7",
+        "#9fd2f1"
+      ]
+    },
+    {
+      "name": "magneton",
+      "id": 82,
+      "colors": [
+        "#dbdcdc",
+        "#b4b4b5",
+        "#88bda5",
+        "#77a48f",
+        "#87b1d0",
+        "#759ab5",
+        "#00a4e3",
+        "#e50020",
+        "#c60019",
+        "#008fc5",
+        "#ffffff",
+        "#888888",
+        "#c8ded2",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "farfetchd",
+      "id": 83,
+      "colors": [
+        "#0d131a",
+        "#bf794e",
+        "#965e3a",
+        "#efeaba",
+        "#c9c59d",
+        "#fcd13e",
+        "#d9b536",
+        "#6cba5a",
+        "#d6e6ae",
+        "#b9c897",
+        "#543823",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "doduo",
+      "id": 84,
+      "colors": [
+        "#fff3c2",
+        "#152139",
+        "#be9c59",
+        "#ed8599",
+        "#cf7100",
+        "#922f00",
+        "#dbd2a9",
+        "#a5874c",
+        "#ce7486",
+        "#6a1a00",
+        "#a95b00",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "dodrio",
+      "id": 85,
+      "colors": [
+        "#f9dad9",
+        "#ed85ad",
+        "#cd7497",
+        "#dbd2a9",
+        "#be9c59",
+        "#a5874c",
+        "#fff3c2",
+        "#152139",
+        "#cf7100",
+        "#a95b00",
+        "#60615f",
+        "#4a4b4a",
+        "#ffffff",
+        "#dbdcdc",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "seel",
+      "id": 86,
+      "colors": [
+        "#ffffff",
+        "#f0e78e",
+        "#ed8599",
+        "#d3ebea",
+        "#dbdcdc",
+        "#b6cbcb",
+        "#ce7486",
+        "#0d131a",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "dewgong",
+      "id": 87,
+      "colors": [
+        "#ed8599",
+        "#ffffff",
+        "#ce7486",
+        "#dbdcdc",
+        "#cccccc",
+        "#0d131a",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "grimer",
+      "id": 88,
+      "colors": [
+        "#8b92c7",
+        "#797fad",
+        "#cea6cc",
+        "#0d131a",
+        "#ffffff",
+        "#b390b1",
+        "#63688f"
+      ]
+    },
+    {
+      "name": "muk",
+      "id": 89,
+      "colors": [
+        "#767cba",
+        "#666ba1",
+        "#ffffff",
+        "#cea6cc",
+        "#0d131a",
+        "#b390b1"
+      ]
+    },
+    {
+      "name": "shellder",
+      "id": 90,
+      "colors": [
+        "#8b92c7",
+        "#ffffff",
+        "#0d131a",
+        "#797fad",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "cloyster",
+      "id": 91,
+      "colors": [
+        "#b4b4b5",
+        "#888888",
+        "#a499c9",
+        "#8e84ae",
+        "#0d131a",
+        "#ffffff",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "gastly",
+      "id": 92,
+      "colors": [
+        "#664497",
+        "#51308e",
+        "#3e4e57",
+        "#ed8599",
+        "#ffffff",
+        "#ce7486",
+        "#dbdcdc",
+        "#27333a",
+        "#0d131a",
+        "#b05965"
+      ]
+    },
+    {
+      "name": "haunter",
+      "id": 93,
+      "colors": [
+        "#664497",
+        "#593984",
+        "#ffffff",
+        "#ed8599",
+        "#dbdcdc",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "gengar",
+      "id": 94,
+      "colors": [
+        "#664497",
+        "#ffffff",
+        "#593984",
+        "#0d131a",
+        "#e50020"
+      ]
+    },
+    {
+      "name": "onix",
+      "id": 95,
+      "colors": [
+        "#0d131a",
+        "#c4bfd7",
+        "#a5a1b5",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "drowzee",
+      "id": 96,
+      "colors": [
+        "#ffeb3f",
+        "#763a00",
+        "#a3611c",
+        "#ffffff",
+        "#542400",
+        "#ddcb37",
+        "#804a0c",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "hypno",
+      "id": 97,
+      "colors": [
+        "#ffeb3f",
+        "#ddcb37",
+        "#ffffff",
+        "#a3611c",
+        "#cad3cc",
+        "#804a0c",
+        "#dbdcdc",
+        "#a6ada8",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "krabby",
+      "id": 98,
+      "colors": [
+        "#ef8337",
+        "#fad7b5",
+        "#0d131a",
+        "#ce712e",
+        "#ffffff",
+        "#d8ba9d"
+      ]
+    },
+    {
+      "name": "kingler",
+      "id": 99,
+      "colors": [
+        "#f2d4b4",
+        "#e95504",
+        "#0d131a",
+        "#ffffff",
+        "#ca4800",
+        "#d1b89d"
+      ]
+    },
+    {
+      "name": "voltorb",
+      "id": 100,
+      "colors": [
+        "#eeeeef",
+        "#e50044",
+        "#ffffff",
+        "#c8c9ca",
+        "#c6003a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "electrode",
+      "id": 101,
+      "colors": [
+        "#e50044",
+        "#eeeeef",
+        "#ffffff",
+        "#dbdcdc",
+        "#c8c9ca",
+        "#c6003a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "exeggcute",
+      "id": 102,
+      "colors": [
+        "#f9dad9",
+        "#ed8599",
+        "#ffe100",
+        "#ffffff",
+        "#d7bdbc",
+        "#dcc200",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "exeggutor",
+      "id": 103,
+      "colors": [
+        "#0d131a",
+        "#c18963",
+        "#986c4c",
+        "#ffffff",
+        "#fff8b0",
+        "#00a63c",
+        "#009233",
+        "#ddd698",
+        "#922f00",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "cubone",
+      "id": 104,
+      "colors": [
+        "#dcdbd6",
+        "#b4b4b0",
+        "#a95b00",
+        "#cf7100",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a",
+        "#f9f1ab",
+        "#d3cd91"
+      ]
+    },
+    {
+      "name": "marowak",
+      "id": 105,
+      "colors": [
+        "#ffffff",
+        "#dbdcdc",
+        "#cf7100",
+        "#a95b00",
+        "#dcdbd6",
+        "#b4b4b0",
+        "#0d131a",
+        "#f9f1ab",
+        "#d3cd91",
+        "#bf794e",
+        "#965e3a"
+      ]
+    },
+    {
+      "name": "hitmonlee",
+      "id": 106,
+      "colors": [
+        "#a3623c",
+        "#fcd13e",
+        "#ddd583",
+        "#dcdbd6",
+        "#0d131a",
+        "#ffffff",
+        "#804b2b",
+        "#b4ae6c",
+        "#d9b536",
+        "#b4b4b0",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "hitmonchan",
+      "id": 107,
+      "colors": [
+        "#be9c59",
+        "#ffffff",
+        "#c5a7be",
+        "#30353a",
+        "#a5874c",
+        "#0d131a",
+        "#a2899c",
+        "#e73820",
+        "#c82e19",
+        "#f3a481"
+      ]
+    },
+    {
+      "name": "lickitung",
+      "id": 108,
+      "colors": [
+        "#0d131a",
+        "#f09cb4",
+        "#d0879d",
+        "#c8c9ca",
+        "#eeeeef",
+        "#fdeabe",
+        "#dacaa5",
+        "#ffffff",
+        "#922f00",
+        "#eb6d65",
+        "#cb5d57"
+      ]
+    },
+    {
+      "name": "koffing",
+      "id": 109,
+      "colors": [
+        "#e7d35a",
+        "#c2b14b",
+        "#0d131a",
+        "#796bae",
+        "#695c97",
+        "#f0e78e",
+        "#ffffff",
+        "#ed8599",
+        "#ce7486",
+        "#dbdcdc",
+        "#c9c279"
+      ]
+    },
+    {
+      "name": "weezing",
+      "id": 110,
+      "colors": [
+        "#a586bc",
+        "#ed8599",
+        "#ffffff",
+        "#f0e78e",
+        "#8f75a3",
+        "#ce7486",
+        "#c9c279",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "rhyhorn",
+      "id": 111,
+      "colors": [
+        "#87b1d0",
+        "#ffffff",
+        "#e50044",
+        "#c6dcdb",
+        "#0d131a",
+        "#759ab5",
+        "#a7bab9",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "rhydon",
+      "id": 112,
+      "colors": [
+        "#87b1d0",
+        "#ffffff",
+        "#e50044",
+        "#ed8599",
+        "#dbd5ca",
+        "#c6dcdb",
+        "#759ab5",
+        "#b3aea6",
+        "#a7bab9",
+        "#922f00",
+        "#ce7486",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "chansey",
+      "id": 113,
+      "colors": [
+        "#0d131a",
+        "#d08690",
+        "#f09ba5",
+        "#f6c8d6",
+        "#d5adba",
+        "#ffffff",
+        "#fffbda",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "tangela",
+      "id": 114,
+      "colors": [
+        "#0d131a",
+        "#4573ab",
+        "#5084c4",
+        "#ffffff",
+        "#c94850",
+        "#e9545d"
+      ]
+    },
+    {
+      "name": "kangaskhan",
+      "id": 115,
+      "colors": [
+        "#fffbda",
+        "#bf794e",
+        "#965e3a",
+        "#dcd9bd",
+        "#f0e78e",
+        "#c9c279",
+        "#dbdcdc",
+        "#ffffff",
+        "#d83338",
+        "#b7272d",
+        "#595649",
+        "#3e392d",
+        "#b6aed1",
+        "#9b94b3",
+        "#4f5124",
+        "#3c3e16",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "horsea",
+      "id": 116,
+      "colors": [
+        "#0d131a",
+        "#fffac6",
+        "#dcd8ac",
+        "#00b8ee",
+        "#00a0cf",
+        "#ffffff",
+        "#e50020"
+      ]
+    },
+    {
+      "name": "seadra",
+      "id": 117,
+      "colors": [
+        "#00b8ee",
+        "#fffac6",
+        "#0d131a",
+        "#ffffff",
+        "#00a0cf",
+        "#dcd8ac",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "goldeen",
+      "id": 118,
+      "colors": [
+        "#0d131a",
+        "#ffffff",
+        "#f4af8f",
+        "#ec6d45",
+        "#dbdcdc",
+        "#fad7b5",
+        "#f9dbe1",
+        "#ed8599",
+        "#84cabf"
+      ]
+    },
+    {
+      "name": "seaking",
+      "id": 119,
+      "colors": [
+        "#ec6d45",
+        "#ffffff",
+        "#dbdcdc",
+        "#3e3a39",
+        "#595757",
+        "#cc5d3b",
+        "#0d131a",
+        "#ed8599",
+        "#922f00",
+        "#fffbda"
+      ]
+    },
+    {
+      "name": "staryu",
+      "id": 120,
+      "colors": [
+        "#0d131a",
+        "#955e0c",
+        "#bc771a",
+        "#764800",
+        "#ffe100",
+        "#f9be00",
+        "#ba0031",
+        "#d7063a",
+        "#990024",
+        "#e9988e",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "starmie",
+      "id": 121,
+      "colors": [
+        "#8b92c7",
+        "#ffe100",
+        "#ba0031",
+        "#797fad",
+        "#dcc200",
+        "#990024",
+        "#db8f86",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "mr-mime",
+      "id": 122,
+      "colors": [
+        "#00568a",
+        "#00426f",
+        "#ee848c",
+        "#ce737b",
+        "#0d131a",
+        "#eeeeef",
+        "#c8c9ca",
+        "#f7c6bd",
+        "#d5aba4",
+        "#ffffff",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "scyther",
+      "id": 123,
+      "colors": [
+        "#0d131a",
+        "#fff1ac",
+        "#dcd096",
+        "#6cba5a",
+        "#5da24d",
+        "#e5e5e5",
+        "#c8c9ca",
+        "#eeeeef",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "jynx",
+      "id": 124,
+      "colors": [
+        "#69308d",
+        "#5b267d",
+        "#0d131a",
+        "#e50020",
+        "#c60019",
+        "#ffffff",
+        "#f3b3cf",
+        "#d29bb4",
+        "#ed8599",
+        "#ffe100",
+        "#dcc200",
+        "#ddd583",
+        "#fff697",
+        "#fffac6",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "electabuzz",
+      "id": 125,
+      "colors": [
+        "#0d131a",
+        "#dbdcdc",
+        "#ffe100",
+        "#dcc200",
+        "#515457",
+        "#383839",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "magmar",
+      "id": 126,
+      "colors": [
+        "#e50012",
+        "#f2e100",
+        "#ffffff",
+        "#f9bf3d",
+        "#ed8599",
+        "#eeeeef",
+        "#3e4e57",
+        "#cbbd00",
+        "#c6000b",
+        "#c8c9ca",
+        "#27333a",
+        "#94a1a8",
+        "#d6a535",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "pinsir",
+      "id": 127,
+      "colors": [
+        "#0d131a",
+        "#c9c9c4",
+        "#b1826f",
+        "#956e5d",
+        "#9e9e9a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "tauros",
+      "id": 128,
+      "colors": [
+        "#005e96",
+        "#004c7e",
+        "#cf7100",
+        "#a95b00",
+        "#49312a",
+        "#bad4ee",
+        "#a1b8ce",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "magikarp",
+      "id": 129,
+      "colors": [
+        "#e95532",
+        "#f8f397",
+        "#ffffff",
+        "#ee848c",
+        "#dbdcdc",
+        "#d5d283",
+        "#ca4829",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "gyarados",
+      "id": 130,
+      "colors": [
+        "#eeeeef",
+        "#0d131a",
+        "#f0e78e",
+        "#c9c279",
+        "#00b8ee",
+        "#c8c9ca",
+        "#00a0cf",
+        "#ffffff",
+        "#e4006e",
+        "#922f00",
+        "#ed8599",
+        "#6a1a00",
+        "#00568a",
+        "#00426f"
+      ]
+    },
+    {
+      "name": "lapras",
+      "id": 131,
+      "colors": [
+        "#bcb2ba",
+        "#a39aa1",
+        "#0d131a",
+        "#59bdec",
+        "#4ca4cd",
+        "#fffac6",
+        "#dcd8ac",
+        "#ed8599",
+        "#ffffff",
+        "#36a0da"
+      ]
+    },
+    {
+      "name": "ditto",
+      "id": 132,
+      "colors": [
+        "#0d131a",
+        "#e097bf",
+        "#c283a6"
+      ]
+    },
+    {
+      "name": "eevee",
+      "id": 133,
+      "colors": [
+        "#ba5400",
+        "#0d131a",
+        "#fff1ac",
+        "#933f00",
+        "#dcd096",
+        "#ed8599",
+        "#922f00",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "vaporeon",
+      "id": 134,
+      "colors": [
+        "#5dc1cf",
+        "#50a8b4",
+        "#0d131a",
+        "#922f00",
+        "#ed8599",
+        "#00568a",
+        "#fff8b0",
+        "#ffffff",
+        "#00426f",
+        "#ddd698",
+        "#dbdcdc",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "jolteon",
+      "id": 135,
+      "colors": [
+        "#fccf00",
+        "#ffffff",
+        "#0d131a",
+        "#dab300",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "flareon",
+      "id": 136,
+      "colors": [
+        "#e95520",
+        "#0d131a",
+        "#faed00",
+        "#3e4e57",
+        "#ffffff",
+        "#d7cd00",
+        "#ca4819",
+        "#27333a"
+      ]
+    },
+    {
+      "name": "porygon",
+      "id": 137,
+      "colors": [
+        "#0d131a",
+        "#60c0bd",
+        "#a0d7e5",
+        "#82cbd1",
+        "#d2ecfa",
+        "#52a7a5",
+        "#bbe2f1",
+        "#eb6d80",
+        "#f6c7ce",
+        "#f3b1b9",
+        "#f09ba5",
+        "#cb5e71",
+        "#eeeeef",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "omanyte",
+      "id": 138,
+      "colors": [
+        "#00a0b6",
+        "#0d131a",
+        "#e3c582",
+        "#ffffff",
+        "#dbdcdc",
+        "#bfa56f",
+        "#008c9f"
+      ]
+    },
+    {
+      "name": "omastar",
+      "id": 139,
+      "colors": [
+        "#00a0b6",
+        "#e3c582",
+        "#fffac6",
+        "#f0e78e",
+        "#0d131a",
+        "#008c9f",
+        "#bfa56f",
+        "#dcd8ac",
+        "#c9c279",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "kabuto",
+      "id": 140,
+      "colors": [
+        "#ffe45f",
+        "#f9dbe8",
+        "#f3b3cf",
+        "#0d131a",
+        "#dcc552",
+        "#d18200",
+        "#ab6a00",
+        "#8a969d",
+        "#fff2b8"
+      ]
+    },
+    {
+      "name": "kabutops",
+      "id": 141,
+      "colors": [
+        "#d3d9db",
+        "#0d131a",
+        "#ffffff",
+        "#955e0c",
+        "#adb2b4",
+        "#764800",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "aerodactyl",
+      "id": 142,
+      "colors": [
+        "#a586bc",
+        "#8f75a3",
+        "#b6aed1",
+        "#9b94b3",
+        "#922f00",
+        "#6a1a00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "snorlax",
+      "id": 143,
+      "colors": [
+        "#006a6b",
+        "#005454",
+        "#0d131a",
+        "#fdeabe",
+        "#ffffff",
+        "#dacaa5",
+        "#dbdcdc",
+        "#76491b",
+        "#5c370c"
+      ]
+    },
+    {
+      "name": "articuno",
+      "id": 144,
+      "colors": [
+        "#0d131a",
+        "#b6aed1",
+        "#9b94b3",
+        "#ffffff",
+        "#dbdcdc",
+        "#00aeeb",
+        "#0098cd",
+        "#9ed8f5",
+        "#7fccec",
+        "#6db2cd",
+        "#922f00",
+        "#6c9bd2",
+        "#5d86b6",
+        "#ad181f",
+        "#920e14"
+      ]
+    },
+    {
+      "name": "zapdos",
+      "id": 145,
+      "colors": [
+        "#ffe100",
+        "#ffffff",
+        "#0d131a",
+        "#e07f00",
+        "#922f00",
+        "#854c3b",
+        "#dcc200",
+        "#c26e00",
+        "#69392b",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "moltres",
+      "id": 146,
+      "colors": [
+        "#fccf00",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a",
+        "#cc5d00",
+        "#f1d8e8",
+        "#e73820",
+        "#dab300",
+        "#a74a00"
+      ]
+    },
+    {
+      "name": "dratini",
+      "id": 147,
+      "colors": [
+        "#0d131a",
+        "#dbdcdc",
+        "#b4b4b5",
+        "#88a3d4",
+        "#778db8",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "dragonair",
+      "id": 148,
+      "colors": [
+        "#00a4e3",
+        "#1d2087",
+        "#181878",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a",
+        "#008fc5",
+        "#8d80bb"
+      ]
+    },
+    {
+      "name": "dragonite",
+      "id": 149,
+      "colors": [
+        "#5dc1cf",
+        "#50a8b4",
+        "#f9be00",
+        "#d7a400",
+        "#fff3c2",
+        "#dbd2a9",
+        "#dbdcdc",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "mewtwo",
+      "id": 150,
+      "colors": [
+        "#e6d4e7",
+        "#cea6cc",
+        "#0d131a",
+        "#9b7fa6",
+        "#836b8d",
+        "#ffffff",
+        "#dbdcdc",
+        "#a586bc",
+        "#8f75a3"
+      ]
+    },
+    {
+      "name": "mew",
+      "id": 151,
+      "colors": [
+        "#0d131a",
+        "#fceded",
+        "#f6c7ce",
+        "#ffffff",
+        "#00aeeb"
+      ]
+    },
+    {
+      "name": "chikorita",
+      "id": 152,
+      "colors": [
+        "#0d131a",
+        "#d6e6ae",
+        "#6cba5a",
+        "#5da24d",
+        "#b9c897",
+        "#eeeeef",
+        "#bfddad",
+        "#c8c9ca",
+        "#ffffff",
+        "#c6000b",
+        "#f09cb4",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "bayleef",
+      "id": 153,
+      "colors": [
+        "#f0e800",
+        "#cec900",
+        "#2b883a",
+        "#922f00",
+        "#eeeeef",
+        "#ed8599",
+        "#ffffff",
+        "#e50044",
+        "#247731",
+        "#c8c9ca",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "meganium",
+      "id": 154,
+      "colors": [
+        "#8bc56c",
+        "#78ab5e",
+        "#eeeeef",
+        "#c8c9ca",
+        "#ffffff",
+        "#dbdcdc",
+        "#e8528d",
+        "#c9467c",
+        "#ffe100",
+        "#dcc200",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "cyndaquil",
+      "id": 155,
+      "colors": [
+        "#ef821e",
+        "#0d131a",
+        "#ffe33f",
+        "#008086",
+        "#fff8b0",
+        "#d2ecfa",
+        "#ddd698",
+        "#b6ccd9"
+      ]
+    },
+    {
+      "name": "quilava",
+      "id": 156,
+      "colors": [
+        "#ef821e",
+        "#008086",
+        "#ffffff",
+        "#fff8b0",
+        "#ffe33f",
+        "#e50044",
+        "#ddd698",
+        "#c6003a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "typhlosion",
+      "id": 157,
+      "colors": [
+        "#0d131a",
+        "#00273c",
+        "#ffee7d",
+        "#dccd6c",
+        "#fcd13e",
+        "#e50012",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "totodile",
+      "id": 158,
+      "colors": [
+        "#59c2e1",
+        "#ed8599",
+        "#ce7486",
+        "#4da9c3",
+        "#922f00",
+        "#fff3c2",
+        "#dbd2a9",
+        "#ffffff",
+        "#0d131a",
+        "#515457",
+        "#a41e3a"
+      ]
+    },
+    {
+      "name": "croconaw",
+      "id": 159,
+      "colors": [
+        "#0d131a",
+        "#e9545d",
+        "#f4b0a9",
+        "#00aecb",
+        "#0098b1",
+        "#ffe792",
+        "#dbc77f",
+        "#ffffff",
+        "#f8c058"
+      ]
+    },
+    {
+      "name": "feraligatr",
+      "id": 160,
+      "colors": [
+        "#00b7de",
+        "#00a0c2",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#e85377",
+        "#f3b2c1",
+        "#ffe792",
+        "#dbc77f",
+        "#922f00",
+        "#f8c058",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "sentret",
+      "id": 161,
+      "colors": [
+        "#0d131a",
+        "#60615f",
+        "#f09cb4",
+        "#b1826f",
+        "#956e5d",
+        "#4a4b4a",
+        "#ffffff",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "furret",
+      "id": 162,
+      "colors": [
+        "#f4e8d0",
+        "#a4725d",
+        "#815847",
+        "#0d131a",
+        "#d3c9b5",
+        "#595757",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#d5a985"
+      ]
+    },
+    {
+      "name": "hoothoot",
+      "id": 163,
+      "colors": [
+        "#a3611c",
+        "#fdebd1",
+        "#c18963",
+        "#ffffff",
+        "#804a0c",
+        "#986c4c",
+        "#dbdcdc",
+        "#daccb6",
+        "#0d131a",
+        "#ec6d45",
+        "#f7c6bd",
+        "#d5aba4"
+      ]
+    },
+    {
+      "name": "noctowl",
+      "id": 164,
+      "colors": [
+        "#0d131a",
+        "#49312a",
+        "#3a251d",
+        "#a3623c",
+        "#804b2b",
+        "#3e2f33",
+        "#d4c79f",
+        "#b7ad8a",
+        "#ffffff",
+        "#e50020",
+        "#922f00",
+        "#fad9c7",
+        "#d8bcad"
+      ]
+    },
+    {
+      "name": "ledyba",
+      "id": 165,
+      "colors": [
+        "#0d131a",
+        "#e95520",
+        "#fff1ac",
+        "#dcd096",
+        "#ffffff",
+        "#d4e9d7",
+        "#b7caba",
+        "#767cba"
+      ]
+    },
+    {
+      "name": "ledian",
+      "id": 166,
+      "colors": [
+        "#e50044",
+        "#ffffff",
+        "#ffe792",
+        "#30353a",
+        "#c6003a",
+        "#dbc77f",
+        "#dbdcdc",
+        "#0d131a",
+        "#9ba4a9",
+        "#f19a96",
+        "#003856",
+        "#005981"
+      ]
+    },
+    {
+      "name": "spinarak",
+      "id": 167,
+      "colors": [
+        "#8bc56c",
+        "#ffec60",
+        "#0a2b3c",
+        "#78ab5e",
+        "#011d2d",
+        "#ddcc54",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#e63556",
+        "#c72b4a"
+      ]
+    },
+    {
+      "name": "ariados",
+      "id": 168,
+      "colors": [
+        "#fcd25b",
+        "#767cba",
+        "#666ba1",
+        "#d9b64f",
+        "#bbbbdd",
+        "#ffe9b3",
+        "#0d131a",
+        "#e63556",
+        "#ffffff",
+        "#3e3a39",
+        "#dbdcdc",
+        "#c72b4a"
+      ]
+    },
+    {
+      "name": "crobat",
+      "id": 169,
+      "colors": [
+        "#7b59a2",
+        "#4b91ad",
+        "#ffffff",
+        "#ffeb3f",
+        "#ddcb37",
+        "#ad0833",
+        "#8e0026",
+        "#6b4b8d",
+        "#377389",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "chinchou",
+      "id": 170,
+      "colors": [
+        "#0d131a",
+        "#65a9dc",
+        "#ffec60",
+        "#5892bf",
+        "#bad4ee",
+        "#a1b8ce",
+        "#922f00",
+        "#ed8599",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "lanturn",
+      "id": 171,
+      "colors": [
+        "#65a9dc",
+        "#ffec60",
+        "#ed8599",
+        "#922f00",
+        "#bad4ee",
+        "#e95532",
+        "#ffffff",
+        "#a1b8ce",
+        "#5892bf",
+        "#ddcc54",
+        "#dbdcdc",
+        "#ca4829",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "pichu",
+      "id": 172,
+      "colors": [
+        "#0d131a",
+        "#fff362",
+        "#fcd13e",
+        "#ffffff",
+        "#f09cb4"
+      ]
+    },
+    {
+      "name": "cleffa",
+      "id": 173,
+      "colors": [
+        "#f7c6bd",
+        "#524423",
+        "#ed8599",
+        "#922f00",
+        "#d5aba4",
+        "#3e3315",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "igglybuff",
+      "id": 174,
+      "colors": [
+        "#f9dbe8",
+        "#d7beca",
+        "#0d131a",
+        "#ba004f",
+        "#ffffff",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "togepi",
+      "id": 175,
+      "colors": [
+        "#0d131a",
+        "#fff8b0",
+        "#ddd698",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#dbdcdc",
+        "#0075c1",
+        "#0066a8",
+        "#e50044",
+        "#c6003a"
+      ]
+    },
+    {
+      "name": "togetic",
+      "id": 176,
+      "colors": [
+        "#ffffff",
+        "#0075c1",
+        "#922f00",
+        "#ed8599",
+        "#e50044",
+        "#dbdcdc",
+        "#c6003a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "natu",
+      "id": 177,
+      "colors": [
+        "#e85377",
+        "#c94768",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a",
+        "#ffe100",
+        "#dcc200",
+        "#8cc456",
+        "#79aa4a",
+        "#3e4e57",
+        "#27333a"
+      ]
+    },
+    {
+      "name": "xatu",
+      "id": 178,
+      "colors": [
+        "#3e4e57",
+        "#8cc456",
+        "#ffffff",
+        "#ffe100",
+        "#e85377",
+        "#e3eff5",
+        "#79aa4a",
+        "#dcc200",
+        "#c94768",
+        "#c1cbd1",
+        "#27333a",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "mareep",
+      "id": 179,
+      "colors": [
+        "#ffe45f",
+        "#dcc552",
+        "#3e4e57",
+        "#27333a",
+        "#fce1b9",
+        "#f8c170",
+        "#3396cd",
+        "#2880ae",
+        "#fffbda",
+        "#dcd9bd",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "flaaffy",
+      "id": 180,
+      "colors": [
+        "#bae2f8",
+        "#57c2e9",
+        "#eaf5fc",
+        "#485157",
+        "#f09dc1",
+        "#d2ecfa",
+        "#ffffff",
+        "#ed8599",
+        "#27333a",
+        "#d087a7",
+        "#b6ccd9",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "ampharos",
+      "id": 181,
+      "colors": [
+        "#0d131a",
+        "#e50012",
+        "#c6000b",
+        "#ffe45f",
+        "#3e4e57",
+        "#dcc552",
+        "#27333a",
+        "#f19975",
+        "#e5e3da",
+        "#c1bfb8",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "bellossom",
+      "id": 182,
+      "colors": [
+        "#0d131a",
+        "#007a28",
+        "#fcd13e",
+        "#b4ce8e",
+        "#97ae79",
+        "#ffffff",
+        "#ed8599",
+        "#e73820",
+        "#d9b536",
+        "#009233",
+        "#922f00"
+      ]
+    },
+    {
+      "name": "marill",
+      "id": 183,
+      "colors": [
+        "#00aeeb",
+        "#ffffff",
+        "#e9545d",
+        "#922f00",
+        "#ed8599",
+        "#9ed8f5",
+        "#0098cd",
+        "#dbdcdc",
+        "#c94850",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "azumarill",
+      "id": 184,
+      "colors": [
+        "#0d131a",
+        "#00aeeb",
+        "#0098cd",
+        "#9ed8f5",
+        "#e9545d",
+        "#c94850",
+        "#ffffff",
+        "#dbdcdc",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "sudowoodo",
+      "id": 185,
+      "colors": [
+        "#0d131a",
+        "#bf794e",
+        "#965e3a",
+        "#00a63c",
+        "#009233",
+        "#fcd13e",
+        "#ffffff",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "politoed",
+      "id": 186,
+      "colors": [
+        "#0d131a",
+        "#6eb944",
+        "#fff362",
+        "#ded255",
+        "#5ea13a",
+        "#4b91ad",
+        "#ffffff",
+        "#dbdcdc",
+        "#ab010b",
+        "#922f00",
+        "#6a1a00",
+        "#ed8599",
+        "#ce7486",
+        "#f4b1b1"
+      ]
+    },
+    {
+      "name": "hoppip",
+      "id": 187,
+      "colors": [
+        "#ed85ad",
+        "#cd7497",
+        "#0d131a",
+        "#6fb92c",
+        "#5fa124",
+        "#922f00",
+        "#ed8599",
+        "#ffeb3f"
+      ]
+    },
+    {
+      "name": "skiploom",
+      "id": 188,
+      "colors": [
+        "#0d131a",
+        "#6cba5a",
+        "#5da24d",
+        "#ef8200",
+        "#ffffff",
+        "#ffe45f",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "jumpluff",
+      "id": 189,
+      "colors": [
+        "#718bc6",
+        "#fffac6",
+        "#922f00",
+        "#ed8599",
+        "#6279ac",
+        "#e63556",
+        "#ffffff",
+        "#00a63c",
+        "#ce7486",
+        "#009233",
+        "#dcd8ac",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "aipom",
+      "id": 190,
+      "colors": [
+        "#a586bc",
+        "#ffe792",
+        "#ffffff",
+        "#8f75a3",
+        "#dbc77f",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "sunkern",
+      "id": 191,
+      "colors": [
+        "#009e41",
+        "#008b38",
+        "#faee42",
+        "#d7ce3a",
+        "#595649",
+        "#3e392d",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#3e4e57",
+        "#0d131a",
+        "#e9eff8",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "sunflora",
+      "id": 192,
+      "colors": [
+        "#a7d081",
+        "#90b571",
+        "#0d131a",
+        "#fcd13e",
+        "#fff1ac",
+        "#dcd096"
+      ]
+    },
+    {
+      "name": "yanma",
+      "id": 193,
+      "colors": [
+        "#ffffff",
+        "#f2984f",
+        "#0d131a",
+        "#dbdcdc",
+        "#e95550",
+        "#6fb92c",
+        "#2f8097",
+        "#c94844",
+        "#5fa124",
+        "#1e6579"
+      ]
+    },
+    {
+      "name": "wooper",
+      "id": 194,
+      "colors": [
+        "#d0bad9",
+        "#0d131a",
+        "#59c2e1",
+        "#4da9c3",
+        "#ffffff",
+        "#005e96",
+        "#ed8599",
+        "#922f00"
+      ]
+    },
+    {
+      "name": "quagsire",
+      "id": 195,
+      "colors": [
+        "#80cce3",
+        "#003856",
+        "#6eb1c5",
+        "#0d131a",
+        "#8b92c7"
+      ]
+    },
+    {
+      "name": "espeon",
+      "id": 196,
+      "colors": [
+        "#d0bad9",
+        "#b4a1bc",
+        "#0d131a",
+        "#4b5170",
+        "#393d59",
+        "#6355a1",
+        "#ffffff",
+        "#e4004f",
+        "#c60044",
+        "#f09b9e"
+      ]
+    },
+    {
+      "name": "umbreon",
+      "id": 197,
+      "colors": [
+        "#485157",
+        "#ffe100",
+        "#0d131a",
+        "#30353a",
+        "#dcc200",
+        "#e95550",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "murkrow",
+      "id": 198,
+      "colors": [
+        "#003e6a",
+        "#ffe792",
+        "#e73820",
+        "#ffffff",
+        "#c82e19",
+        "#8198ba",
+        "#002e54",
+        "#dbc77f",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "slowking",
+      "id": 199,
+      "colors": [
+        "#ffffff",
+        "#ed8599",
+        "#dbdcdc",
+        "#ce7486",
+        "#0d131a",
+        "#fff1ac",
+        "#dcd096",
+        "#e50012",
+        "#d6e6ae",
+        "#b9c897",
+        "#ebf3d8",
+        "#ba0031",
+        "#990024",
+        "#922f00",
+        "#db8f86"
+      ]
+    },
+    {
+      "name": "misdreavus",
+      "id": 200,
+      "colors": [
+        "#0d131a",
+        "#0099a9",
+        "#008290",
+        "#e4004f",
+        "#c60044",
+        "#f09b9e",
+        "#ffe45f",
+        "#ed8599",
+        "#922f00",
+        "#cea6cc",
+        "#ffffff",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "unown",
+      "id": 201,
+      "colors": [
+        "#3e3a39",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "wobbuffet",
+      "id": 202,
+      "colors": [
+        "#00b7de",
+        "#595757",
+        "#922f00",
+        "#ed8599",
+        "#ffffff",
+        "#00a0c2",
+        "#3e3a39",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "girafarig",
+      "id": 203,
+      "colors": [
+        "#515457",
+        "#383839",
+        "#49312a",
+        "#3a251d",
+        "#0d131a",
+        "#f4b1b1",
+        "#d3999b",
+        "#fccf00",
+        "#dab300",
+        "#ffffff",
+        "#ffe45f",
+        "#dbdcdc",
+        "#007bba"
+      ]
+    },
+    {
+      "name": "pineco",
+      "id": 204,
+      "colors": [
+        "#0099a9",
+        "#ffffff",
+        "#e7372f",
+        "#0d131a",
+        "#008290",
+        "#dbdcdc",
+        "#c82e27"
+      ]
+    },
+    {
+      "name": "forretress",
+      "id": 205,
+      "colors": [
+        "#e6d4e7",
+        "#ba0031",
+        "#c7b7c8",
+        "#990024",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "dunsparce",
+      "id": 206,
+      "colors": [
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a",
+        "#fff362",
+        "#fffbda",
+        "#5dc1cf",
+        "#50a8b4",
+        "#ded255"
+      ]
+    },
+    {
+      "name": "gligar",
+      "id": 207,
+      "colors": [
+        "#cb7db0",
+        "#b06c99",
+        "#0d131a",
+        "#6c9bd2",
+        "#ffffff",
+        "#ee846d",
+        "#ce725f",
+        "#5d86b6",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "steelix",
+      "id": 208,
+      "colors": [
+        "#87b1d0",
+        "#759ab5",
+        "#0d131a",
+        "#ffffff",
+        "#cccccc",
+        "#e50038",
+        "#c6002f"
+      ]
+    },
+    {
+      "name": "snubbull",
+      "id": 209,
+      "colors": [
+        "#f3b2c1",
+        "#7dccf3",
+        "#fdeabe",
+        "#6cb2d3",
+        "#dacaa5",
+        "#0d131a",
+        "#485157",
+        "#30353a",
+        "#ffffff",
+        "#d29aa8",
+        "#cccccc",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "granbull",
+      "id": 210,
+      "colors": [
+        "#cea6cc",
+        "#30353a",
+        "#60615f",
+        "#ffffff",
+        "#922f00",
+        "#b390b1",
+        "#212226",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "qwilfish",
+      "id": 211,
+      "colors": [
+        "#006a6b",
+        "#d9e14a",
+        "#efeb64",
+        "#ffffff",
+        "#f09ba5",
+        "#005454",
+        "#cdcb57",
+        "#d08690",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "scizor",
+      "id": 212,
+      "colors": [
+        "#a0caec",
+        "#8aafcc",
+        "#0d131a",
+        "#e50020",
+        "#c60019",
+        "#ffffff",
+        "#dbdcdc",
+        "#2f8097",
+        "#fccf00",
+        "#1e6579",
+        "#dab300"
+      ]
+    },
+    {
+      "name": "shuckle",
+      "id": 213,
+      "colors": [
+        "#ffe100",
+        "#dcc200",
+        "#0d131a",
+        "#eddbb3",
+        "#c7b997",
+        "#e50038",
+        "#c6002f"
+      ]
+    },
+    {
+      "name": "heracross",
+      "id": 214,
+      "colors": [
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#46799e",
+        "#5892bf",
+        "#ffe100"
+      ]
+    },
+    {
+      "name": "sneasel",
+      "id": 215,
+      "colors": [
+        "#1a657e",
+        "#074f64",
+        "#e8528d",
+        "#c9467c",
+        "#f3b3c9",
+        "#eeeeef",
+        "#c8c9ca",
+        "#0d131a",
+        "#f9be00",
+        "#d7a400",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "teddiursa",
+      "id": 216,
+      "colors": [
+        "#f29739",
+        "#d18331",
+        "#0d131a",
+        "#ffffff",
+        "#ffe792",
+        "#fffac6",
+        "#515457",
+        "#ed8599",
+        "#dcd8ac"
+      ]
+    },
+    {
+      "name": "ursaring",
+      "id": 217,
+      "colors": [
+        "#a3623c",
+        "#fff095",
+        "#ffffff",
+        "#ed8599",
+        "#6a1a00",
+        "#922f00",
+        "#804b2b",
+        "#dbdcdc",
+        "#ce7486",
+        "#dccf81",
+        "#0d131a",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "slugma",
+      "id": 218,
+      "colors": [
+        "#ec6c1f",
+        "#fff362",
+        "#cc5d18",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "magcargo",
+      "id": 219,
+      "colors": [
+        "#e50044",
+        "#2f8097",
+        "#fff362",
+        "#e50020",
+        "#efe908",
+        "#c6003a",
+        "#ec6d45",
+        "#1e6579",
+        "#cc5d3b",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "swinub",
+      "id": 220,
+      "colors": [
+        "#bf794e",
+        "#854c3b",
+        "#965e3a",
+        "#0d131a",
+        "#f09ba5",
+        "#d08690"
+      ]
+    },
+    {
+      "name": "piloswine",
+      "id": 221,
+      "colors": [
+        "#bf794e",
+        "#f09ba5",
+        "#c6dcdb",
+        "#965e3a",
+        "#a7bab9",
+        "#d08690",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "corsola",
+      "id": 222,
+      "colors": [
+        "#ed8599",
+        "#ce7486",
+        "#0d131a",
+        "#a2c3c9",
+        "#bbe1e8",
+        "#e50012",
+        "#b50005",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "remoraid",
+      "id": 223,
+      "colors": [
+        "#c6dcdb",
+        "#0099a9",
+        "#ffffff",
+        "#dbdcdc",
+        "#a7bab9",
+        "#008290",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "octillery",
+      "id": 224,
+      "colors": [
+        "#0d131a",
+        "#e50012",
+        "#ec6d45",
+        "#c6000b",
+        "#fcd13e",
+        "#d9b536",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "delibird",
+      "id": 225,
+      "colors": [
+        "#fff095",
+        "#dccf81",
+        "#0d131a",
+        "#e9eff8",
+        "#c9cfd7",
+        "#e50012",
+        "#c6000b",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "mantine",
+      "id": 226,
+      "colors": [
+        "#eaf5fc",
+        "#cad4db",
+        "#0d131a",
+        "#0e326f",
+        "#07275e",
+        "#d1cbe5",
+        "#b5b0c6",
+        "#ffffff",
+        "#8a86aa",
+        "#c6dcdb",
+        "#922f00",
+        "#0099a9",
+        "#dbdcdc",
+        "#a7bab9"
+      ]
+    },
+    {
+      "name": "skarmory",
+      "id": 227,
+      "colors": [
+        "#dbe6ed",
+        "#b8c2c8",
+        "#2f8097",
+        "#1e6579",
+        "#ab010b",
+        "#870000",
+        "#0d131a",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#fff362",
+        "#dbdcdc",
+        "#ded255"
+      ]
+    },
+    {
+      "name": "houndour",
+      "id": 228,
+      "colors": [
+        "#485157",
+        "#30353a",
+        "#dbdcdc",
+        "#b4b4b5",
+        "#0d131a",
+        "#ce723f",
+        "#ef834a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "houndoom",
+      "id": 229,
+      "colors": [
+        "#133732",
+        "#ec6c1f",
+        "#ffffff",
+        "#e50012",
+        "#0d131a",
+        "#a4abc8",
+        "#8e94ae",
+        "#0e2c27",
+        "#cc5d18",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "kingdra",
+      "id": 230,
+      "colors": [
+        "#ffffff",
+        "#dbdcdc",
+        "#57c2e9",
+        "#4ba9cb",
+        "#0d131a",
+        "#f9be00",
+        "#d7a400",
+        "#e4004f",
+        "#c60044"
+      ]
+    },
+    {
+      "name": "phanpy",
+      "id": 231,
+      "colors": [
+        "#a0d7e5",
+        "#8abac7",
+        "#e95520",
+        "#ed8599",
+        "#922f00",
+        "#ffffff",
+        "#f4af86",
+        "#ca4819",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "donphan",
+      "id": 232,
+      "colors": [
+        "#d83338",
+        "#b7272d",
+        "#537c77",
+        "#446965",
+        "#d4e9d7",
+        "#b7caba",
+        "#93aec1",
+        "#748999",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "porygon2",
+      "id": 233,
+      "colors": [
+        "#57c2e9",
+        "#4ba9cb",
+        "#d2ecfa",
+        "#0d131a",
+        "#e30077",
+        "#c60068",
+        "#f09cbb",
+        "#f9dbe8",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "stantler",
+      "id": 234,
+      "colors": [
+        "#e8b67d",
+        "#ffffff",
+        "#372756",
+        "#854c3b",
+        "#ffee7d",
+        "#c39969",
+        "#69392b",
+        "#dbdcdc",
+        "#dccd6c",
+        "#978098",
+        "#2d1d48",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "smeargle",
+      "id": 235,
+      "colors": [
+        "#e5e3da",
+        "#c1bfb8",
+        "#852a18",
+        "#ffffff",
+        "#598b1f",
+        "#adc186",
+        "#691b07",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "tyrogue",
+      "id": 236,
+      "colors": [
+        "#e6d4e7",
+        "#e5e3da",
+        "#864b16",
+        "#ffffff",
+        "#fcd13e",
+        "#922f00",
+        "#ed8599",
+        "#c7b7c8",
+        "#c1bfb8",
+        "#6a3906",
+        "#dbdcdc",
+        "#d9b536",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "hitmontop",
+      "id": 237,
+      "colors": [
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#00a6db",
+        "#0091bf",
+        "#c18963",
+        "#986c4c",
+        "#bad4ee",
+        "#a1b8ce"
+      ]
+    },
+    {
+      "name": "smoochum",
+      "id": 238,
+      "colors": [
+        "#fff362",
+        "#efd400",
+        "#0d131a",
+        "#db6aa3",
+        "#f3b3cf",
+        "#fff3c2",
+        "#ffffff",
+        "#00aecb",
+        "#be5b8e",
+        "#dbd2a9",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "elekid",
+      "id": 239,
+      "colors": [
+        "#ffe100",
+        "#515457",
+        "#ffffff",
+        "#dcc200",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "magby",
+      "id": 240,
+      "colors": [
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#eb6d65",
+        "#cb5d57",
+        "#fff697",
+        "#ddd583",
+        "#3e4e57",
+        "#27333a",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "miltank",
+      "id": 241,
+      "colors": [
+        "#0d131a",
+        "#fff1ac",
+        "#dcd096",
+        "#00233c",
+        "#f6c8dd",
+        "#d5adbf",
+        "#ffffff",
+        "#518aa4",
+        "#8a969d",
+        "#ed8599",
+        "#922f00",
+        "#004da0",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "blissey",
+      "id": 242,
+      "colors": [
+        "#f6c8d6",
+        "#d5adba",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "raikou",
+      "id": 243,
+      "colors": [
+        "#ffe100",
+        "#b6aed1",
+        "#e6ebee",
+        "#ffffff",
+        "#efeddf",
+        "#686d70",
+        "#59c2e1",
+        "#30353a",
+        "#e50012",
+        "#9b94b3",
+        "#c1c6c9",
+        "#dbdcdc",
+        "#dcc200",
+        "#c9c8bc",
+        "#4da9c3",
+        "#c6000b",
+        "#515457",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "entei",
+      "id": 244,
+      "colors": [
+        "#a3611c",
+        "#e6e0b6",
+        "#ec6d45",
+        "#ffffff",
+        "#93aec1",
+        "#dce5dd",
+        "#d06306",
+        "#3e4e57",
+        "#fcd13e",
+        "#804a0c",
+        "#c1bd9a",
+        "#748999",
+        "#27333a",
+        "#d9b536",
+        "#af5200",
+        "#b9c1bb",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "suicune",
+      "id": 245,
+      "colors": [
+        "#5dc1cf",
+        "#ffffff",
+        "#a586bc",
+        "#922f00",
+        "#ed8599",
+        "#e50020",
+        "#0095ae",
+        "#7ec6d4",
+        "#50a8b4",
+        "#dbdcdc",
+        "#8f75a3",
+        "#6a1a00",
+        "#c60019",
+        "#008094",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "larvitar",
+      "id": 246,
+      "colors": [
+        "#b4ce8e",
+        "#97ae79",
+        "#0d131a",
+        "#ffffff",
+        "#ba0031",
+        "#990024",
+        "#e50044",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "pupitar",
+      "id": 247,
+      "colors": [
+        "#96bede",
+        "#7fa1bb",
+        "#ffffff",
+        "#0d131a",
+        "#dbdcdc",
+        "#e4004f"
+      ]
+    },
+    {
+      "name": "tyranitar",
+      "id": 248,
+      "colors": [
+        "#97ae79",
+        "#b4ce8e",
+        "#0d131a",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#dbdcdc",
+        "#ce7486",
+        "#3396cd",
+        "#2880ae",
+        "#a9cae7"
+      ]
+    },
+    {
+      "name": "lugia",
+      "id": 249,
+      "colors": [
+        "#0d131a",
+        "#1d2087",
+        "#e9eff8",
+        "#c9cfd7",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#15126f",
+        "#5084c4",
+        "#4573ab",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "ho-oh",
+      "id": 250,
+      "colors": [
+        "#ffffff",
+        "#f9be00",
+        "#8cc456",
+        "#ffe792",
+        "#e95532",
+        "#2f8097",
+        "#08294d",
+        "#e9545d",
+        "#922f00",
+        "#ed8599",
+        "#dbdcdc",
+        "#1e6579",
+        "#ce7486",
+        "#d7a400",
+        "#ca4829",
+        "#79aa4a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "celebi",
+      "id": 251,
+      "colors": [
+        "#ffffff",
+        "#0d131a",
+        "#8bc56c",
+        "#78ab5e",
+        "#d6e6ae",
+        "#b9c897",
+        "#922f00",
+        "#ed8599",
+        "#a0d7e5",
+        "#00aecb",
+        "#008cb3"
+      ]
+    },
+    {
+      "name": "treecko",
+      "id": 252,
+      "colors": [
+        "#009a63",
+        "#008756",
+        "#0d131a",
+        "#e73820",
+        "#8bc56c",
+        "#c82e19",
+        "#f9be00",
+        "#fdde8e",
+        "#78ab5e",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "grovyle",
+      "id": 253,
+      "colors": [
+        "#007b36",
+        "#00662a",
+        "#0d131a",
+        "#6cba5a",
+        "#5da24d",
+        "#e9545d",
+        "#c94850",
+        "#922f00",
+        "#fcd13e",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "sceptile",
+      "id": 254,
+      "colors": [
+        "#6cba5a",
+        "#5da24d",
+        "#00662a",
+        "#007b36",
+        "#fcd13e",
+        "#d9b536",
+        "#e9545d",
+        "#c94850",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "torchic",
+      "id": 255,
+      "colors": [
+        "#ffe792",
+        "#dbc77f",
+        "#0d131a",
+        "#fccf00",
+        "#ef8200",
+        "#ed8599",
+        "#922f00",
+        "#cf7100",
+        "#dab300",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "combusken",
+      "id": 256,
+      "colors": [
+        "#ef821e",
+        "#ce7117",
+        "#0d131a",
+        "#b6ae9c",
+        "#ffffff",
+        "#958e80",
+        "#dbdcdc",
+        "#fff095",
+        "#dccf81",
+        "#ed8599",
+        "#922f00",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "blaziken",
+      "id": 257,
+      "colors": [
+        "#fff1ac",
+        "#dcd096",
+        "#e73820",
+        "#c82e19",
+        "#0d131a",
+        "#f9be00",
+        "#d7a400",
+        "#958e80",
+        "#922f00",
+        "#ed8599",
+        "#007bba",
+        "#b6ae9c",
+        "#ffffff",
+        "#00669b",
+        "#ef821e",
+        "#fccf00"
+      ]
+    },
+    {
+      "name": "mudkip",
+      "id": 258,
+      "colors": [
+        "#9fd2f1",
+        "#89b6d1",
+        "#0d131a",
+        "#00aeeb",
+        "#f29600",
+        "#ed8599",
+        "#922f00",
+        "#d18200",
+        "#0098cd",
+        "#9ed8f5",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "marshtomp",
+      "id": 259,
+      "colors": [
+        "#0d131a",
+        "#1a657e",
+        "#074f64",
+        "#60c0bd",
+        "#52a7a5",
+        "#bbe1e8",
+        "#a2c3c9",
+        "#f2984f",
+        "#d18344",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "swampert",
+      "id": 260,
+      "colors": [
+        "#074f64",
+        "#1a657e",
+        "#f2984f",
+        "#00aeeb",
+        "#0098cd",
+        "#d18344",
+        "#e9eff8",
+        "#c9cfd7",
+        "#ed8599",
+        "#ce7486",
+        "#922f00",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "poochyena",
+      "id": 261,
+      "colors": [
+        "#0d131a",
+        "#adb2b4",
+        "#1d303a",
+        "#838688",
+        "#3e4e57",
+        "#ffffff",
+        "#dbdcdc",
+        "#d83338",
+        "#ffe100",
+        "#dcc200",
+        "#b7272d"
+      ]
+    },
+    {
+      "name": "mightyena",
+      "id": 262,
+      "colors": [
+        "#0d131a",
+        "#30353a",
+        "#d3d9db",
+        "#adb2b4",
+        "#ffffff",
+        "#dbdcdc",
+        "#b7272d",
+        "#ed8599",
+        "#ce7486",
+        "#d83338",
+        "#ffe100",
+        "#878f93"
+      ]
+    },
+    {
+      "name": "zigzagoon",
+      "id": 263,
+      "colors": [
+        "#0d131a",
+        "#efeddf",
+        "#c9c8bc",
+        "#61532e",
+        "#524423",
+        "#dbdcdc",
+        "#ffffff",
+        "#6f4e25",
+        "#5a3e19"
+      ]
+    },
+    {
+      "name": "linoone",
+      "id": 264,
+      "colors": [
+        "#c1bfb8",
+        "#dbdcdc",
+        "#e5e3da",
+        "#ffffff",
+        "#0d131a",
+        "#756550",
+        "#635442",
+        "#595757",
+        "#3e3a39",
+        "#00b8ee",
+        "#00a0cf"
+      ]
+    },
+    {
+      "name": "wurmple",
+      "id": 265,
+      "colors": [
+        "#0d131a",
+        "#e85377",
+        "#c94768",
+        "#e7e7b9",
+        "#c2c29d",
+        "#fff1ac",
+        "#dcd096",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "silcoon",
+      "id": 266,
+      "colors": [
+        "#c8c9ca",
+        "#eeeeef",
+        "#0d131a",
+        "#ffffff",
+        "#e85377"
+      ]
+    },
+    {
+      "name": "beautifly",
+      "id": 267,
+      "colors": [
+        "#0d131a",
+        "#71706d",
+        "#595754",
+        "#e50044",
+        "#c6003a",
+        "#008cbe",
+        "#fccf00",
+        "#dcdbd6",
+        "#b4b4b0",
+        "#009fd9",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "cascoon",
+      "id": 268,
+      "colors": [
+        "#e6d4e7",
+        "#c7b7c8",
+        "#0d131a",
+        "#baa0ca",
+        "#a28ab0",
+        "#e85377",
+        "#c94768",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "dustox",
+      "id": 269,
+      "colors": [
+        "#8bc56c",
+        "#78ab5e",
+        "#009233",
+        "#00a63c",
+        "#c94768",
+        "#0d131a",
+        "#a586bc",
+        "#8f75a3",
+        "#ffee7d",
+        "#dccd6c",
+        "#e85377"
+      ]
+    },
+    {
+      "name": "lotad",
+      "id": 270,
+      "colors": [
+        "#0d131a",
+        "#6cba5a",
+        "#5da24d",
+        "#0098c7",
+        "#00aee5",
+        "#ffffff",
+        "#ffe792",
+        "#007b36",
+        "#00662a"
+      ]
+    },
+    {
+      "name": "lombre",
+      "id": 271,
+      "colors": [
+        "#0d131a",
+        "#ee848c",
+        "#ce737b",
+        "#6cba5a",
+        "#5da24d",
+        "#a3d5c0",
+        "#8cb9a7",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "ludicolo",
+      "id": 272,
+      "colors": [
+        "#0d131a",
+        "#ffe792",
+        "#dbc77f",
+        "#b1826f",
+        "#956e5d",
+        "#8bc56c",
+        "#78ab5e",
+        "#ffffff",
+        "#dbdcdc",
+        "#f4ae7d",
+        "#d3976d",
+        "#922f00",
+        "#6a1a00",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "seedot",
+      "id": 273,
+      "colors": [
+        "#0d131a",
+        "#888780",
+        "#595750",
+        "#fbd375",
+        "#d9b766",
+        "#89694e",
+        "#755740",
+        "#3e3a39"
+      ]
+    },
+    {
+      "name": "nuzleaf",
+      "id": 274,
+      "colors": [
+        "#c18963",
+        "#986c4c",
+        "#d3d1ca",
+        "#adaca6",
+        "#0d131a",
+        "#00a63c",
+        "#009233",
+        "#ed8599",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "shiftry",
+      "id": 275,
+      "colors": [
+        "#eeeeef",
+        "#c8c9ca",
+        "#965e3a",
+        "#bf794e",
+        "#009844",
+        "#00863c",
+        "#0d131a",
+        "#ffffff",
+        "#ffe792",
+        "#dbc77f"
+      ]
+    },
+    {
+      "name": "taillow",
+      "id": 276,
+      "colors": [
+        "#0d131a",
+        "#ffe45f",
+        "#dcc552",
+        "#001c3c",
+        "#ffffff",
+        "#dbdcdc",
+        "#08294d",
+        "#910a2f",
+        "#740020"
+      ]
+    },
+    {
+      "name": "swellow",
+      "id": 277,
+      "colors": [
+        "#0e326f",
+        "#07275e",
+        "#ffffff",
+        "#dbdcdc",
+        "#aa003e",
+        "#87002d",
+        "#0d131a",
+        "#ffee7d",
+        "#922f00",
+        "#dccd6c",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "wingull",
+      "id": 278,
+      "colors": [
+        "#0d131a",
+        "#eef3f6",
+        "#cacfd2",
+        "#7fccec",
+        "#6db2cd",
+        "#f8c058",
+        "#ffffff",
+        "#d6a64c",
+        "#922f00",
+        "#686d70"
+      ]
+    },
+    {
+      "name": "pelipper",
+      "id": 279,
+      "colors": [
+        "#0d131a",
+        "#eef3f6",
+        "#cacfd2",
+        "#00aeeb",
+        "#0098cd",
+        "#ffe45f",
+        "#dcc552",
+        "#922f00"
+      ]
+    },
+    {
+      "name": "ralts",
+      "id": 280,
+      "colors": [
+        "#ed85ad",
+        "#a7d081",
+        "#eef3f6",
+        "#ed8599",
+        "#922f00",
+        "#cd7497",
+        "#90b571",
+        "#d3d9db",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "kirlia",
+      "id": 281,
+      "colors": [
+        "#0d131a",
+        "#a7d081",
+        "#90b571",
+        "#eef3f6",
+        "#d3d9db",
+        "#ffffff",
+        "#dbdcdc",
+        "#ed85ad",
+        "#cd7497",
+        "#f6c8dd"
+      ]
+    },
+    {
+      "name": "gardevoir",
+      "id": 282,
+      "colors": [
+        "#0d131a",
+        "#a7d081",
+        "#90b571",
+        "#eef3f6",
+        "#ed85ad",
+        "#cd7497",
+        "#d3d9db",
+        "#f6c8dd",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "surskit",
+      "id": 283,
+      "colors": [
+        "#00b8ee",
+        "#00a0cf",
+        "#ffe792",
+        "#dbc77f",
+        "#ed8599",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "masquerain",
+      "id": 284,
+      "colors": [
+        "#d2ecfa",
+        "#b6ccd9",
+        "#0d131a",
+        "#f19975",
+        "#d08466",
+        "#ffffff",
+        "#ad4885",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "shroomish",
+      "id": 285,
+      "colors": [
+        "#0d131a",
+        "#007b36",
+        "#00662a",
+        "#b4a258",
+        "#978949"
+      ]
+    },
+    {
+      "name": "breloom",
+      "id": 286,
+      "colors": [
+        "#39992d",
+        "#44af35",
+        "#e85377",
+        "#c94768",
+        "#eee4b7",
+        "#c8c09a",
+        "#0d131a",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#8a969d",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "slakoth",
+      "id": 287,
+      "colors": [
+        "#dbdcdc",
+        "#ffffff",
+        "#dbd5ca",
+        "#b3aea6",
+        "#806047",
+        "#0d131a",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#f09cb4",
+        "#d0879d"
+      ]
+    },
+    {
+      "name": "vigoroth",
+      "id": 288,
+      "colors": [
+        "#595757",
+        "#3e3a39",
+        "#eeeeef",
+        "#c8c9ca",
+        "#0d131a",
+        "#89694e",
+        "#755740",
+        "#ffffff",
+        "#dbdcdc",
+        "#e85377",
+        "#c94768",
+        "#922f00",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "slaking",
+      "id": 289,
+      "colors": [
+        "#eeeeef",
+        "#e5d8b2",
+        "#ffffff",
+        "#806047",
+        "#f09cb4",
+        "#c0b697",
+        "#684e39",
+        "#d0879d",
+        "#c8c9ca",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "nincada",
+      "id": 290,
+      "colors": [
+        "#0d131a",
+        "#dbe6ed",
+        "#b8c2c8",
+        "#d6e6ae",
+        "#b6ae9c",
+        "#958e80"
+      ]
+    },
+    {
+      "name": "ninjask",
+      "id": 291,
+      "colors": [
+        "#eef3f6",
+        "#cacfd2",
+        "#adb2b4",
+        "#838688",
+        "#3e4e57",
+        "#27333a",
+        "#ffe792",
+        "#dbc77f",
+        "#e85377",
+        "#0d131a",
+        "#c94768",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "shedinja",
+      "id": 292,
+      "colors": [
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#e3c582",
+        "#bfa56f",
+        "#c0b8b4",
+        "#97918e"
+      ]
+    },
+    {
+      "name": "whismur",
+      "id": 293,
+      "colors": [
+        "#0d131a",
+        "#d0bad9",
+        "#b4a1bc",
+        "#ffe792",
+        "#dbc77f",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "loudred",
+      "id": 294,
+      "colors": [
+        "#eef3f6",
+        "#718bc6",
+        "#922f00",
+        "#ffffff",
+        "#0d131a",
+        "#ed85ad",
+        "#ffe792",
+        "#ed8599",
+        "#cd7497",
+        "#6a1a00",
+        "#ce7486",
+        "#cacfd2",
+        "#6279ac",
+        "#dbc77f"
+      ]
+    },
+    {
+      "name": "exploud",
+      "id": 295,
+      "colors": [
+        "#cacfd2",
+        "#718bc6",
+        "#6279ac",
+        "#eef3f6",
+        "#ffe792",
+        "#dbc77f",
+        "#0d131a",
+        "#922f00",
+        "#6a1a00",
+        "#ed8599",
+        "#ce7486",
+        "#ed85ad",
+        "#cd7497",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "makuhita",
+      "id": 296,
+      "colors": [
+        "#0d131a",
+        "#fff095",
+        "#dccf81",
+        "#1a657e",
+        "#074f64",
+        "#ffffff",
+        "#e9545d"
+      ]
+    },
+    {
+      "name": "hariyama",
+      "id": 297,
+      "colors": [
+        "#f19963",
+        "#d18456",
+        "#00568a",
+        "#00426f",
+        "#fcd13e",
+        "#d9b536",
+        "#e5e3da",
+        "#c1bfb8",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "azurill",
+      "id": 298,
+      "colors": [
+        "#0d131a",
+        "#00aeeb",
+        "#0098cd",
+        "#e9545d",
+        "#c94850",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#9ed8f5"
+      ]
+    },
+    {
+      "name": "nosepass",
+      "id": 299,
+      "colors": [
+        "#3396cd",
+        "#2880ae",
+        "#0d131a",
+        "#e63556",
+        "#c72b4a"
+      ]
+    },
+    {
+      "name": "skitty",
+      "id": 300,
+      "colors": [
+        "#0d131a",
+        "#fff1ac",
+        "#dcd096",
+        "#f09cb4",
+        "#d0879d",
+        "#664497",
+        "#593984",
+        "#ed8599",
+        "#922f00",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "delcatty",
+      "id": 301,
+      "colors": [
+        "#ffe792",
+        "#dbc77f",
+        "#796bae",
+        "#695c97",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "sableye",
+      "id": 302,
+      "colors": [
+        "#00aeeb",
+        "#51308e",
+        "#47277d",
+        "#e50012",
+        "#a0caec",
+        "#8aafcc",
+        "#f19975",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "mawile",
+      "id": 303,
+      "colors": [
+        "#595757",
+        "#191919",
+        "#ffffff",
+        "#0d131a",
+        "#fff1ac",
+        "#dcd096",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#e85377"
+      ]
+    },
+    {
+      "name": "aron",
+      "id": 304,
+      "colors": [
+        "#0d131a",
+        "#dcdbd6",
+        "#b4b4b0",
+        "#515457",
+        "#383839",
+        "#57c2e9",
+        "#4ba9cb",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "lairon",
+      "id": 305,
+      "colors": [
+        "#dcdbd6",
+        "#717071",
+        "#595757",
+        "#b4b4b0",
+        "#922f00",
+        "#0d131a",
+        "#ed8599",
+        "#ce7486",
+        "#57c2e9",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "aggron",
+      "id": 306,
+      "colors": [
+        "#717071",
+        "#595757",
+        "#dcdbd6",
+        "#b4b4b0",
+        "#0d131a",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#57c2e9",
+        "#4ba9cb"
+      ]
+    },
+    {
+      "name": "meditite",
+      "id": 307,
+      "colors": [
+        "#dad8e4",
+        "#00aee5",
+        "#ed8599",
+        "#ffffff",
+        "#922f00",
+        "#b7b6c0",
+        "#0098c7",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "medicham",
+      "id": 308,
+      "colors": [
+        "#f4f3f9",
+        "#e30077",
+        "#dbc77f",
+        "#ffe792",
+        "#ffffff",
+        "#c60068",
+        "#d3d2d8",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "electrike",
+      "id": 309,
+      "colors": [
+        "#39b382",
+        "#2f9c73",
+        "#0d131a",
+        "#922f00",
+        "#6a1a00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc",
+        "#fff095",
+        "#dccf81"
+      ]
+    },
+    {
+      "name": "manectric",
+      "id": 310,
+      "colors": [
+        "#f0e78e",
+        "#c9c279",
+        "#59bdec",
+        "#dbdcdc",
+        "#ffffff",
+        "#4ca4cd",
+        "#0d131a",
+        "#c94768",
+        "#e85377"
+      ]
+    },
+    {
+      "name": "plusle",
+      "id": 311,
+      "colors": [
+        "#e9545d",
+        "#c94850",
+        "#f4b0a9",
+        "#fff3c2",
+        "#dbd2a9",
+        "#ed8599",
+        "#922f00",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "minun",
+      "id": 312,
+      "colors": [
+        "#00b8ee",
+        "#00a0cf",
+        "#0d131a",
+        "#fff3c2",
+        "#dbd2a9",
+        "#922f00",
+        "#ed8599",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "volbeat",
+      "id": 313,
+      "colors": [
+        "#0d131a",
+        "#87b1d0",
+        "#c6d8e8",
+        "#3e4e57",
+        "#27333a",
+        "#e50044",
+        "#c6003a",
+        "#5892bf",
+        "#46799e",
+        "#fcd13e",
+        "#ffffff",
+        "#d9b536"
+      ]
+    },
+    {
+      "name": "illumise",
+      "id": 314,
+      "colors": [
+        "#0d131a",
+        "#d2ecfa",
+        "#b6ccd9",
+        "#686d70",
+        "#515457",
+        "#a499c9",
+        "#8e84ae",
+        "#7fccec",
+        "#fff095",
+        "#dccf81",
+        "#ffffff",
+        "#009fd9",
+        "#922f00",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "roselia",
+      "id": 315,
+      "colors": [
+        "#00aeeb",
+        "#0098cd",
+        "#d6e6ae",
+        "#b9c897",
+        "#0d131a",
+        "#6cba5a",
+        "#5da24d",
+        "#ffe792",
+        "#dbc77f",
+        "#e9545d",
+        "#c94850"
+      ]
+    },
+    {
+      "name": "gulpin",
+      "id": 316,
+      "colors": [
+        "#0d131a",
+        "#b4ce8e",
+        "#97ae79",
+        "#fff095",
+        "#dccf81"
+      ]
+    },
+    {
+      "name": "swalot",
+      "id": 317,
+      "colors": [
+        "#8d80bb",
+        "#7c70a2",
+        "#fff095",
+        "#eb6d80",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "carvanha",
+      "id": 318,
+      "colors": [
+        "#ffe45f",
+        "#dcc552",
+        "#c90060",
+        "#aa0050",
+        "#0d131a",
+        "#005a9f",
+        "#004985",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "sharpedo",
+      "id": 319,
+      "colors": [
+        "#0d131a",
+        "#005b80",
+        "#004a6c",
+        "#dbe6ed",
+        "#b8c2c8",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc",
+        "#fccf00",
+        "#dab300",
+        "#ec6c00"
+      ]
+    },
+    {
+      "name": "wailmer",
+      "id": 320,
+      "colors": [
+        "#0d131a",
+        "#005e96",
+        "#efeaba",
+        "#c9c59d",
+        "#922f00",
+        "#ed8599",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "wailord",
+      "id": 321,
+      "colors": [
+        "#00a4e3",
+        "#dcdbd6",
+        "#ffffff",
+        "#b4b4b0",
+        "#008fc5",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "numel",
+      "id": 322,
+      "colors": [
+        "#fbd58b",
+        "#d8b879",
+        "#6cba5a",
+        "#fff1ac",
+        "#dcd096",
+        "#9e9d94",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "camerupt",
+      "id": 323,
+      "colors": [
+        "#ec6c00",
+        "#cc5d00",
+        "#71706d",
+        "#595754",
+        "#c9c8bc",
+        "#9e9d94",
+        "#0d131a",
+        "#59bdec",
+        "#4ca4cd",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "torkoal",
+      "id": 324,
+      "colors": [
+        "#0d131a",
+        "#f2984f",
+        "#d18344",
+        "#686d70",
+        "#515457",
+        "#eeeeef",
+        "#c8c9ca",
+        "#e9545d"
+      ]
+    },
+    {
+      "name": "spoink",
+      "id": 325,
+      "colors": [
+        "#adb2b4",
+        "#838688",
+        "#0d131a",
+        "#f6c8d6",
+        "#ed85a7",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "grumpig",
+      "id": 326,
+      "colors": [
+        "#f6c8dd",
+        "#d5adbf",
+        "#b4a1bc",
+        "#d0bad9",
+        "#71706d",
+        "#595754",
+        "#0d131a",
+        "#ffffff",
+        "#8a969d"
+      ]
+    },
+    {
+      "name": "spinda",
+      "id": 327,
+      "colors": [
+        "#f4e8d0",
+        "#d3c9b5",
+        "#0d131a",
+        "#eb6d65",
+        "#ed8599",
+        "#cb5d57"
+      ]
+    },
+    {
+      "name": "trapinch",
+      "id": 328,
+      "colors": [
+        "#f19963",
+        "#d18456",
+        "#ffffff",
+        "#eeeeef",
+        "#c8c9ca",
+        "#0d131a",
+        "#f8ceb0"
+      ]
+    },
+    {
+      "name": "vibrava",
+      "id": 329,
+      "colors": [
+        "#3f3927",
+        "#00a63c",
+        "#eeed80",
+        "#cdcd6f",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#009233"
+      ]
+    },
+    {
+      "name": "flygon",
+      "id": 330,
+      "colors": [
+        "#c0dc96",
+        "#a5be83",
+        "#e85377",
+        "#c94768",
+        "#ffffff",
+        "#dbdcdc",
+        "#00a63c",
+        "#009233",
+        "#b71a35",
+        "#9f122c",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "cacnea",
+      "id": 331,
+      "colors": [
+        "#0d131a",
+        "#007b36",
+        "#00662a",
+        "#8bc56c",
+        "#78ab5e",
+        "#fcd13e",
+        "#d9b536",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "cacturne",
+      "id": 332,
+      "colors": [
+        "#007b36",
+        "#c0dc96",
+        "#a5be83",
+        "#00662a",
+        "#0d131a",
+        "#fcd13e"
+      ]
+    },
+    {
+      "name": "swablu",
+      "id": 333,
+      "colors": [
+        "#0d131a",
+        "#00b8ee",
+        "#00a0cf",
+        "#ffffff",
+        "#dbdcdc",
+        "#ed8599",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "altaria",
+      "id": 334,
+      "colors": [
+        "#00b8ee",
+        "#00a0cf",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "zangoose",
+      "id": 335,
+      "colors": [
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#e85377",
+        "#c94768",
+        "#d0879d",
+        "#595757",
+        "#3e3a39",
+        "#f09cb4"
+      ]
+    },
+    {
+      "name": "seviper",
+      "id": 336,
+      "colors": [
+        "#0d131a",
+        "#d9b536",
+        "#005064",
+        "#004152",
+        "#da4e70",
+        "#a3abd5",
+        "#fcd13e",
+        "#ffe8a9",
+        "#b8405f",
+        "#8d94b9",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "lunatone",
+      "id": 337,
+      "colors": [
+        "#0d131a",
+        "#d4c79f",
+        "#b7ad8a",
+        "#352012",
+        "#e85377"
+      ]
+    },
+    {
+      "name": "solrock",
+      "id": 338,
+      "colors": [
+        "#0d131a",
+        "#ffee7d",
+        "#dccd6c",
+        "#ef821e",
+        "#ce7117",
+        "#e50012"
+      ]
+    },
+    {
+      "name": "barboach",
+      "id": 339,
+      "colors": [
+        "#57c2e9",
+        "#4ba9cb",
+        "#d3d9db",
+        "#adb2b4",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "whiscash",
+      "id": 340,
+      "colors": [
+        "#1d2087",
+        "#181878",
+        "#57c2e9",
+        "#4ba9cb",
+        "#dbc77f",
+        "#0d131a",
+        "#ffe792",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "corphish",
+      "id": 341,
+      "colors": [
+        "#0d131a",
+        "#e95532",
+        "#ca4829",
+        "#b3aea6",
+        "#dbd5ca",
+        "#922f00",
+        "#ed8599",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "crawdaunt",
+      "id": 342,
+      "colors": [
+        "#0d131a",
+        "#e50020",
+        "#c60019",
+        "#ffffff",
+        "#dbdcdc",
+        "#b3aea6",
+        "#ffee7d",
+        "#dbd5ca",
+        "#00a4e3",
+        "#008fc5",
+        "#dccd6c"
+      ]
+    },
+    {
+      "name": "baltoy",
+      "id": 343,
+      "colors": [
+        "#d4c79f",
+        "#b7ad8a",
+        "#e85377",
+        "#c94768",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "claydol",
+      "id": 344,
+      "colors": [
+        "#595757",
+        "#3e3a39",
+        "#ffffff",
+        "#dcc552",
+        "#ffe45f",
+        "#dbdcdc",
+        "#0d131a",
+        "#ea6d8d",
+        "#cb5e7c"
+      ]
+    },
+    {
+      "name": "lileep",
+      "id": 345,
+      "colors": [
+        "#767cba",
+        "#666ba1",
+        "#dbc77f",
+        "#ffe792",
+        "#0d131a",
+        "#f9dad9",
+        "#d7bdbc",
+        "#ffffff",
+        "#db6aa3",
+        "#be5b8e"
+      ]
+    },
+    {
+      "name": "cradily",
+      "id": 346,
+      "colors": [
+        "#0d131a",
+        "#a7d081",
+        "#90b571",
+        "#ffe792",
+        "#dbc77f",
+        "#f9dad9",
+        "#db6aa3"
+      ]
+    },
+    {
+      "name": "anorith",
+      "id": 347,
+      "colors": [
+        "#595757",
+        "#3e3a39",
+        "#eef3f6",
+        "#cacfd2",
+        "#e85377",
+        "#ffffff",
+        "#dbdcdc",
+        "#77a48f",
+        "#c94768",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "armaldo",
+      "id": 348,
+      "colors": [
+        "#0d131a",
+        "#595757",
+        "#3e3a39",
+        "#3396cd",
+        "#2880ae",
+        "#eef3f6",
+        "#cacfd2",
+        "#ffffff",
+        "#ffe792",
+        "#dbc77f",
+        "#e85377",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "feebas",
+      "id": 349,
+      "colors": [
+        "#a1bfd3",
+        "#839dae",
+        "#0d131a",
+        "#d4c79f",
+        "#b7ad8a",
+        "#9f8c55",
+        "#ed85a7",
+        "#cd7491",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "milotic",
+      "id": 350,
+      "colors": [
+        "#e85377",
+        "#c94768",
+        "#0d131a",
+        "#00aeeb",
+        "#fff1ac",
+        "#ba004f",
+        "#dcd096",
+        "#0098cd",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "castform",
+      "id": 351,
+      "colors": [
+        "#0d131a",
+        "#dad8e4",
+        "#b7b6c0",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "kecleon",
+      "id": 352,
+      "colors": [
+        "#0d131a",
+        "#39b382",
+        "#2f9c73",
+        "#f2e100",
+        "#b50029",
+        "#8f001a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "shuppet",
+      "id": 353,
+      "colors": [
+        "#567c9d",
+        "#6791b9",
+        "#0d131a",
+        "#7fccec",
+        "#fff095",
+        "#c6e7f9",
+        "#b6c6dc",
+        "#fffbd0"
+      ]
+    },
+    {
+      "name": "banette",
+      "id": 354,
+      "colors": [
+        "#ffee7d",
+        "#dccd6c",
+        "#888888",
+        "#595757",
+        "#ed85ad",
+        "#cd7497",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "duskull",
+      "id": 355,
+      "colors": [
+        "#0d131a",
+        "#716f5f",
+        "#3e392d",
+        "#e6e2c8",
+        "#c1bea9",
+        "#f9dbe8",
+        "#f3b3cf",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "dusclops",
+      "id": 356,
+      "colors": [
+        "#e5e3da",
+        "#c1bfb8",
+        "#888780",
+        "#595750",
+        "#ffffff",
+        "#ea6d8d",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "tropius",
+      "id": 357,
+      "colors": [
+        "#e8b67d",
+        "#ffee7d",
+        "#00a63c",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a",
+        "#009233",
+        "#c39969",
+        "#dccd6c"
+      ]
+    },
+    {
+      "name": "chimecho",
+      "id": 358,
+      "colors": [
+        "#d3ebf3",
+        "#e85377",
+        "#c94768",
+        "#b6ccd2",
+        "#0d131a",
+        "#ffe792",
+        "#dbc77f",
+        "#fff4cc",
+        "#ed8599",
+        "#922f00"
+      ]
+    },
+    {
+      "name": "absol",
+      "id": 359,
+      "colors": [
+        "#0d131a",
+        "#005e96",
+        "#004c7e",
+        "#cacfd2",
+        "#eef3f6",
+        "#ffffff",
+        "#e50044",
+        "#c6003a"
+      ]
+    },
+    {
+      "name": "wynaut",
+      "id": 360,
+      "colors": [
+        "#0d131a",
+        "#5dc1cf",
+        "#50a8b4",
+        "#595757",
+        "#3e3a39",
+        "#ffffff",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "snorunt",
+      "id": 361,
+      "colors": [
+        "#686d70",
+        "#515457",
+        "#ffe792",
+        "#dbc77f",
+        "#ef8337",
+        "#ce712e",
+        "#ffffff",
+        "#00b8ee",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "glalie",
+      "id": 362,
+      "colors": [
+        "#30353a",
+        "#9ba4a9",
+        "#d3ebf3",
+        "#b6ccd2",
+        "#00b8ee",
+        "#00a0cf",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "spheal",
+      "id": 363,
+      "colors": [
+        "#0d131a",
+        "#65a9dc",
+        "#5892bf",
+        "#fffbda",
+        "#dcd9bd",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "sealeo",
+      "id": 364,
+      "colors": [
+        "#00b8ee",
+        "#00a0cf",
+        "#fffbda",
+        "#dcd9bd",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc",
+        "#eef3f6",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "walrein",
+      "id": 365,
+      "colors": [
+        "#0086bb",
+        "#006b95",
+        "#eef3f6",
+        "#cacfd2",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#ffe792",
+        "#dbc77f",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "clamperl",
+      "id": 366,
+      "colors": [
+        "#2e8bbe",
+        "#ffffff",
+        "#2c343a",
+        "#0d131a",
+        "#7dccf3",
+        "#6cb2d3",
+        "#f6c8d6",
+        "#d5adba",
+        "#922f00",
+        "#36a0da",
+        "#fae5ee"
+      ]
+    },
+    {
+      "name": "huntail",
+      "id": 367,
+      "colors": [
+        "#00b8ee",
+        "#00a0cf",
+        "#f2984f",
+        "#d18344",
+        "#922f00",
+        "#6a1a00",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "gorebyss",
+      "id": 368,
+      "colors": [
+        "#a586bc",
+        "#8f75a3",
+        "#f6c8dd",
+        "#d5adbf",
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "relicanth",
+      "id": 369,
+      "colors": [
+        "#585a4e",
+        "#727364",
+        "#c6bca8",
+        "#a69f8e",
+        "#e63556",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "luvdisc",
+      "id": 370,
+      "colors": [
+        "#f6c8d6",
+        "#cd7491",
+        "#ed85a7",
+        "#ffffff",
+        "#fceef4",
+        "#fae5ee",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "bagon",
+      "id": 371,
+      "colors": [
+        "#0d131a",
+        "#00b8ee",
+        "#00a0cf",
+        "#adb2b4",
+        "#fff095",
+        "#dccf81",
+        "#ffffff",
+        "#d3d9db",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "shelgon",
+      "id": 372,
+      "colors": [
+        "#515457",
+        "#e3eff5",
+        "#7e8387",
+        "#c1cbd1",
+        "#99003f",
+        "#ffe792",
+        "#dbc77f",
+        "#ba004f",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "salamence",
+      "id": 373,
+      "colors": [
+        "#00a0b6",
+        "#008c9f",
+        "#e3eff5",
+        "#c1cbd1",
+        "#99003f",
+        "#ba004f",
+        "#ffffff",
+        "#922f00",
+        "#ed8599",
+        "#ce7486",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "beldum",
+      "id": 374,
+      "colors": [
+        "#dcdbd6",
+        "#b4b4b0",
+        "#00add1",
+        "#0093b2",
+        "#0d131a",
+        "#e85377",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "metang",
+      "id": 375,
+      "colors": [
+        "#dcdbd6",
+        "#00add1",
+        "#0093b2",
+        "#b4b4b0",
+        "#0d131a",
+        "#e85377"
+      ]
+    },
+    {
+      "name": "metagross",
+      "id": 376,
+      "colors": [
+        "#0d131a",
+        "#9e9e9a",
+        "#00add1",
+        "#0093b2",
+        "#005366",
+        "#c9c9c4",
+        "#e85377"
+      ]
+    },
+    {
+      "name": "regirock",
+      "id": 377,
+      "colors": [
+        "#dbd5ca",
+        "#b3aea6",
+        "#db4f03",
+        "#b94100",
+        "#f19963",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "regice",
+      "id": 378,
+      "colors": [
+        "#c6e7f9",
+        "#7dccf3",
+        "#6cb2d3",
+        "#ffec60",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "registeel",
+      "id": 379,
+      "colors": [
+        "#dce5dd",
+        "#b9c1bb",
+        "#595757",
+        "#191919",
+        "#e63556",
+        "#0d131a",
+        "#c72b4a",
+        "#eef3ef"
+      ]
+    },
+    {
+      "name": "latias",
+      "id": 380,
+      "colors": [
+        "#e50044",
+        "#c6003a",
+        "#0d131a",
+        "#d2e5f6",
+        "#ffffff",
+        "#ed8599",
+        "#b5c6d5",
+        "#008fc5",
+        "#f9be00"
+      ]
+    },
+    {
+      "name": "latios",
+      "id": 381,
+      "colors": [
+        "#ffffff",
+        "#dbdcdc",
+        "#0d131a",
+        "#00a4e3",
+        "#e50044",
+        "#b4b4b5",
+        "#008fc5"
+      ]
+    },
+    {
+      "name": "kyogre",
+      "id": 382,
+      "colors": [
+        "#005d9b",
+        "#e50038",
+        "#0d131a",
+        "#eef3f6",
+        "#cacfd2",
+        "#00497d",
+        "#ffe45f"
+      ]
+    },
+    {
+      "name": "groudon",
+      "id": 383,
+      "colors": [
+        "#ba0031",
+        "#db8f86",
+        "#990024",
+        "#6c5d4e",
+        "#0d131a",
+        "#eeeeef",
+        "#c8c9ca",
+        "#968471",
+        "#ffffff",
+        "#dbdcdc",
+        "#fccf00",
+        "#dab300"
+      ]
+    },
+    {
+      "name": "rayquaza",
+      "id": 384,
+      "colors": [
+        "#0d131a",
+        "#e85377",
+        "#008c46",
+        "#009f50",
+        "#c94768",
+        "#ffec60",
+        "#ddcc54",
+        "#eeeeef",
+        "#c8c9ca",
+        "#ed8599",
+        "#ce7486",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "jirachi",
+      "id": 385,
+      "colors": [
+        "#ffe792",
+        "#dbc77f",
+        "#0d131a",
+        "#e9eff8",
+        "#c9cfd7",
+        "#60c0bd",
+        "#922f00",
+        "#ed8599",
+        "#bedfc2",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "deoxys-normal",
+      "id": 386,
+      "colors": [
+        "#e95532",
+        "#ca4829",
+        "#00aecb",
+        "#0098b1",
+        "#686d70",
+        "#515457",
+        "#767cba",
+        "#666ba1",
+        "#a499c9",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "turtwig",
+      "id": 387,
+      "colors": [
+        "#c0dc96",
+        "#d3965c",
+        "#ed8599",
+        "#922f00",
+        "#ffe33f",
+        "#009f50",
+        "#0d131a",
+        "#a5be83",
+        "#dcc437",
+        "#ce7486",
+        "#008c46",
+        "#ad7b49",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "grotle",
+      "id": 388,
+      "colors": [
+        "#6db17f",
+        "#fccf00",
+        "#ffffff",
+        "#009f50",
+        "#d3965c",
+        "#ed8599",
+        "#922f00",
+        "#008c46",
+        "#ad7b49",
+        "#5e9a6e",
+        "#dab300",
+        "#dbdcdc",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "torterra",
+      "id": 389,
+      "colors": [
+        "#009f50",
+        "#515457",
+        "#ffffff",
+        "#e50044",
+        "#ed8599",
+        "#d3965c",
+        "#d3d9db",
+        "#922f00",
+        "#008c46",
+        "#adb2b4",
+        "#ad7b49",
+        "#383839",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "chimchar",
+      "id": 390,
+      "colors": [
+        "#ef8200",
+        "#fff1ac",
+        "#e50020",
+        "#f9be00",
+        "#e50012",
+        "#ffffff",
+        "#cf7100",
+        "#dcd096",
+        "#c6000b",
+        "#3e4e57",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "monferno",
+      "id": 391,
+      "colors": [
+        "#e50020",
+        "#f9be00",
+        "#f29600",
+        "#d18200",
+        "#0d131a",
+        "#ffffff",
+        "#0086bb",
+        "#eacaaa",
+        "#c5aa90",
+        "#dbdcdc",
+        "#d7a400"
+      ]
+    },
+    {
+      "name": "infernape",
+      "id": 392,
+      "colors": [
+        "#db4f03",
+        "#b94100",
+        "#0d131a",
+        "#e50020",
+        "#fcd13e",
+        "#ed8599",
+        "#ffffff",
+        "#005b96",
+        "#d9b536",
+        "#dbdcdc",
+        "#004a7e"
+      ]
+    },
+    {
+      "name": "piplup",
+      "id": 393,
+      "colors": [
+        "#9ed8f5",
+        "#36a0da",
+        "#ffffff",
+        "#fcd25b",
+        "#ed8599",
+        "#d9b64f",
+        "#922f00",
+        "#ce7486",
+        "#2e8bbe",
+        "#88bbd5",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "prinplup",
+      "id": 394,
+      "colors": [
+        "#9ed8f5",
+        "#ffffff",
+        "#36a0da",
+        "#f9bf3d",
+        "#005b96",
+        "#004a7e",
+        "#88bbd5",
+        "#d6a535",
+        "#0d131a",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "empoleon",
+      "id": 395,
+      "colors": [
+        "#f5ac3c",
+        "#ffffff",
+        "#36a0da",
+        "#3e4e57",
+        "#5084c4",
+        "#27333a",
+        "#afbfe2",
+        "#4573ab",
+        "#d49433",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "starly",
+      "id": 396,
+      "colors": [
+        "#e3eff5",
+        "#3f3927",
+        "#888780",
+        "#ef8200",
+        "#717069",
+        "#cf7100",
+        "#c1cbd1",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "staravia",
+      "id": 397,
+      "colors": [
+        "#ef8200",
+        "#ed8599",
+        "#e3eff5",
+        "#888780",
+        "#3f3927",
+        "#717069",
+        "#c1cbd1",
+        "#cf7100",
+        "#ce7486",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "staraptor",
+      "id": 398,
+      "colors": [
+        "#ffffff",
+        "#888780",
+        "#e95532",
+        "#e3eff5",
+        "#3f3927",
+        "#d7a400",
+        "#f9be00",
+        "#717069",
+        "#c1cbd1",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "bidoof",
+      "id": 399,
+      "colors": [
+        "#d18200",
+        "#776b59",
+        "#ffffff",
+        "#e50012",
+        "#fff3c2",
+        "#dbd2a9",
+        "#ab6a00",
+        "#594f41",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "bibarel",
+      "id": 400,
+      "colors": [
+        "#776b59",
+        "#fff3c2",
+        "#594f41",
+        "#dbd2a9",
+        "#d18200",
+        "#ab6a00",
+        "#0d131a",
+        "#e50012",
+        "#ffffff",
+        "#c6000b",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "kricketot",
+      "id": 401,
+      "colors": [
+        "#717071",
+        "#595757",
+        "#0d131a",
+        "#fff1ac",
+        "#e7380d",
+        "#91301d",
+        "#782310",
+        "#c82f07",
+        "#dcd096",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "kricketune",
+      "id": 402,
+      "colors": [
+        "#e7380d",
+        "#717071",
+        "#fff1ac",
+        "#91301d",
+        "#c82f07",
+        "#595757",
+        "#dcd096",
+        "#782310",
+        "#0d131a",
+        "#ffffff",
+        "#c39073"
+      ]
+    },
+    {
+      "name": "shinx",
+      "id": 403,
+      "colors": [
+        "#f9be00",
+        "#3e3a39",
+        "#d7a400",
+        "#0d131a",
+        "#7dccf3",
+        "#ed8599",
+        "#922f00",
+        "#e50012",
+        "#ffffff",
+        "#6cb2d3",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "luxio",
+      "id": 404,
+      "colors": [
+        "#7dccf3",
+        "#3e3a39",
+        "#ffffff",
+        "#f9be00",
+        "#e50012",
+        "#d7a400",
+        "#6cb2d3",
+        "#2e2624",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "luxray",
+      "id": 405,
+      "colors": [
+        "#f9be00",
+        "#3e3a39",
+        "#d7a400",
+        "#0d131a",
+        "#7dccf3",
+        "#e50012",
+        "#6cb2d3"
+      ]
+    },
+    {
+      "name": "budew",
+      "id": 406,
+      "colors": [
+        "#8bc56c",
+        "#fff362",
+        "#009233",
+        "#00aeeb",
+        "#e9545d",
+        "#d6e6ae",
+        "#ded255",
+        "#78ab5e",
+        "#007a28",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "roserade",
+      "id": 407,
+      "colors": [
+        "#00a63c",
+        "#ffffff",
+        "#a6d296",
+        "#ffe45f",
+        "#00aeeb",
+        "#e9545d",
+        "#009233",
+        "#dcc552",
+        "#8fb683",
+        "#dbdcdc",
+        "#0098cd",
+        "#c94850",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "cranidos",
+      "id": 408,
+      "colors": [
+        "#65a9dc",
+        "#adb2b4",
+        "#922f00",
+        "#ed8599",
+        "#ffffff",
+        "#eeeeef",
+        "#838688",
+        "#bc697b",
+        "#c8c9ca",
+        "#bad4ee",
+        "#e50044",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "rampardos",
+      "id": 409,
+      "colors": [
+        "#686d70",
+        "#0086bb",
+        "#515457",
+        "#006b95",
+        "#922f00",
+        "#ed8599",
+        "#6a1a00",
+        "#ce7486",
+        "#eeeeef",
+        "#c8c9ca",
+        "#30353a",
+        "#e50044",
+        "#80bedd",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "shieldon",
+      "id": 410,
+      "colors": [
+        "#fbd375",
+        "#71706d",
+        "#ffffff",
+        "#dbdcdc",
+        "#bebeba",
+        "#595754",
+        "#d9b766",
+        "#b4b4b5",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "bastiodon",
+      "id": 411,
+      "colors": [
+        "#717071",
+        "#595757",
+        "#fbd375",
+        "#ce7486",
+        "#dbdcdc",
+        "#d9b766",
+        "#333333",
+        "#b4b4b5",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "burmy",
+      "id": 412,
+      "colors": [
+        "#717071",
+        "#68ae28",
+        "#be9c59",
+        "#56931f",
+        "#a5874c",
+        "#595757",
+        "#0d131a",
+        "#fcd13e"
+      ]
+    },
+    {
+      "name": "wormadam-plant",
+      "id": 413,
+      "colors": [
+        "#68ae28",
+        "#ffffff",
+        "#006e38",
+        "#717071",
+        "#56931f",
+        "#005b2b",
+        "#595757",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "mothim",
+      "id": 414,
+      "colors": [
+        "#717071",
+        "#fcd25b",
+        "#ef8200",
+        "#eeeeef",
+        "#d9b64f",
+        "#cf7100",
+        "#595757",
+        "#c8c9ca",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "combee",
+      "id": 415,
+      "colors": [
+        "#f9be00",
+        "#ec6c00",
+        "#e73820",
+        "#ed8599",
+        "#595757",
+        "#ffffff",
+        "#d7a400",
+        "#3e3a39",
+        "#cc5d00",
+        "#922f00",
+        "#dbdcdc",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "vespiquen",
+      "id": 416,
+      "colors": [
+        "#f9be00",
+        "#ffffff",
+        "#ec6c00",
+        "#d83338",
+        "#595757",
+        "#d7a400",
+        "#cc5d00",
+        "#b7272d",
+        "#3e3a39",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "pachirisu",
+      "id": 417,
+      "colors": [
+        "#ffffff",
+        "#80cce3",
+        "#dbdcdc",
+        "#0d131a",
+        "#ffe45f",
+        "#922f00",
+        "#ed8599"
+      ]
+    },
+    {
+      "name": "buizel",
+      "id": 418,
+      "colors": [
+        "#f29600",
+        "#fff1ac",
+        "#ed8599",
+        "#ffffff",
+        "#fccf00",
+        "#00b8ee",
+        "#ce7486",
+        "#dcd096",
+        "#d18200",
+        "#dab300",
+        "#00a0cf",
+        "#922f00",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "floatzel",
+      "id": 419,
+      "colors": [
+        "#f29600",
+        "#fccf00",
+        "#fff1ac",
+        "#00b8ee",
+        "#0d131a",
+        "#d18200",
+        "#dab300",
+        "#dcd096",
+        "#00a0cf",
+        "#8a969d",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "cherubi",
+      "id": 420,
+      "colors": [
+        "#ee848c",
+        "#ba0058",
+        "#ce737b",
+        "#0d131a",
+        "#009f50",
+        "#008c46",
+        "#f6c6c5",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "cherrim",
+      "id": 421,
+      "colors": [
+        "#b76870",
+        "#904f57",
+        "#915e82",
+        "#7f5072",
+        "#009f50",
+        "#008c46",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "shellos",
+      "id": 422,
+      "colors": [
+        "#f09cb4",
+        "#ffe33f",
+        "#ffffff",
+        "#ea6d8d",
+        "#dbdcdc",
+        "#d0879d",
+        "#dcc437",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "gastrodon",
+      "id": 423,
+      "colors": [
+        "#a4725d",
+        "#ffe33f",
+        "#f09cb4",
+        "#d0879d",
+        "#815847",
+        "#dcc437",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "ambipom",
+      "id": 424,
+      "colors": [
+        "#fff1ac",
+        "#dcd096",
+        "#796bae",
+        "#695c97",
+        "#0d131a",
+        "#e95532",
+        "#ffffff",
+        "#ca4829"
+      ]
+    },
+    {
+      "name": "drifloon",
+      "id": 425,
+      "colors": [
+        "#a586bc",
+        "#fcd13e",
+        "#8f75a3",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "drifblim",
+      "id": 426,
+      "colors": [
+        "#e85377",
+        "#c4bfd7",
+        "#7c70a2",
+        "#ffffff",
+        "#fcd13e",
+        "#d9b536",
+        "#a5a1b5",
+        "#655b86",
+        "#c94768",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "buneary",
+      "id": 427,
+      "colors": [
+        "#fff1ac",
+        "#f09cb4",
+        "#ce723f",
+        "#ed8599",
+        "#922f00",
+        "#a95c31",
+        "#dcd096",
+        "#ce7486",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "lopunny",
+      "id": 428,
+      "colors": [
+        "#fff1ac",
+        "#dcd096",
+        "#0d131a",
+        "#ce723f",
+        "#a95c31",
+        "#d0879d",
+        "#f09cb4",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "mismagius",
+      "id": 429,
+      "colors": [
+        "#ed85ad",
+        "#60538b",
+        "#4a3f6f",
+        "#0d131a",
+        "#922f00",
+        "#ffe45f",
+        "#e4004f",
+        "#f09b9e",
+        "#cd7497",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "honchkrow",
+      "id": 430,
+      "colors": [
+        "#003e6a",
+        "#b50029",
+        "#ffffff",
+        "#595757",
+        "#ffe792",
+        "#002e54",
+        "#dbdcdc",
+        "#3e3a39",
+        "#8f001a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "glameow",
+      "id": 431,
+      "colors": [
+        "#72a6be",
+        "#ffffff",
+        "#dbdcdc",
+        "#f09cb4",
+        "#d0879d",
+        "#5c899d",
+        "#0d131a",
+        "#00aeeb",
+        "#007bba",
+        "#fff095"
+      ]
+    },
+    {
+      "name": "purugly",
+      "id": 432,
+      "colors": [
+        "#ffffff",
+        "#fff095",
+        "#a586bc",
+        "#f09cb4",
+        "#72a6be",
+        "#5c899d",
+        "#dbdcdc",
+        "#d0879d",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "chingling",
+      "id": 433,
+      "colors": [
+        "#e85377",
+        "#e9eff8",
+        "#c94768",
+        "#c9cfd7",
+        "#0d131a",
+        "#fcd13e",
+        "#d9b536",
+        "#595757"
+      ]
+    },
+    {
+      "name": "stunky",
+      "id": 434,
+      "colors": [
+        "#ffffff",
+        "#55295a",
+        "#fff3c2",
+        "#49204e",
+        "#f29600",
+        "#d18200",
+        "#dbdcdc",
+        "#dbd2a9",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "skuntank",
+      "id": 435,
+      "colors": [
+        "#fff3c2",
+        "#55295a",
+        "#ed8599",
+        "#f29600",
+        "#ffffff",
+        "#49204e",
+        "#dbd2a9",
+        "#d18200",
+        "#ce7486",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "bronzor",
+      "id": 436,
+      "colors": [
+        "#009fd9",
+        "#008086",
+        "#f9be00",
+        "#008cbe",
+        "#00666c",
+        "#76b8bd",
+        "#7fccec",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "bronzong",
+      "id": 437,
+      "colors": [
+        "#c6dcdb",
+        "#0099a9",
+        "#67b4b6",
+        "#008290",
+        "#485157",
+        "#e73820",
+        "#589d9f",
+        "#a7bab9",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "bonsly",
+      "id": 438,
+      "colors": [
+        "#00a63c",
+        "#009233",
+        "#0d131a",
+        "#d3965c",
+        "#ad7b49",
+        "#fff095",
+        "#ed8599",
+        "#922f00",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "mime-jr",
+      "id": 439,
+      "colors": [
+        "#00568a",
+        "#f9dbe8",
+        "#ee848c",
+        "#d7beca",
+        "#ce737b",
+        "#00426f",
+        "#0d131a",
+        "#ffffff",
+        "#dbdcdc",
+        "#f6c6c5"
+      ]
+    },
+    {
+      "name": "happiny",
+      "id": 440,
+      "colors": [
+        "#f9dbe1",
+        "#ee848c",
+        "#ffffff",
+        "#d7bdc4",
+        "#ce737b",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "chatot",
+      "id": 441,
+      "colors": [
+        "#485157",
+        "#30353a",
+        "#0d131a",
+        "#fccf00",
+        "#009f50",
+        "#00aeeb",
+        "#eef3f6",
+        "#cacfd2",
+        "#dab300",
+        "#0098cd",
+        "#008c46",
+        "#ffffff",
+        "#f09ba5",
+        "#d08690",
+        "#922f00",
+        "#ed8599",
+        "#f8d0d3"
+      ]
+    },
+    {
+      "name": "spiritomb",
+      "id": 442,
+      "colors": [
+        "#ba7aa5",
+        "#a16990",
+        "#68ae28",
+        "#dbd5ca",
+        "#b3aea6",
+        "#ffee7d",
+        "#56931f",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "gible",
+      "id": 443,
+      "colors": [
+        "#4b91ad",
+        "#e73820",
+        "#ffffff",
+        "#7fccec",
+        "#377389",
+        "#6db2cd",
+        "#c82e19",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "gabite",
+      "id": 444,
+      "colors": [
+        "#5892bf",
+        "#e73820",
+        "#afb7d5",
+        "#3e4e57",
+        "#ffec60",
+        "#ffffff",
+        "#46799e",
+        "#949bb4",
+        "#27333a",
+        "#ddcc54",
+        "#c82e19",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "garchomp",
+      "id": 445,
+      "colors": [
+        "#4b5170",
+        "#e73820",
+        "#f9be00",
+        "#3e4e57",
+        "#ffffff",
+        "#393d59",
+        "#c82e19",
+        "#dbdcdc",
+        "#d7a400",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "munchlax",
+      "id": 446,
+      "colors": [
+        "#dcd096",
+        "#dbdcdc",
+        "#0099a9",
+        "#ffffff",
+        "#fff1ac",
+        "#008290",
+        "#0d131a",
+        "#804a0c"
+      ]
+    },
+    {
+      "name": "riolu",
+      "id": 447,
+      "colors": [
+        "#59bdec",
+        "#4ca4cd",
+        "#0d131a",
+        "#686d70",
+        "#fffbda",
+        "#ffffff",
+        "#ec6c1f",
+        "#515457",
+        "#dcd9bd",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "lucario",
+      "id": 448,
+      "colors": [
+        "#00a4e3",
+        "#008fc5",
+        "#686d70",
+        "#515457",
+        "#ffffff",
+        "#fffbda",
+        "#dcd9bd",
+        "#dbdcdc",
+        "#e95520",
+        "#ca4819",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "hippopotas",
+      "id": 449,
+      "colors": [
+        "#fbd375",
+        "#be9c59",
+        "#864b16",
+        "#d9b766",
+        "#ffffff",
+        "#0d131a",
+        "#6a3906",
+        "#a5874c",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "hippowdon",
+      "id": 450,
+      "colors": [
+        "#717071",
+        "#595757",
+        "#aa941d",
+        "#948016",
+        "#ed8599",
+        "#ffffff",
+        "#e50044",
+        "#ce7486",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "skorupi",
+      "id": 451,
+      "colors": [
+        "#88a3d4",
+        "#009be4",
+        "#778db8",
+        "#ffffff",
+        "#4b5170",
+        "#393d59",
+        "#dbdcdc",
+        "#c6d0ea",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "drapion",
+      "id": 452,
+      "colors": [
+        "#922169",
+        "#ba7aa5",
+        "#ed8599",
+        "#922f00",
+        "#009be4",
+        "#ffffff",
+        "#740f52",
+        "#a16990",
+        "#dbdcdc",
+        "#ce7486",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "croagunk",
+      "id": 453,
+      "colors": [
+        "#595757",
+        "#187fc3",
+        "#ffffff",
+        "#f29600",
+        "#f9be00",
+        "#f9cb87",
+        "#136eaa",
+        "#d18200",
+        "#3e3a39",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "toxicroak",
+      "id": 454,
+      "colors": [
+        "#00add1",
+        "#e85377",
+        "#595757",
+        "#f9be00",
+        "#922f00",
+        "#ed8599",
+        "#ffffff",
+        "#0093b2",
+        "#3e3a39",
+        "#dbdcdc",
+        "#c94768",
+        "#ce7486",
+        "#f3b1b9",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "carnivine",
+      "id": 455,
+      "colors": [
+        "#d7a400",
+        "#8bc56c",
+        "#78ab5e",
+        "#e85377",
+        "#00a63c",
+        "#ffffff",
+        "#009233",
+        "#c94768",
+        "#f9be00",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "finneon",
+      "id": 456,
+      "colors": [
+        "#9ed8f5",
+        "#e75297",
+        "#003a59",
+        "#88bbd5",
+        "#c94683",
+        "#002d49",
+        "#0d131a",
+        "#85899c",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "lumineon",
+      "id": 457,
+      "colors": [
+        "#9ed8f5",
+        "#003a59",
+        "#002d49",
+        "#e75297",
+        "#88bbd5",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "mantyke",
+      "id": 458,
+      "colors": [
+        "#00a4e3",
+        "#008fc5",
+        "#d2ecfa",
+        "#b6ccd9",
+        "#0d131a",
+        "#ffffff",
+        "#9fd2f1"
+      ]
+    },
+    {
+      "name": "snover",
+      "id": 459,
+      "colors": [
+        "#0099a9",
+        "#b1826f",
+        "#ffffff",
+        "#008290",
+        "#dbdcdc",
+        "#956e5d",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "abomasnow",
+      "id": 460,
+      "colors": [
+        "#ffffff",
+        "#0099a9",
+        "#dbdcdc",
+        "#cea6cc",
+        "#008290",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "weavile",
+      "id": 461,
+      "colors": [
+        "#c60044",
+        "#a30035",
+        "#1a657e",
+        "#074f64",
+        "#eeeeef",
+        "#c8c9ca",
+        "#f29600",
+        "#d18200",
+        "#ffffff",
+        "#dbdcdc",
+        "#ed8599",
+        "#922f00",
+        "#f9cb87",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "magnezone",
+      "id": 462,
+      "colors": [
+        "#759ab5",
+        "#87b1d0",
+        "#595757",
+        "#717071",
+        "#888784",
+        "#ffffff",
+        "#b4b4b0",
+        "#e50020",
+        "#0d131a",
+        "#fcd13e",
+        "#d9b536",
+        "#c6d8e8",
+        "#dbdcdc"
+      ]
+    },
+    {
+      "name": "lickilicky",
+      "id": 463,
+      "colors": [
+        "#ed8599",
+        "#ffffff",
+        "#f7c6bd",
+        "#ffe45f",
+        "#ce7486",
+        "#dbdcdc",
+        "#d5aba4",
+        "#0d131a",
+        "#f6c7ce",
+        "#fbe4de"
+      ]
+    },
+    {
+      "name": "rhyperior",
+      "id": 464,
+      "colors": [
+        "#b94100",
+        "#5f5264",
+        "#c9cfd7",
+        "#ffffff",
+        "#e50044",
+        "#504454",
+        "#922f00",
+        "#a5aab0",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "tangrowth",
+      "id": 465,
+      "colors": [
+        "#717071",
+        "#00add1",
+        "#e9545d",
+        "#0093b2",
+        "#c94850",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "electivire",
+      "id": 466,
+      "colors": [
+        "#7e8387",
+        "#515457",
+        "#fcd13e",
+        "#e95520",
+        "#ffffff",
+        "#d9b536",
+        "#383839",
+        "#686d70",
+        "#dbdcdc",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "magmortar",
+      "id": 467,
+      "colors": [
+        "#e73820",
+        "#f9be00",
+        "#595757",
+        "#f09cb4",
+        "#eeeeef",
+        "#ffffff",
+        "#d0879d",
+        "#ce7486",
+        "#c82e19",
+        "#dbdcdc",
+        "#3e3a39",
+        "#d7a400",
+        "#c8c9ca",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "togekiss",
+      "id": 468,
+      "colors": [
+        "#eaf5fc",
+        "#e50044",
+        "#0075c1",
+        "#922f00",
+        "#ed8599",
+        "#cad4db",
+        "#c6003a",
+        "#0066a8",
+        "#ce7486",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "yanmega",
+      "id": 469,
+      "colors": [
+        "#e85377",
+        "#ffffff",
+        "#0d131a",
+        "#007b36",
+        "#3e3a39",
+        "#00662a",
+        "#c94768",
+        "#f3b1b9"
+      ]
+    },
+    {
+      "name": "leafeon",
+      "id": 470,
+      "colors": [
+        "#fff1ac",
+        "#a36102",
+        "#39b382",
+        "#c0dc96",
+        "#ffffff",
+        "#dcd096",
+        "#804a00",
+        "#2f9c73",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "glaceon",
+      "id": 471,
+      "colors": [
+        "#d2ecfa",
+        "#007a95",
+        "#00b8ee",
+        "#00a0cf",
+        "#00657d",
+        "#b6ccd9",
+        "#ffffff",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "gliscor",
+      "id": 472,
+      "colors": [
+        "#595757",
+        "#827aa0",
+        "#ed8599",
+        "#922f00",
+        "#ffffff",
+        "#e50044",
+        "#ffe100",
+        "#bcb8cf",
+        "#675f80",
+        "#ce7486",
+        "#3e3a39",
+        "#c6003a",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "mamoswine",
+      "id": 473,
+      "colors": [
+        "#865b15",
+        "#d4c79f",
+        "#f6c7ce",
+        "#e5e3da",
+        "#00b8ee",
+        "#0d131a",
+        "#c1bfb8",
+        "#6a4504",
+        "#b7ad8a",
+        "#fbe4e7",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "porygon-z",
+      "id": 474,
+      "colors": [
+        "#e40065",
+        "#fcd13e",
+        "#00a4e3",
+        "#c60057",
+        "#008fc5",
+        "#9fd2f1",
+        "#f09bad",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "gallade",
+      "id": 475,
+      "colors": [
+        "#eef3f6",
+        "#ffffff",
+        "#009a63",
+        "#e85377",
+        "#54b6d3",
+        "#008756",
+        "#459bb3",
+        "#cacfd2",
+        "#0d131a",
+        "#dbdcdc",
+        "#c94768"
+      ]
+    },
+    {
+      "name": "probopass",
+      "id": 476,
+      "colors": [
+        "#96bede",
+        "#515457",
+        "#ffffff",
+        "#4f86b0",
+        "#383839",
+        "#dbdcdc",
+        "#7fa1bb",
+        "#3b6a8c",
+        "#0d131a",
+        "#c8384d",
+        "#ae2e41"
+      ]
+    },
+    {
+      "name": "dusknoir",
+      "id": 477,
+      "colors": [
+        "#cbd1ab",
+        "#595649",
+        "#0d131a",
+        "#edc300",
+        "#e50044",
+        "#352012",
+        "#3e392d",
+        "#c6a400",
+        "#a6ab8c"
+      ]
+    },
+    {
+      "name": "froslass",
+      "id": 478,
+      "colors": [
+        "#ffffff",
+        "#664497",
+        "#7dccf3",
+        "#ffe33f",
+        "#e95520",
+        "#dbdcdc",
+        "#6cb2d3",
+        "#dcc437",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "rotom",
+      "id": 479,
+      "colors": [
+        "#65a9dc",
+        "#bbe1e8",
+        "#f19963",
+        "#ffffff",
+        "#007bba",
+        "#d18456",
+        "#f8ceb0",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "uxie",
+      "id": 480,
+      "colors": [
+        "#ffee7d",
+        "#d2ecfa",
+        "#e85377",
+        "#f3b1b9",
+        "#dccd6c",
+        "#b6ccd9",
+        "#c94768",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "mesprit",
+      "id": 481,
+      "colors": [
+        "#d2ecfa",
+        "#f09dc1",
+        "#ffffff",
+        "#fcd13e",
+        "#e85377",
+        "#f3b1b9",
+        "#b6ccd9",
+        "#c94768",
+        "#d087a7",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "azelf",
+      "id": 482,
+      "colors": [
+        "#d2ecfa",
+        "#e85377",
+        "#b6ccd9",
+        "#f3b1b9",
+        "#c94768",
+        "#00b8ee",
+        "#ffffff",
+        "#fcd13e",
+        "#00a0cf",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "dialga",
+      "id": 483,
+      "colors": [
+        "#005e96",
+        "#80cce3",
+        "#0d131a",
+        "#e73820",
+        "#ed8599",
+        "#d2e5f6",
+        "#ffffff",
+        "#5084c4",
+        "#004c7e",
+        "#6eb1c5",
+        "#b5c6d5",
+        "#dbdcdc",
+        "#afbfe2",
+        "#4573ab",
+        "#ce7486",
+        "#c6e6f2"
+      ]
+    },
+    {
+      "name": "palkia",
+      "id": 484,
+      "colors": [
+        "#e8e6f2",
+        "#e9eff8",
+        "#b4b4b5",
+        "#f19975",
+        "#ad4885",
+        "#ffffff",
+        "#ed8599",
+        "#ce7486",
+        "#c9cfd7",
+        "#923a72",
+        "#c9c7d2",
+        "#888888",
+        "#0d131a",
+        "#e73820",
+        "#f4af8f",
+        "#f7c5ab",
+        "#f8ceb9"
+      ]
+    },
+    {
+      "name": "heatran",
+      "id": 485,
+      "colors": [
+        "#662b1f",
+        "#501d10",
+        "#d3d9db",
+        "#db4f03",
+        "#eeeeef",
+        "#ffffff",
+        "#595757",
+        "#f9be00",
+        "#3e3a39",
+        "#d7a400",
+        "#adb2b4",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "regigigas",
+      "id": 486,
+      "colors": [
+        "#eeeeef",
+        "#fcd13e",
+        "#30353a",
+        "#485157",
+        "#009a63",
+        "#e50044",
+        "#00aecb",
+        "#adb2b4",
+        "#ffffff",
+        "#d9b536",
+        "#c8c9ca",
+        "#c6003a",
+        "#0098b1",
+        "#838688",
+        "#008756",
+        "#ffe8a9",
+        "#0d131a"
+      ]
+    },
+    {
+      "name": "giratina-altered",
+      "id": 487,
+      "colors": [
+        "#595757",
+        "#0d131a",
+        "#adb2b4",
+        "#ba0031",
+        "#edc300",
+        "#ffe792",
+        "#838688",
+        "#c6a400",
+        "#3e3a39",
+        "#990024"
+      ]
+    },
+    {
+      "name": "cresselia",
+      "id": 488,
+      "colors": [
+        "#be6090",
+        "#a04273",
+        "#fbd375",
+        "#85b1df",
+        "#d9b766",
+        "#749ac1",
+        "#0d131a",
+        "#f9dbe1",
+        "#e2acc0",
+        "#a1507b",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "phione",
+      "id": 489,
+      "colors": [
+        "#00b8ee",
+        "#ed8599",
+        "#922f00",
+        "#00a4e3",
+        "#515457",
+        "#e85377",
+        "#00a0cf",
+        "#7dccf3",
+        "#bae2f8",
+        "#f3b1b9",
+        "#008fc5",
+        "#0d131a",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "manaphy",
+      "id": 490,
+      "colors": [
+        "#00b8ee",
+        "#0d131a",
+        "#00a0cf",
+        "#e85377",
+        "#ffee7d",
+        "#006985",
+        "#dccd6c",
+        "#7dccf3",
+        "#bae2f8",
+        "#f3b1b9",
+        "#9ed8f5",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "darkrai",
+      "id": 491,
+      "colors": [
+        "#dbdcdc",
+        "#595757",
+        "#0d131a",
+        "#00678b",
+        "#ffffff",
+        "#ba0031",
+        "#b4b4b5",
+        "#3e3a39",
+        "#990024",
+        "#004965"
+      ]
+    },
+    {
+      "name": "shaymin-land",
+      "id": 492,
+      "colors": [
+        "#ffffff",
+        "#dbdcdc",
+        "#8bc56c",
+        "#78ab5e",
+        "#009f50",
+        "#008c46",
+        "#f3b2c1",
+        "#d29aa8",
+        "#fcd13e",
+        "#0d131a",
+        "#ed8599",
+        "#922f00",
+        "#ce7486"
+      ]
+    },
+    {
+      "name": "arceus",
+      "id": 493,
+      "colors": [
+        "#edc300",
+        "#eef4f7",
+        "#727171",
+        "#0f141b",
+        "#00a051",
+        "#e83921",
+        "#cbd0d3",
+        "#c7a400",
+        "#595857",
+        "#008d46"
+      ]
+    }
+  ]
+}
