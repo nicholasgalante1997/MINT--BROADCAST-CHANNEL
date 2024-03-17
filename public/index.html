@@ -7,27 +7,29 @@
   </head>
   <body>
     <main>
-      <div id="root">
-        <div id="hero-section">
-          <img src="/assets/Angry-Pikachu.png" alt="Pikachu, in attack position on all fours ready to strike!" id="hero-image">
-          <h1>Angry Traders Club</h1>
-          <div>
-            <input type="text">
-            <button>Join</button>
+      <div id="color-section">
+        <span id="color-inspired-by">
+          <img id="color-inspired-by-pokemon-sprite" height="100px" width="auto"> 
+        </span>
+      </div>
+      <div id="controller-section">
+        <div id="controller-tabs-container">
+          <div className="controller-tab" id="poke-index">
+            <span>Pokemon Color Options</span>
           </div>
+        </div>
+        <div id="controller-content-container">
+
         </div>
       </div>
     </main>
     <script type="importmap">
       {
         "imports": {
-          "lodash": "https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm"
+          "lodash": "https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm",
+          "uuid": "https://jspm.dev/uuid"
         }
       }
-    </script>
-    <script type="module">
-      import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
-      window.uuidv4 = uuidv4;
     </script>
     <script type="module" src="js/main.js"></script>
   </body>

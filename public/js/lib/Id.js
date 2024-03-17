@@ -1,9 +1,11 @@
+import { v4 as uuidv4 } from 'uuid';
+
 import logger from './Logger.js';
 import Option from './Option.js';
 
 class Id {
     static getId() {
-        const option = new Option(() => window.uuidv4);
+        const option = new Option(() => uuidv4);
         return option.match(
             (uuidv4) => uuidv4(),
             () => {

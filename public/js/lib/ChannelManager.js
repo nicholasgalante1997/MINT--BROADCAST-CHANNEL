@@ -2,8 +2,16 @@ import Id from './Id.js';
 import logger from './Logger.js';
 
 class ChannelManager {
+    /**
+     * @readonly
+     * @type {string}
+     */
     id;
+    /**
+     * @type {Map<string, BroadcastChannel>}
+     */
     joined;
+    
     constructor(){
         this.joined = new Map();
         this.id = Id.getId();
@@ -11,7 +19,15 @@ class ChannelManager {
 
     join(channel) {
         logger.info("ChannelManager is joining " + channel);
-        this.joined.set(channel, new BroadcastChannel(channel));
+
+        if (this.joined.has(channel)) {
+            logger.warn("Already subscribed to this channel.");
+            return this.joined.get(channel);
+        }
+
+        let bc = new BroadcastChannel(channel);
+        this.joined.set(channel, bc);
+        return bc;
     }
 
     getChannel(channel) {

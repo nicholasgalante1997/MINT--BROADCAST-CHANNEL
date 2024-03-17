@@ -1,6 +1,7 @@
 :root {
     --root-black: #11001c;
     --root-white: #fff;
+    --offset-purple: #3a015c;
     --spacing-unit: 16px;
     --font-size-unit: 16px;
     --font-line-height-unit: 1.15;
@@ -15,10 +16,9 @@ html {
     width: 100%;
     overflow: hidden;
     margin: 0;
-    padding: calc(var(--spacing-unit) * 2);
-    color: var(--root-white);
-    background-color: var(--root-black);
+    padding: 0;
     font-family: system-ui;
+    background-color: var(--root-black);
 
     main {
         height: 100%;
@@ -28,18 +28,50 @@ html {
         justify-content: center;
         align-items: center;
 
-        #hero-section {
+        #color-section {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 8px;
+            flex: 1;
+            width: 100%;
+            position: relative;
 
-            #hero-image {
-                width: 400px;
-                height: auto;
-                image-rendering: optimizeQuality;
-                image-orientation: from-image;
+            #color-inspired-by {
+                position: absolute;
+                right: 24px;
+                bottom: 24px;
+            }
+        }
+
+        #controller-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: var(--spacing-unit);
+            flex: 1;
+            width: 100%;
+            background: var(--root-black);
+            color: var(--root-white);
+            font-family: system-ui;
+
+            * {
+                margin-block: 0px;
+            }
+
+            #controller-tabs-container {
+                min-width: 240px;
+                max-width: 500px;
+                background-color: var(--offset-purple);
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                box-sizing: border-box;
+                padding: var(--spacing-unit);
             }
         }
     }
