@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BROADCAST CHANNEL API</title>
+    <base href="/">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <main>
+      <div id="root">
+        <div id="hero-section">
+          <img src="/assets/Angry-Pikachu.png" alt="Pikachu, in attack position on all fours ready to strike!" id="hero-image">
+          <h1>Angry Traders Club</h1>
+          <div>
+            <input type="text">
+            <button>Join</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="importmap">
+      {
+        "imports": {
+          "lodash": "https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm"
+        }
+      }
+    </script>
+    <script type="module">
+      import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+      window.uuidv4 = uuidv4;
+    </script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
