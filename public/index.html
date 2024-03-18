@@ -1,35 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>BROADCAST CHANNEL API</title>
-    <base href="/">
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <main>
-      <div id="color-section">
-        <span id="color-inspired-by">
-          <img id="color-inspired-by-pokemon-sprite" height="100px" width="auto"> 
+
+<head>
+  <title>BROADCAST CHANNEL API</title>
+  <base href="/">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <main>
+    <div id="color-section">
+      <span id="color-inspired-by">
+        <img id="color-inspired-by-pokemon-sprite" height="100px" width="auto">
+      </span>
+    </div>
+    <div id="controller-section">
+      <div id="controller-top-bar">
+        <span id="controller-bar-expand-or-collapse-container">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" width="40px" enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="angle-down">
+            <path fill="#fff"
+              d="M16.9,9.2c-0.4-0.4-1-0.4-1.4,0L12,12.7L8.5,9.2c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l4.2,4.2c0.2,0.2,0.4,0.3,0.7,0.3c0.3,0,0.5-0.1,0.7-0.3l4.2-4.2C17.3,10.2,17.3,9.6,16.9,9.2z">
+            </path>
+          </svg>
         </span>
       </div>
-      <div id="controller-section">
-        <div id="controller-top-bar">
+      <div id="controller-section-row">
+        <div id="controller-tabs-container">
+          <div className="controller-tab" id="poke-index">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="controller-content-container">
 
         </div>
-        <div id="controller-section-row">
-          <div id="controller-tabs-container">
-            <div className="controller-tab" id="poke-index">
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          <div id="controller-content-container">
-  
-          </div>
-        </div>
       </div>
-    </main>
-    <script type="importmap">
+    </div>
+  </main>
+  <script type="importmap">
       {
         "imports": {
           "color-scales": "https://cdn.skypack.dev/color-scales",
@@ -38,6 +46,7 @@
         }
       }
     </script>
-    <script type="module" src="js/main.js"></script>
-  </body>
+  <script type="module" src="js/main.js"></script>
+</body>
+
 </html>

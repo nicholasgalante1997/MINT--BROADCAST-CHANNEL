@@ -58,7 +58,7 @@ html {
             justify-content: flex-end;
             height: 32px;
             width: calc(100% - 2px);
-            background-color: #fff;
+            background-color: #6c6f75;
         }
 
         #controller-section-row {
@@ -85,7 +85,7 @@ html {
                 justify-content: flex-start;
                 align-items: center;
                 box-sizing: border-box;
-                background-color: #fff;
+                background-color: #6c6f75;
             }
         }
     }

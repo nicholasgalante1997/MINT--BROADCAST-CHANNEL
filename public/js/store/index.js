@@ -3,7 +3,7 @@ import _ from 'lodash';
 let defaultState = {
   db: null,
   ui: {
-    controller: null,
+    controller: null
   }
 };
 
@@ -14,38 +14,38 @@ function createStore(reducer) {
   const getState = () => state;
 
   const dispatch = (action) => {
-      state = reducer(state, action);
-      listeners.forEach(listener => listener());
-  }
+    state = reducer(state, action);
+    listeners.forEach((listener) => listener());
+  };
 
   const subscribe = (listener) => {
-      listeners.push(listener);
-      return () => {
-        const index = listeners.indexOf(listener);
-        if (index !== -1) {
-          listeners.splice(index, 1);
-        }
-      };
+    listeners.push(listener);
+    return () => {
+      const index = listeners.indexOf(listener);
+      if (index !== -1) {
+        listeners.splice(index, 1);
+      }
+    };
   };
 
   dispatch({}); /** Initialize store */
 
-  return { getState, dispatch, subscribe }
+  return { getState, dispatch, subscribe };
 }
 
 function reducer(state = defaultState, action) {
-  switch(action.type) {
+  switch (action.type) {
     case 'pokemon.load': {
       const data = action.payload.data;
       if (data) {
-        return _.merge({ ...state }, { db: { pokemon: data }})
+        return _.merge({ ...state }, { db: { pokemon: data } });
       }
       return { ...state };
     }
     case 'colors.load': {
       const data = action.payload.data;
       if (data) {
-        return _.merge({ ...state }, { db: { colors: data }})
+        return _.merge({ ...state }, { db: { colors: data } });
       }
       return { ...state };
     }
@@ -53,6 +53,6 @@ function reducer(state = defaultState, action) {
       return { ...state };
     }
   }
-} 
+}
 
 export { createStore, reducer };

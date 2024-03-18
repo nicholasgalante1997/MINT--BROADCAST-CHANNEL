@@ -6,6 +6,7 @@
   ],
   "type": "module",
   "scripts": {
+    "fmt": "prettier --write public/js server db",
     "db:write": "node server/write-db.js",
     "db:write-colors": "node server/write-color-db.js",
     "rake:svgs": "node server/pull-images.js",
@@ -23,5 +24,8 @@
     "get-svg-colors": "^2.0.1",
     "lodash": "^4.17.21",
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
