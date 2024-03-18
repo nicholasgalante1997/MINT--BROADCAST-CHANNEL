@@ -5,17 +5,18 @@ class PokePaletteClient {
      * @private
      * @readonly
      */
-    static __POKEPALETTE_ENDPOINT__ = "https://pokepalettes.com/";
+    static __POKEPALETTE_ENDPOINT__ = "/db/colors.json";
 
-    async fetchPalette(pokemon) {
-        const url = PokePaletteClient.__POKEPALETTE_ENDPOINT__ + '#' + pokemon.name;
-        const fetchResult = await fetch(url).catch(e => { Logger.warn(e); return null; })
+    async fetchPalette() {
+        const url = PokePaletteClient.__POKEPALETTE_ENDPOINT__;
+        const fetchResult = await fetch(url)
+            .catch(e => { Logger.warn(e); return null; })
         if (fetchResult) {
-            const pokePalettesPageText = await fetchResult.text().catch(e => { Logger.warn(e); return null; });
-            if (pokePalettesPageText) {
-                Logger.info({ pokePalettesPageText });
-            }
+            return await fetchResult.json()
+                .catch(e => { Logger.warn(e); return null; })
         }
+
+        return null;
     }
 }
 

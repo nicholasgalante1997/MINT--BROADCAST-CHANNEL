@@ -11,6 +11,9 @@ dependencies:
   chalk:
     specifier: ^5.3.0
     version: 5.3.0
+  color-scales:
+    specifier: ^3.0.2
+    version: 3.0.2
   express:
     specifier: ^4.18.3
     version: 4.18.3
@@ -164,6 +167,10 @@ packages:
 
   /chroma-js@2.4.2:
     resolution: {integrity: sha512-U9eDw6+wt7V8z5NncY2jJfZa+hUH8XEj8FQHgFJTrUFnJfXYf4Ml4adI2vXZOjqRDpFWtYVWypDfZwnJ+HIR4A==}
+    dev: false
+
+  /color-scales@3.0.2:
+    resolution: {integrity: sha512-AwX0kUE1Ps6Gv0b8if20DAfgchAs5HRmr+ulBbP4anqcBqUevaj8S9OWVFlYynsfuvB9GF1oSpCWOVNtox7aRA==}
     dev: false
 
   /combined-stream@1.0.8:

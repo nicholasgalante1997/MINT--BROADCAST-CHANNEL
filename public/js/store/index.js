@@ -4,11 +4,6 @@ let defaultState = {
   db: null,
   ui: {
     controller: null,
-    current: 'sign-in',
-    user: {
-      username: null,
-      id: null
-    }
   }
 };
 
@@ -44,6 +39,13 @@ function reducer(state = defaultState, action) {
       const data = action.payload.data;
       if (data) {
         return _.merge({ ...state }, { db: { pokemon: data }})
+      }
+      return { ...state };
+    }
+    case 'colors.load': {
+      const data = action.payload.data;
+      if (data) {
+        return _.merge({ ...state }, { db: { colors: data }})
       }
       return { ...state };
     }
