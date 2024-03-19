@@ -1,6 +1,8 @@
 import Id from './Id.js';
 import logger from './Logger.js';
 
+import colorOnMessage from '../events/color/index.js';
+
 class ChannelManager {
   /**
    * @readonly
@@ -44,4 +46,25 @@ class ChannelManager {
   }
 }
 
-export default ChannelManager;
+let channelManager;
+
+function lazyInitChannelManager() {
+  channelManager = new ChannelManager();
+}
+
+function setupColorChannel() {
+  let colorChannel = channelManager.join('color');
+  colorChannel.onmessage = colorOnMessage;
+}
+
+function getChannelManager() {
+  if (!channelManager) {
+    lazyInitChannelManager();
+    setupColorChannel();
+  }
+
+  return channelManager;
+}
+
+
+export { getChannelManager };

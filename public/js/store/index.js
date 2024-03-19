@@ -55,4 +55,6 @@ function reducer(state = defaultState, action) {
   }
 }
 
-export { createStore, reducer };
+const { dispatch, getState, subscribe } = createStore(reducer);
+
+export { dispatch, getState, subscribe };

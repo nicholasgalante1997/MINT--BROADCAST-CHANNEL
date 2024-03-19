@@ -1,11 +1,106 @@
 import ColorScale from 'color-scales';
-import Logger from '../Logger.js';
+
+import { getState } from '../../store/index.js';
+import { getChannelManager } from '../ChannelManager.js';
 
 class DOMProxy {
   /**
    * @private
    */
   static _interval;
+
+  /**
+   * @private
+   */
+  static _expandOrCollapseControllerVisibilityState = false;
+
+
+  static attachEventListeners() {
+    DOMProxy.attachExpandOrCollapseControllerSectionEventListeners();
+  }
+
+  static attachExpandOrCollapseControllerSectionEventListeners() {
+    const expandOrCollapseContainer = document.getElementById('controller-bar-expand-or-collapse-container');
+    if (expandOrCollapseContainer) {
+      expandOrCollapseContainer.addEventListener('click', () => {
+        const controllerSectionBarIconId = "controller-bar-expand-or-collapse-icon";
+        const controllerSectionBarIcon = document.getElementById(controllerSectionBarIconId);
+        const controllerContentSectionId = "controller-content-container";
+        const controllerContentElement = document.getElementById(controllerContentSectionId);
+
+        if (DOMProxy._expandOrCollapseControllerVisibilityState) {
+          /** Turn Off */
+          DOMProxy._expandOrCollapseControllerVisibilityState = false;
+          controllerContentElement.style.display = "none";
+          controllerContentElement.style.padding = "none";
+          controllerSectionBarIcon.style.transform = "rotate(180deg)";
+          DOMProxy.removePokemonCards();
+        } else {
+          /** Turn On */
+          DOMProxy._expandOrCollapseControllerVisibilityState = true;
+          controllerContentElement.style.display = "flex";
+          controllerContentElement.style.padding = "var(--spacing-unit)";
+          controllerSectionBarIcon.style.transform = "rotate(0deg)";
+          DOMProxy.renderPokemonCards(
+            getState().db.pokemon.pokemon,
+            getState().db.colors.colors
+          );
+        }
+      })
+    }
+  }
+
+  static renderColorWheel(colors) {
+    return colors
+      .map(color => `<span class="pokemon-card-color-swatch" style="background: ${color};"></span>`)
+      .join('');
+  }
+
+  static renderPokemonCards(pokemon, colors) {
+    const controllerContentSectionId = "controller-content-container";
+    const controllerContentElement = document.getElementById(controllerContentSectionId);
+    const colorChannel = getChannelManager().getChannel('color');
+    if (controllerContentElement) {
+      const cards = [];
+      const length = pokemon.length;
+      for (let index = 0; index < length; index++) {
+        let colorScheme = colors[index];
+        let pokemonData = pokemon[index];
+
+        let cardWrapper = document.createElement('div');
+        cardWrapper.className = "pokemon-card";
+        cardWrapper.style.cursor = "pointer";
+        cardWrapper.onclick = function () {
+          DOMProxy.updateInspiredByPokemonSprite(pokemonData);
+          DOMProxy.startColorCycleInterval(
+            colorScheme.colors,
+            colorChannel
+          );
+        }
+
+        cardWrapper.innerHTML = `
+        <div class="pokemon-card-info">
+          <img src="/svgs/${index + 1}.svg" alt="${pokemonData.name}" loading="lazy">
+          <h1>${pokemonData.name}</h1>
+        </div>
+        <div class="pokemon-card-color-wheel">
+          ${DOMProxy.renderColorWheel(colorScheme.colors)}
+        </div>
+        `;
+      
+        cards.push(cardWrapper);
+      }
+
+      controllerContentElement.append(...cards);
+    }
+  }
+
+  static removePokemonCards() {
+    const controllerContentSectionId = "controller-content-container";
+    const controllerContentElement = document.getElementById(controllerContentSectionId);
+    controllerContentElement.innerHTML = "";
+    controllerContentElement.style.display = "none";
+  }
 
   static removeLoadingIndicator() {
     let element = document.getElementById('loading-indicator');
