@@ -1,6 +1,7 @@
 import ColorScale from 'color-scales';
 
 import { getState } from '../../store/index.js';
+import logger from '../Logger.js';
 import { getChannelManager } from '../ChannelManager.js';
 
 class DOMProxy {
@@ -16,7 +17,38 @@ class DOMProxy {
 
 
   static attachEventListeners() {
+    DOMProxy.attachOnDOMContentLoaded();
+    DOMProxy.attachUnloadEvent();
     DOMProxy.attachExpandOrCollapseControllerSectionEventListeners();
+  }
+
+  static attachOnDOMContentLoaded() {
+    window.addEventListener('DOMContentLoaded', () => {
+      logger.info("DOMContentLoaded event has fired.");
+      const storageKey = "raichu-min-armoury-crate-open-instances";
+      const openInstancesAsString = window.localStorage.getItem(storageKey);
+      let openInstances = 0;
+      if (openInstancesAsString) {
+        openInstances = parseInt(openInstancesAsString, 10);
+      }
+
+      openInstances += 1;
+      window.localStorage.setItem(storageKey, openInstances.toString());
+    })
+  }
+
+  static attachUnloadEvent() {
+    window.addEventListener('unload', (event) => {
+      logger.info("unload event has fired.");
+      event.preventDefault();
+      const storageKey = "raichu-min-armoury-crate-open-instances";
+      const currentOpenInstancesAsString = window.localStorage.getItem(storageKey);
+      if (currentOpenInstancesAsString) {
+        let currentOpenInstances = parseInt(currentOpenInstancesAsString, 10);
+        currentOpenInstances -= 1;
+        window.localStorage.setItem(storageKey, currentOpenInstances.toString());
+      }
+    });
   }
 
   static attachExpandOrCollapseControllerSectionEventListeners() {

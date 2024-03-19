@@ -2,6 +2,7 @@ import config from './config/app.js';
 import professorOak from './clients/PokedexClient.js';
 import pokePaletteClient from './clients/PokePaletteClient.js';
 import { getChannelManager } from './lib/ChannelManager.js';
+import { BC_COLOR_EVENTS } from './events/color/index.js';
 import { dispatch, getState, subscribe } from './store/index.js';
 import DOMProxy from './lib/DOM/DOMProxy.js';
 import Logger from './lib/Logger.js';
@@ -63,18 +64,43 @@ function startPrimaryWindowColorCycle() {
   DOMProxy.startColorCycleInterval(pokemonColorSchemeData.colors, colorChannel);
 }
 
-async function init() {
-  setupWatchStoreListener();
-  await bootAsyncStore();
-  DOMProxy.attachEventListeners();
-  startPrimaryWindowColorCycle();
+function pollForPrimaryWindow() {
+  const cbc = getChannelManager().getChannel('color');
+  if (cbc) {
+    cbc.postMessage({ type: BC_COLOR_EVENTS.POLL });
+  }
 }
 
-await init();
+function init() {
+  DOMProxy.attachEventListeners();
+  setupWatchStoreListener();
+}
 
-/**
- * Initially Opened App
- * - Primary Window,
- * Responsible for
- *
+async function load() {
+  await bootAsyncStore();
+}
+
+function run() {
+  startPrimaryWindowColorCycle();
+  // pollForPrimaryWindow();
+}
+
+/** 
+ * Initialization is synchronous
+ * We leverage the DOMContentLoaded event callback 
+ * to track instance count of same-origin windows
+ * If we dispatch the attachment of the event listener
+ * from a single async iife, we miss the DOMContentLoaded event
+ * So we break up the application process into several steps
+ * 1. Init - attach event listeners (DOM, Store Mutations)
+ * 2. Load - fetch all the data needed for the app to run,
+ * load it into the shared global store
+ * 3. Run - we can only predictably run the app
+ * if we have loaded all the data needed from /db
+ * so we call run() after our async load op has finished.
  */
+
+init();
+await load()
+  .then(() => run())
+  .catch(e => Logger.error(e));

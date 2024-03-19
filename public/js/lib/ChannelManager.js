@@ -46,6 +46,7 @@ class ChannelManager {
   }
 }
 
+/** @type {ChannelManager|null} */
 let channelManager;
 
 function lazyInitChannelManager() {
@@ -57,6 +58,10 @@ function setupColorChannel() {
   colorChannel.onmessage = colorOnMessage;
 }
 
+/**
+ * @summary lazy initializes a singleton instance of a channelManager
+ * @returns {ChannelManager}
+ */
 function getChannelManager() {
   if (!channelManager) {
     lazyInitChannelManager();

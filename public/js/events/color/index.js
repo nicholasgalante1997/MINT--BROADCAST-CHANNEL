@@ -2,17 +2,23 @@ import Logger from '../../lib/Logger.js';
 import { pollHandler, pollResponseHandler } from './poll.js';
 import updateColorHandler from './update.js';
 
+export const BC_COLOR_EVENTS = {
+  POLL: 'poll-for-primary',
+  RPOLL: 'respond-to-poll',
+  UPDATE: 'update'
+};
+
 function colorOnMessage(event) {
   switch (event.data.type) {
-    case 'poll-for-alpha-node': {
+    case BC_COLOR_EVENTS.POLL: {
       pollHandler(event);
       break;
     }
-    case 'respond-to-poll': {
+    case BC_COLOR_EVENTS.RPOLL: {
       pollResponseHandler(event);
       break;
     }
-    case 'update': {
+    case BC_COLOR_EVENTS.UPDATE: {
       updateColorHandler(event);
       break;
     }
