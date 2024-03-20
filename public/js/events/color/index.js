@@ -1,21 +1,18 @@
+import config from '../../config/app.js';
 import Logger from '../../lib/Logger.js';
-import { pollHandler, pollResponseHandler } from './poll.js';
+import { initHandler } from './init.js';
 import updateColorHandler from './update.js';
 
 export const BC_COLOR_EVENTS = {
-  POLL: 'poll-for-primary',
-  RPOLL: 'respond-to-poll',
+  INIT: 'init',
   UPDATE: 'update'
 };
 
 function colorOnMessage(event) {
+  Logger.info(`App ${config.app.id} - Received event`);
   switch (event.data.type) {
-    case BC_COLOR_EVENTS.POLL: {
-      pollHandler(event);
-      break;
-    }
-    case BC_COLOR_EVENTS.RPOLL: {
-      pollResponseHandler(event);
+    case BC_COLOR_EVENTS.INIT: {
+      initHandler(event);
       break;
     }
     case BC_COLOR_EVENTS.UPDATE: {

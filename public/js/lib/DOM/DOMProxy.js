@@ -1,8 +1,11 @@
 import ColorScale from 'color-scales';
 
+import config from '../../config/app.js';
+
 import { getState } from '../../store/index.js';
-import logger from '../Logger.js';
 import { getChannelManager } from '../ChannelManager.js';
+
+import logger from '../Logger.js';
 
 class DOMProxy {
   /**
@@ -25,15 +28,18 @@ class DOMProxy {
   static attachOnDOMContentLoaded() {
     window.addEventListener('DOMContentLoaded', () => {
       logger.info("DOMContentLoaded event has fired.");
-      const storageKey = "raichu-min-armoury-crate-open-instances";
-      const openInstancesAsString = window.localStorage.getItem(storageKey);
+      const openInstancesAsString = window.localStorage.getItem(config.window.storage.instanceKey);
       let openInstances = 0;
       if (openInstancesAsString) {
         openInstances = parseInt(openInstancesAsString, 10);
       }
 
+      if (openInstances == 0) {
+        window.localStorage.setItem(config.window.storage.instancePrime, config.app.id);
+      }
+
       openInstances += 1;
-      window.localStorage.setItem(storageKey, openInstances.toString());
+      window.localStorage.setItem(config.window.storage.instanceKey, openInstances.toString());
     })
   }
 
@@ -41,12 +47,11 @@ class DOMProxy {
     window.addEventListener('unload', (event) => {
       logger.info("unload event has fired.");
       event.preventDefault();
-      const storageKey = "raichu-min-armoury-crate-open-instances";
-      const currentOpenInstancesAsString = window.localStorage.getItem(storageKey);
+      const currentOpenInstancesAsString = window.localStorage.getItem(config.window.storage.instanceKey);
       if (currentOpenInstancesAsString) {
         let currentOpenInstances = parseInt(currentOpenInstancesAsString, 10);
         currentOpenInstances -= 1;
-        window.localStorage.setItem(storageKey, currentOpenInstances.toString());
+        window.localStorage.setItem(config.window.storage.instanceKey, currentOpenInstances.toString());
       }
     });
   }
@@ -159,7 +164,7 @@ class DOMProxy {
     }
   }
 
-  static startColorCycleInterval(colors, colorBroadcastChannel) {
+  static startColorCycleInterval(colors) {
     if (DOMProxy._interval) {
       clearInterval(DOMProxy._interval);
     }
@@ -192,14 +197,17 @@ class DOMProxy {
 
       const colorScale = colorScales[colorScalesIndex];
       const colorAsHex = colorScale.getColor(colorStopMarker).toHexString();
-
+      
       // Update current window
       DOMProxy.updateColorSchemeInCurrentWindowContext(colorAsHex);
       // Propagate updates to susbscribed windows
-      colorBroadcastChannel.postMessage({
+
+      const cbc = getChannelManager().getChannel('color');
+      cbc.postMessage({
         type: 'update',
         values: { color: colorAsHex }
       });
+
     }, 15);
   }
 

@@ -2,7 +2,6 @@ import config from './config/app.js';
 import professorOak from './clients/PokedexClient.js';
 import pokePaletteClient from './clients/PokePaletteClient.js';
 import { getChannelManager } from './lib/ChannelManager.js';
-import { BC_COLOR_EVENTS } from './events/color/index.js';
 import { dispatch, getState, subscribe } from './store/index.js';
 import DOMProxy from './lib/DOM/DOMProxy.js';
 import Logger from './lib/Logger.js';
@@ -59,16 +58,8 @@ function getDefaultPokemonColorSchemesData() {
 function startPrimaryWindowColorCycle() {
   const pokemonData = getDefaultPokemonData();
   const pokemonColorSchemeData = getDefaultPokemonColorSchemesData();
-  const colorChannel = getChannelManager().getChannel('color');
   DOMProxy.updateInspiredByPokemonSprite(pokemonData);
-  DOMProxy.startColorCycleInterval(pokemonColorSchemeData.colors, colorChannel);
-}
-
-function pollForPrimaryWindow() {
-  const cbc = getChannelManager().getChannel('color');
-  if (cbc) {
-    cbc.postMessage({ type: BC_COLOR_EVENTS.POLL });
-  }
+  DOMProxy.startColorCycleInterval(pokemonColorSchemeData.colors);
 }
 
 function init() {
@@ -81,8 +72,14 @@ async function load() {
 }
 
 function run() {
-  startPrimaryWindowColorCycle();
-  // pollForPrimaryWindow();
+  const instanceNumAsStringOrNull = window.localStorage.getItem(config.window.storage.instanceKey)
+  const instanceNum = instanceNumAsStringOrNull ? parseInt(instanceNumAsStringOrNull, 10) : -1;
+  if (instanceNum === 1) {
+    startPrimaryWindowColorCycle();
+  }
+
+  /** This is necessary bc of lazy initalization, you dick! */
+  getChannelManager().getChannel('color').postMessage({ type: 'init', data: { instanceId: config.app.id } });
 }
 
 /** 
