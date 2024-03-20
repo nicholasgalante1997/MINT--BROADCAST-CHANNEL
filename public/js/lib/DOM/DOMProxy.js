@@ -7,6 +7,12 @@ import { getChannelManager } from '../ChannelManager.js';
 
 import logger from '../Logger.js';
 
+String.prototype.toCapitalCase = function () {
+  return this.split(' ')
+    .map((str) => str.charAt(0).toUpperCase() + str.slice(1).toLowerCase())
+    .join(' ');
+};
+
 class DOMProxy {
   /**
    * @private
@@ -18,84 +24,149 @@ class DOMProxy {
    */
   static _expandOrCollapseControllerVisibilityState = false;
 
-
   static attachEventListeners() {
     DOMProxy.attachOnDOMContentLoaded();
     DOMProxy.attachUnloadEvent();
     DOMProxy.attachExpandOrCollapseControllerSectionEventListeners();
+    DOMProxy.attachSearchEventListeners();
   }
 
   static attachOnDOMContentLoaded() {
     window.addEventListener('DOMContentLoaded', () => {
-      logger.info("DOMContentLoaded event has fired.");
-      const openInstancesAsString = window.localStorage.getItem(config.window.storage.instanceKey);
+      logger.info('DOMContentLoaded event has fired.');
+      const openInstancesAsString = window.localStorage.getItem(
+        config.window.storage.instanceKey
+      );
       let openInstances = 0;
-      if (openInstancesAsString) {
+      if (openInstancesAsString && parseInt(openInstancesAsString, 10) > 0) {
         openInstances = parseInt(openInstancesAsString, 10);
       }
 
       if (openInstances == 0) {
-        window.localStorage.setItem(config.window.storage.instancePrime, config.app.id);
+        window.localStorage.setItem(
+          config.window.storage.instancePrime,
+          config.app.id
+        );
       }
 
       openInstances += 1;
-      window.localStorage.setItem(config.window.storage.instanceKey, openInstances.toString());
-    })
-  }
+      window.localStorage.setItem(
+        config.window.storage.instanceKey,
+        openInstances.toString()
+      );
 
-  static attachUnloadEvent() {
-    window.addEventListener('unload', (event) => {
-      logger.info("unload event has fired.");
-      event.preventDefault();
-      const currentOpenInstancesAsString = window.localStorage.getItem(config.window.storage.instanceKey);
-      if (currentOpenInstancesAsString) {
-        let currentOpenInstances = parseInt(currentOpenInstancesAsString, 10);
-        currentOpenInstances -= 1;
-        window.localStorage.setItem(config.window.storage.instanceKey, currentOpenInstances.toString());
+      window.localStorage.setItem(
+        `${config.window.storage.instanceUUID}-${openInstances}`,
+        config.app.id
+      )
+
+      if (window.location.search === "") {
+        const urlParams = new window.URLSearchParams(
+          [
+            ["index", openInstances.toString()],
+            ["instanceUuid", config.app.id]
+          ]
+        );
+        
+        const nextUrl = window.location.href + "?" + urlParams.toString()
+        window.history.pushState(null, null, nextUrl);
       }
     });
   }
 
+  static attachUnloadEvent() {
+    window.addEventListener('unload', (event) => {
+      logger.info('unload event has fired.');
+      event.preventDefault();
+      const currentOpenInstancesAsString = window.localStorage.getItem(
+        config.window.storage.instanceKey
+      );
+      if (currentOpenInstancesAsString) {
+        let currentOpenInstances = parseInt(currentOpenInstancesAsString, 10);
+        currentOpenInstances -= 1;
+        window.localStorage.setItem(
+          config.window.storage.instanceKey,
+          currentOpenInstances.toString()
+        );
+      }
+    });
+  }
+
+  static attachSearchEventListeners() {
+    const input = document.getElementById("pokemon-search");
+    input.onchange = (event) => {
+      console.log("OnChange fired.")
+      const val = event.target.value;
+      const pokemon = getState().db.pokemon.pokemon;
+      const colors = getState().db.colors.colors;
+      if (!val || val === "") {
+        DOMProxy.removePokemonCards();
+        DOMProxy.renderPokemonCards(pokemon, colors);
+      } else {
+        const fPokemon = pokemon.filter(p => p.name.toLowerCase().includes(val.toLowerCase()));
+        const fColors = colors.filter(col => col.name.toLowerCase().includes(val.toLowerCase()));
+        DOMProxy.removePokemonCards();
+        DOMProxy.renderPokemonCards(fPokemon, fColors);
+      }
+    }
+  }
+
   static attachExpandOrCollapseControllerSectionEventListeners() {
-    const expandOrCollapseContainer = document.getElementById('controller-bar-expand-or-collapse-container');
+    const expandOrCollapseContainer = document.getElementById(
+      'controller-bar-expand-or-collapse-container'
+    );
     if (expandOrCollapseContainer) {
       expandOrCollapseContainer.addEventListener('click', () => {
-        const controllerSectionBarIconId = "controller-bar-expand-or-collapse-icon";
-        const controllerSectionBarIcon = document.getElementById(controllerSectionBarIconId);
-        const controllerContentSectionId = "controller-content-container";
-        const controllerContentElement = document.getElementById(controllerContentSectionId);
+        const controllerSectionBarIconId =
+          'controller-bar-expand-or-collapse-icon';
+        const controllerSectionBarIcon = document.getElementById(
+          controllerSectionBarIconId
+        );
+        const controllerContentSectionId = 'controller-content-container';
+        const controllerContentElement = document.getElementById(
+          controllerContentSectionId
+        );
+        const searchBarSectionId = "controller-search-bar";
+        const searchBarSectionElement = document.getElementById(searchBarSectionId);
 
         if (DOMProxy._expandOrCollapseControllerVisibilityState) {
           /** Turn Off */
           DOMProxy._expandOrCollapseControllerVisibilityState = false;
-          controllerContentElement.style.display = "none";
-          controllerContentElement.style.padding = "none";
-          controllerSectionBarIcon.style.transform = "rotate(180deg)";
+          searchBarSectionElement.style.display = "none";
+          controllerContentElement.style.display = 'none';
+          controllerContentElement.style.padding = 'none';
+          controllerSectionBarIcon.style.transform = 'rotate(180deg)';
           DOMProxy.removePokemonCards();
         } else {
           /** Turn On */
           DOMProxy._expandOrCollapseControllerVisibilityState = true;
-          controllerContentElement.style.display = "flex";
-          controllerContentElement.style.padding = "var(--spacing-unit)";
-          controllerSectionBarIcon.style.transform = "rotate(0deg)";
+          searchBarSectionElement.style.display = "flex";
+          controllerContentElement.style.display = 'flex';
+          controllerContentElement.style.padding = 'var(--spacing-unit)';
+          controllerSectionBarIcon.style.transform = 'rotate(0deg)';
           DOMProxy.renderPokemonCards(
             getState().db.pokemon.pokemon,
             getState().db.colors.colors
           );
         }
-      })
+      });
     }
   }
 
   static renderColorWheel(colors) {
     return colors
-      .map(color => `<span class="pokemon-card-color-swatch" style="background: ${color};"></span>`)
+      .map(
+        (color) =>
+          `<span class="pokemon-card-color-swatch" style="background: ${color};"></span>`
+      )
       .join('');
   }
 
   static renderPokemonCards(pokemon, colors) {
-    const controllerContentSectionId = "controller-content-container";
-    const controllerContentElement = document.getElementById(controllerContentSectionId);
+    const controllerContentSectionId = 'controller-content-container';
+    const controllerContentElement = document.getElementById(
+      controllerContentSectionId
+    );
     const colorChannel = getChannelManager().getChannel('color');
     if (controllerContentElement) {
       const cards = [];
@@ -105,26 +176,29 @@ class DOMProxy {
         let pokemonData = pokemon[index];
 
         let cardWrapper = document.createElement('div');
-        cardWrapper.className = "pokemon-card";
-        cardWrapper.style.cursor = "pointer";
+        cardWrapper.className = 'pokemon-card';
+        cardWrapper.style.cursor = 'pointer';
         cardWrapper.onclick = function () {
           DOMProxy.updateInspiredByPokemonSprite(pokemonData);
-          DOMProxy.startColorCycleInterval(
-            colorScheme.colors,
-            colorChannel
-          );
-        }
+          DOMProxy.startColorCycleInterval(colorScheme.colors, colorChannel);
+        };
 
         cardWrapper.innerHTML = `
-        <div class="pokemon-card-info">
-          <img src="/svgs/${index + 1}.svg" alt="${pokemonData.name}" loading="lazy">
-          <h1>${pokemonData.name}</h1>
-        </div>
-        <div class="pokemon-card-color-wheel">
-          ${DOMProxy.renderColorWheel(colorScheme.colors)}
-        </div>
+          <div class="pokemon-card-info">
+            <img src="/svgs/${index + 1}.svg" alt="${pokemonData.name}" loading="lazy">
+            <div>
+              <h1>${pokemonData.name.toCapitalCase()}</h1>
+            </div>
+          </div>
+          <div>
+            <p>Color Cycle</p>
+            <hr />
+            <div class="pokemon-card-color-wheel">
+              ${DOMProxy.renderColorWheel(colorScheme.colors)}
+            </div>
+          </div>
         `;
-      
+
         cards.push(cardWrapper);
       }
 
@@ -133,10 +207,11 @@ class DOMProxy {
   }
 
   static removePokemonCards() {
-    const controllerContentSectionId = "controller-content-container";
-    const controllerContentElement = document.getElementById(controllerContentSectionId);
-    controllerContentElement.innerHTML = "";
-    controllerContentElement.style.display = "none";
+    const controllerContentSectionId = 'controller-content-container';
+    const controllerContentElement = document.getElementById(
+      controllerContentSectionId
+    );
+    controllerContentElement.innerHTML = '';
   }
 
   static removeLoadingIndicator() {
@@ -197,17 +272,16 @@ class DOMProxy {
 
       const colorScale = colorScales[colorScalesIndex];
       const colorAsHex = colorScale.getColor(colorStopMarker).toHexString();
-      
+
       // Update current window
       DOMProxy.updateColorSchemeInCurrentWindowContext(colorAsHex);
+      
       // Propagate updates to susbscribed windows
-
       const cbc = getChannelManager().getChannel('color');
       cbc.postMessage({
         type: 'update',
         values: { color: colorAsHex }
       });
-
     }, 15);
   }
 

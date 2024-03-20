@@ -72,19 +72,25 @@ async function load() {
 }
 
 function run() {
-  const instanceNumAsStringOrNull = window.localStorage.getItem(config.window.storage.instanceKey)
-  const instanceNum = instanceNumAsStringOrNull ? parseInt(instanceNumAsStringOrNull, 10) : -1;
+  const instanceNumAsStringOrNull = window.localStorage.getItem(
+    config.window.storage.instanceKey
+  );
+  const instanceNum = instanceNumAsStringOrNull
+    ? parseInt(instanceNumAsStringOrNull, 10)
+    : -1;
   if (instanceNum === 1) {
     startPrimaryWindowColorCycle();
   }
 
   /** This is necessary bc of lazy initalization, you dick! */
-  getChannelManager().getChannel('color').postMessage({ type: 'init', data: { instanceId: config.app.id } });
+  getChannelManager()
+    .getChannel('color')
+    .postMessage({ type: 'init', data: { instanceId: config.app.id } });
 }
 
-/** 
+/**
  * Initialization is synchronous
- * We leverage the DOMContentLoaded event callback 
+ * We leverage the DOMContentLoaded event callback
  * to track instance count of same-origin windows
  * If we dispatch the attachment of the event listener
  * from a single async iife, we miss the DOMContentLoaded event
@@ -100,4 +106,4 @@ function run() {
 init();
 await load()
   .then(() => run())
-  .catch(e => Logger.error(e));
+  .catch((e) => Logger.error(e));

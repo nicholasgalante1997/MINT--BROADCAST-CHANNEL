@@ -71,5 +71,4 @@ function getChannelManager() {
   return channelManager;
 }
 
-
 export { getChannelManager };

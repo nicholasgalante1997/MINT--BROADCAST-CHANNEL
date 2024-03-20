@@ -25,11 +25,8 @@
         </span>
       </div>
       <div id="controller-section-row">
-        <div id="controller-tabs-container">
-          <div class="controller-tab" id="poke-index">
-            <span></span>
-            <span></span>
-          </div>
+        <div id="controller-search-bar">
+          <input type="search" placeholder="Search by pokemon name..." id="pokemon-search" name="pokemon-search">
         </div>
         <div id="controller-content-container">
 
@@ -38,15 +35,14 @@
     </div>
   </main>
   <script type="importmap">
-      {
-        "imports": {
-          "color-scales": "https://cdn.skypack.dev/color-scales",
-          "lodash": "https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm",
-          "uuid": "https://jspm.dev/uuid"
-        }
+    {
+      "imports": {
+        "color-scales": "https://cdn.skypack.dev/color-scales",
+        "lodash": "https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm",
+        "uuid": "https://jspm.dev/uuid"
       }
-    </script>
+    }
+  </script>
   <script type="module" src="js/main.js"></script>
 </body>
-
 </html>
