@@ -2,6 +2,7 @@ import Id from './Id.js';
 import logger from './Logger.js';
 
 import colorOnMessage from '../events/color/index.js';
+import destroyOnMessage from '../events/destroy/index.js';
 
 class ChannelManager {
   /**
@@ -58,6 +59,11 @@ function setupColorChannel() {
   colorChannel.onmessage = colorOnMessage;
 }
 
+function setupDestroyChannel() {
+  let destroyChannel = channelManager.join('destroy');
+  destroyChannel.onmessage = destroyOnMessage;
+}
+
 /**
  * @summary lazy initializes a singleton instance of a channelManager
  * @returns {ChannelManager}
@@ -66,6 +72,7 @@ function getChannelManager() {
   if (!channelManager) {
     lazyInitChannelManager();
     setupColorChannel();
+    setupDestroyChannel();
   }
 
   return channelManager;

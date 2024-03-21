@@ -5,7 +5,7 @@ let id;
 function getAppId() {
   if (!id) {
     const urlParams = new window.URLSearchParams(window.location.search);
-    const instanceId = urlParams.get("instanceUuid");
+    const instanceId = urlParams.get('instanceUuid');
     id = instanceId || uuidv4();
   }
 

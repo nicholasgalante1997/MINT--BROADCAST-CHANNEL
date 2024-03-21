@@ -6,6 +6,7 @@ import { getState } from '../../store/index.js';
 import { getChannelManager } from '../ChannelManager.js';
 
 import logger from '../Logger.js';
+import { isPrimaryWindow } from '../../windowContext.js';
 
 String.prototype.toCapitalCase = function () {
   return this.split(' ')
@@ -58,17 +59,15 @@ class DOMProxy {
       window.localStorage.setItem(
         `${config.window.storage.instanceUUID}-${openInstances}`,
         config.app.id
-      )
+      );
 
-      if (window.location.search === "") {
-        const urlParams = new window.URLSearchParams(
-          [
-            ["index", openInstances.toString()],
-            ["instanceUuid", config.app.id]
-          ]
-        );
-        
-        const nextUrl = window.location.href + "?" + urlParams.toString()
+      if (window.location.search === '') {
+        const urlParams = new window.URLSearchParams([
+          ['index', openInstances.toString()],
+          ['instanceUuid', config.app.id]
+        ]);
+
+        const nextUrl = window.location.href + '?' + urlParams.toString();
         window.history.pushState(null, null, nextUrl);
       }
     });
@@ -89,26 +88,34 @@ class DOMProxy {
           currentOpenInstances.toString()
         );
       }
+
+      if (isPrimaryWindow()) {
+        const destroyChannel = getChannelManager().getChannel('destroy');
+        destroyChannel.postMessage({ type: "end" });
+      }
     });
   }
 
   static attachSearchEventListeners() {
-    const input = document.getElementById("pokemon-search");
-    input.onchange = (event) => {
-      console.log("OnChange fired.")
+    const input = document.getElementById('pokemon-search');
+    input.addEventListener('input', (event) => {
       const val = event.target.value;
       const pokemon = getState().db.pokemon.pokemon;
       const colors = getState().db.colors.colors;
-      if (!val || val === "") {
+      if (!val || val === '') {
         DOMProxy.removePokemonCards();
         DOMProxy.renderPokemonCards(pokemon, colors);
       } else {
-        const fPokemon = pokemon.filter(p => p.name.toLowerCase().includes(val.toLowerCase()));
-        const fColors = colors.filter(col => col.name.toLowerCase().includes(val.toLowerCase()));
+        const fPokemon = pokemon.filter((p) =>
+          p.name.toLowerCase().includes(val.toLowerCase())
+        );
+        const fColors = colors.filter((col) =>
+          col.name.toLowerCase().includes(val.toLowerCase())
+        );
         DOMProxy.removePokemonCards();
         DOMProxy.renderPokemonCards(fPokemon, fColors);
       }
-    }
+    });
   }
 
   static attachExpandOrCollapseControllerSectionEventListeners() {
@@ -126,13 +133,14 @@ class DOMProxy {
         const controllerContentElement = document.getElementById(
           controllerContentSectionId
         );
-        const searchBarSectionId = "controller-search-bar";
-        const searchBarSectionElement = document.getElementById(searchBarSectionId);
+        const searchBarSectionId = 'controller-search-bar';
+        const searchBarSectionElement =
+          document.getElementById(searchBarSectionId);
 
         if (DOMProxy._expandOrCollapseControllerVisibilityState) {
           /** Turn Off */
           DOMProxy._expandOrCollapseControllerVisibilityState = false;
-          searchBarSectionElement.style.display = "none";
+          searchBarSectionElement.style.display = 'none';
           controllerContentElement.style.display = 'none';
           controllerContentElement.style.padding = 'none';
           controllerSectionBarIcon.style.transform = 'rotate(180deg)';
@@ -140,7 +148,7 @@ class DOMProxy {
         } else {
           /** Turn On */
           DOMProxy._expandOrCollapseControllerVisibilityState = true;
-          searchBarSectionElement.style.display = "flex";
+          searchBarSectionElement.style.display = 'flex';
           controllerContentElement.style.display = 'flex';
           controllerContentElement.style.padding = 'var(--spacing-unit)';
           controllerSectionBarIcon.style.transform = 'rotate(0deg)';
@@ -185,7 +193,7 @@ class DOMProxy {
 
         cardWrapper.innerHTML = `
           <div class="pokemon-card-info">
-            <img src="/svgs/${index + 1}.svg" alt="${pokemonData.name}" loading="lazy">
+            <img src="/svgs/${pokemonData.id}.svg" alt="${pokemonData.name}" loading="lazy">
             <div>
               <h1>${pokemonData.name.toCapitalCase()}</h1>
             </div>
@@ -275,7 +283,7 @@ class DOMProxy {
 
       // Update current window
       DOMProxy.updateColorSchemeInCurrentWindowContext(colorAsHex);
-      
+
       // Propagate updates to susbscribed windows
       const cbc = getChannelManager().getChannel('color');
       cbc.postMessage({
@@ -287,6 +295,13 @@ class DOMProxy {
 
   static stopIntervalInSecondaryContext() {
     clearInterval(DOMProxy._interval);
+  }
+
+  static hideController() {
+    const controllerSection = document.getElementById('controller-section');
+    if (controllerSection) {
+      controllerSection.style.display = 'none';
+    }
   }
 }
 

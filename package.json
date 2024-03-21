@@ -10,7 +10,14 @@
     "db:write": "node server/write-db.js",
     "db:write-colors": "node server/write-color-db.js",
     "rake:svgs": "node server/pull-images.js",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "clean:dist": "rm -rf dist",
+    "make:dist": "mkdir -p dist dist/db dist/svgs;",
+    "copy:app": "cp -R public/* dist/",
+    "copy:icons": "cp -R icons/* dist/",
+    "copy:db": "cp -R db/*.json dist/db/",
+    "copy:svgs": "cp -R svgs/*.svg dist/svgs/",
+    "build": "run-s clean:* make:* copy:*"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +33,7 @@
     "uuid": "^9.0.1"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
     "prettier": "^3.2.5"
   }
 }
