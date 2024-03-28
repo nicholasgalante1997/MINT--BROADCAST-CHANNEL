@@ -45,18 +45,9 @@ void (async () => {
     colors: colorsArr
   };
 
-  await asyncFsWrite(
-    path.resolve(process.cwd(), 'db', 'colors.json'),
-    JSON.stringify(obj, null, 2),
-    { encoding: 'utf-8' }
-  )
-    .then(() =>
-      Logger.success('db:write-colors operation completed successfully!')
-    )
-    .catch((e) =>
-      Logger.error(
-        'db:write-colors emitted an error during the writeFile step\n%s',
-        e
-      )
-    );
+  await asyncFsWrite(path.resolve(process.cwd(), 'db', 'colors.json'), JSON.stringify(obj, null, 2), {
+    encoding: 'utf-8'
+  })
+    .then(() => Logger.success('db:write-colors operation completed successfully!'))
+    .catch((e) => Logger.error('db:write-colors emitted an error during the writeFile step\n%s', e));
 })();

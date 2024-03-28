@@ -10,11 +10,7 @@ class Logger {
     if (typeof message === 'object' || typeof message === 'function') {
       console.log(message);
     } else {
-      console.log(
-        '%c[INFO]: ' + `%c${message}`,
-        `color: ${this.info}; font-weight: bold;`,
-        'font-weight: bold;'
-      );
+      console.log('%c[INFO]: ' + `%c${message}`, `color: ${this.info}; font-weight: bold;`, 'font-weight: bold;');
     }
   };
 
@@ -22,11 +18,7 @@ class Logger {
     if (typeof message === 'object' || typeof message === 'function') {
       console.warn(message);
     } else {
-      console.warn(
-        '%c[WARN]: ' + `%c${message}`,
-        `color: ${this.warn}; font-weight: bold;`,
-        'font-weight: bold;'
-      );
+      console.warn('%c[WARN]: ' + `%c${message}`, `color: ${this.warn}; font-weight: bold;`, 'font-weight: bold;');
     }
   };
 
@@ -34,11 +26,7 @@ class Logger {
     if (typeof message === 'object' || typeof message === 'function') {
       console.error(message);
     } else {
-      console.error(
-        '%c[ERROR]: ' + `%c${message}`,
-        `color: ${this.error}; font-weight: bold;`,
-        'font-weight: bold;'
-      );
+      console.error('%c[ERROR]: ' + `%c${message}`, `color: ${this.error}; font-weight: bold;`, 'font-weight: bold;');
     }
   };
 

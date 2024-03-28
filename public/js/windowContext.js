@@ -26,9 +26,7 @@ function prepareSecondaryWindow() {
 }
 
 function isPrimaryWindow() {
-  const instancePrime = window.localStorage.getItem(
-    config.window.storage.instancePrime
-  );
+  const instancePrime = window.localStorage.getItem(config.window.storage.instancePrime);
   const instanceId = config.app.id;
   if (instancePrime == null) {
     return false;

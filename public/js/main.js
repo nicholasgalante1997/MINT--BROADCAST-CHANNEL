@@ -2,7 +2,12 @@ import config from './config/app.js';
 import DOMProxy from './lib/DOM/DOMProxy.js';
 import Logger from './lib/Logger.js';
 
-import { hasPreviouslyVisited, isPrimaryWindow, prepareSecondaryWindow, startPrimaryWindowColorCycle } from './windowContext.js';
+import {
+  hasPreviouslyVisited,
+  isPrimaryWindow,
+  prepareSecondaryWindow,
+  startPrimaryWindowColorCycle
+} from './windowContext.js';
 import { bootAsyncStore } from './bootAsync.js';
 import { getChannelManager } from './lib/ChannelManager.js';
 import { setupWatchStoreListener } from './store/listeners.js';

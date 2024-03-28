@@ -36,9 +36,7 @@ class DOMProxy {
     window.addEventListener('DOMContentLoaded', () => {
       logger.info('DOMContentLoaded event has fired.');
 
-      const openInstancesAsString = window.localStorage.getItem(
-        config.window.storage.instanceKey
-      );
+      const openInstancesAsString = window.localStorage.getItem(config.window.storage.instanceKey);
 
       let openInstances = 0;
 
@@ -47,22 +45,13 @@ class DOMProxy {
       }
 
       if (openInstances == 0) {
-        window.localStorage.setItem(
-          config.window.storage.instancePrime,
-          config.app.id
-        );
+        window.localStorage.setItem(config.window.storage.instancePrime, config.app.id);
       }
 
       openInstances += 1;
-      window.localStorage.setItem(
-        config.window.storage.instanceKey,
-        openInstances.toString()
-      );
+      window.localStorage.setItem(config.window.storage.instanceKey, openInstances.toString());
 
-      window.localStorage.setItem(
-        `${config.window.storage.instanceUUID}-${openInstances}`,
-        config.app.id
-      );
+      window.localStorage.setItem(`${config.window.storage.instanceUUID}-${openInstances}`, config.app.id);
 
       if (window.location.search === '') {
         const urlParams = new window.URLSearchParams([
@@ -80,18 +69,13 @@ class DOMProxy {
     window.addEventListener('unload', (event) => {
       logger.info('unload event has fired.');
       event.preventDefault();
-      
-      const currentOpenInstancesAsString = window.localStorage.getItem(
-        config.window.storage.instanceKey
-      );
+
+      const currentOpenInstancesAsString = window.localStorage.getItem(config.window.storage.instanceKey);
 
       if (currentOpenInstancesAsString) {
         let currentOpenInstances = parseInt(currentOpenInstancesAsString, 10);
         currentOpenInstances -= 1;
-        window.localStorage.setItem(
-          config.window.storage.instanceKey,
-          currentOpenInstances.toString()
-        );
+        window.localStorage.setItem(config.window.storage.instanceKey, currentOpenInstances.toString());
       }
 
       let params = new window.URLSearchParams(window.location.search);
@@ -101,9 +85,9 @@ class DOMProxy {
       }
 
       if (isPrimaryWindow()) {
-        window.localStorage.removeItem(config.window.storage.instancePrime)
+        window.localStorage.removeItem(config.window.storage.instancePrime);
         const destroyChannel = getChannelManager().getChannel('destroy');
-        destroyChannel.postMessage({ type: "end" });
+        destroyChannel.postMessage({ type: 'end' });
       }
     });
   }
@@ -118,12 +102,8 @@ class DOMProxy {
         DOMProxy.removePokemonCards();
         DOMProxy.renderPokemonCards(pokemon, colors);
       } else {
-        const fPokemon = pokemon.filter((p) =>
-          p.name.toLowerCase().includes(val.toLowerCase())
-        );
-        const fColors = colors.filter((col) =>
-          col.name.toLowerCase().includes(val.toLowerCase())
-        );
+        const fPokemon = pokemon.filter((p) => p.name.toLowerCase().includes(val.toLowerCase()));
+        const fColors = colors.filter((col) => col.name.toLowerCase().includes(val.toLowerCase()));
         DOMProxy.removePokemonCards();
         DOMProxy.renderPokemonCards(fPokemon, fColors);
       }
@@ -131,23 +111,15 @@ class DOMProxy {
   }
 
   static attachExpandOrCollapseControllerSectionEventListeners() {
-    const expandOrCollapseContainer = document.getElementById(
-      'controller-bar-expand-or-collapse-container'
-    );
+    const expandOrCollapseContainer = document.getElementById('controller-bar-expand-or-collapse-container');
     if (expandOrCollapseContainer) {
       expandOrCollapseContainer.addEventListener('click', () => {
-        const controllerSectionBarIconId =
-          'controller-bar-expand-or-collapse-icon';
-        const controllerSectionBarIcon = document.getElementById(
-          controllerSectionBarIconId
-        );
+        const controllerSectionBarIconId = 'controller-bar-expand-or-collapse-icon';
+        const controllerSectionBarIcon = document.getElementById(controllerSectionBarIconId);
         const controllerContentSectionId = 'controller-content-container';
-        const controllerContentElement = document.getElementById(
-          controllerContentSectionId
-        );
+        const controllerContentElement = document.getElementById(controllerContentSectionId);
         const searchBarSectionId = 'controller-search-bar';
-        const searchBarSectionElement =
-          document.getElementById(searchBarSectionId);
+        const searchBarSectionElement = document.getElementById(searchBarSectionId);
 
         if (DOMProxy._expandOrCollapseControllerVisibilityState) {
           /** Turn Off */
@@ -164,10 +136,7 @@ class DOMProxy {
           controllerContentElement.style.display = 'flex';
           controllerContentElement.style.padding = 'var(--spacing-unit)';
           controllerSectionBarIcon.style.transform = 'rotate(0deg)';
-          DOMProxy.renderPokemonCards(
-            getState().db.pokemon.pokemon,
-            getState().db.colors.colors
-          );
+          DOMProxy.renderPokemonCards(getState().db.pokemon.pokemon, getState().db.colors.colors);
         }
       });
     }
@@ -175,18 +144,13 @@ class DOMProxy {
 
   static renderColorWheel(colors) {
     return colors
-      .map(
-        (color) =>
-          `<span class="pokemon-card-color-swatch" style="background: ${color};"></span>`
-      )
+      .map((color) => `<span class="pokemon-card-color-swatch" style="background: ${color};"></span>`)
       .join('');
   }
 
   static renderPokemonCards(pokemon, colors) {
     const controllerContentSectionId = 'controller-content-container';
-    const controllerContentElement = document.getElementById(
-      controllerContentSectionId
-    );
+    const controllerContentElement = document.getElementById(controllerContentSectionId);
     const colorChannel = getChannelManager().getChannel('color');
     if (controllerContentElement) {
       const cards = [];
@@ -228,9 +192,7 @@ class DOMProxy {
 
   static removePokemonCards() {
     const controllerContentSectionId = 'controller-content-container';
-    const controllerContentElement = document.getElementById(
-      controllerContentSectionId
-    );
+    const controllerContentElement = document.getElementById(controllerContentSectionId);
     controllerContentElement.innerHTML = '';
   }
 
@@ -249,12 +211,9 @@ class DOMProxy {
   }
 
   static updateInspiredByPokemonSprite(pokemon) {
-    let inspiredByPokemonSpriteElement = document.getElementById(
-      'color-inspired-by-pokemon-sprite'
-    );
+    let inspiredByPokemonSpriteElement = document.getElementById('color-inspired-by-pokemon-sprite');
     if (inspiredByPokemonSpriteElement) {
-      inspiredByPokemonSpriteElement.src =
-        pokemon.sprites.other.dream_world.front_default;
+      inspiredByPokemonSpriteElement.src = pokemon.sprites.other.dream_world.front_default;
       inspiredByPokemonSpriteElement.alt = `An image of a ${pokemon.name} pokemon`;
     }
   }
@@ -321,7 +280,7 @@ class DOMProxy {
     if (colorSectionElement) {
       const imageElement = colorSectionElement.childNodes.item(0);
       const modal = document.createElement('div');
-      modal.id = "new-user-modal";
+      modal.id = 'new-user-modal';
       modal.innerHTML = `
         <img src="/assets/Angry-Pikachu.png" alt="A pikachu ready to attack!" height="116px" width="auto">
         <h1>Blackthorn</h1>
@@ -337,7 +296,7 @@ class DOMProxy {
         dismissBtn.addEventListener('click', () => {
           modal.remove();
           window.localStorage.setItem('has-already-visited', new Date().getTime());
-        })
+        });
       }
     }
   }

@@ -17,17 +17,7 @@ class Id {
 
   static fallbackGetId() {
     const keys = {
-      a: [
-        'charmander',
-        'venusaur',
-        'togepi',
-        'dratini',
-        'hypno',
-        'mr. mime',
-        'kabutops',
-        'cradily',
-        'aerodactyl'
-      ],
+      a: ['charmander', 'venusaur', 'togepi', 'dratini', 'hypno', 'mr. mime', 'kabutops', 'cradily', 'aerodactyl'],
       b: ['hoenn', 'johto', 'kanto', 'sinnoh', 'arceus'],
       c: [
         'sapphire',
@@ -43,19 +33,11 @@ class Id {
         'sword',
         'shild'
       ],
-      d: [
-        'team-rocket',
-        'team-yell',
-        'team-magma',
-        'team-aqua',
-        'team-galactic'
-      ]
+      d: ['team-rocket', 'team-yell', 'team-magma', 'team-aqua', 'team-galactic']
     };
     const selected = [];
     for (const field of Object.keys(keys)) {
-      selected.push(
-        keys[field].at(Math.floor(Math.random() * keys[field].length))
-      );
+      selected.push(keys[field].at(Math.floor(Math.random() * keys[field].length)));
     }
     return selected.join('-');
   }

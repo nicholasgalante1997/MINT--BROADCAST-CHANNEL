@@ -5,17 +5,7 @@
     {
       "name": "bulbasaur",
       "id": 1,
-      "colors": [
-        "#68ae28",
-        "#56931f",
-        "#7cbeb3",
-        "#68a198",
-        "#ffffff",
-        "#d60040",
-        "#006359",
-        "#0d131a",
-        "#dbdcdc"
-      ]
+      "colors": ["#68ae28", "#56931f", "#7cbeb3", "#68a198", "#ffffff", "#d60040", "#006359", "#0d131a", "#dbdcdc"]
     },
     {
       "name": "ivysaur",
@@ -82,17 +72,7 @@
     {
       "name": "charmeleon",
       "id": 5,
-      "colors": [
-        "#0d131a",
-        "#3d62ac",
-        "#fff3c2",
-        "#dbd2a9",
-        "#e73820",
-        "#c82e19",
-        "#ffffff",
-        "#e50020",
-        "#efe908"
-      ]
+      "colors": ["#0d131a", "#3d62ac", "#fff3c2", "#dbd2a9", "#e73820", "#c82e19", "#ffffff", "#e50020", "#efe908"]
     },
     {
       "name": "charizard",
@@ -209,17 +189,7 @@
     {
       "name": "weedle",
       "id": 13,
-      "colors": [
-        "#0d131a",
-        "#cad3cc",
-        "#a6ada8",
-        "#e3c582",
-        "#bfa56f",
-        "#e8528d",
-        "#f3b3c9",
-        "#c9467c",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#cad3cc", "#a6ada8", "#e3c582", "#bfa56f", "#e8528d", "#f3b3c9", "#c9467c", "#ffffff"]
     },
     {
       "name": "kakuna",
@@ -388,17 +358,7 @@
     {
       "name": "ekans",
       "id": 23,
-      "colors": [
-        "#efe908",
-        "#cec90c",
-        "#796bae",
-        "#695c97",
-        "#922f00",
-        "#6a1a00",
-        "#ed8599",
-        "#ce7486",
-        "#0d131a"
-      ]
+      "colors": ["#efe908", "#cec90c", "#796bae", "#695c97", "#922f00", "#6a1a00", "#ed8599", "#ce7486", "#0d131a"]
     },
     {
       "name": "arbok",
@@ -420,16 +380,7 @@
     {
       "name": "pikachu",
       "id": 25,
-      "colors": [
-        "#763a00",
-        "#ffe100",
-        "#542400",
-        "#f9be00",
-        "#0d131a",
-        "#b50005",
-        "#e50012",
-        "#ffffff"
-      ]
+      "colors": ["#763a00", "#ffe100", "#542400", "#f9be00", "#0d131a", "#b50005", "#e50012", "#ffffff"]
     },
     {
       "name": "raichu",
@@ -451,16 +402,7 @@
     {
       "name": "sandshrew",
       "id": 27,
-      "colors": [
-        "#dcc200",
-        "#f2d4b4",
-        "#eeeeef",
-        "#d1b89d",
-        "#b49f00",
-        "#c8c9ca",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#dcc200", "#f2d4b4", "#eeeeef", "#d1b89d", "#b49f00", "#c8c9ca", "#0d131a", "#ffffff"]
     },
     {
       "name": "sandslash",
@@ -594,30 +536,12 @@
     {
       "name": "clefairy",
       "id": 35,
-      "colors": [
-        "#f9dad9",
-        "#d7bdbc",
-        "#0d131a",
-        "#ed8599",
-        "#922f00",
-        "#ed85ad",
-        "#524423",
-        "#ffffff"
-      ]
+      "colors": ["#f9dad9", "#d7bdbc", "#0d131a", "#ed8599", "#922f00", "#ed85ad", "#524423", "#ffffff"]
     },
     {
       "name": "clefable",
       "id": 36,
-      "colors": [
-        "#f7c6bd",
-        "#f09ba5",
-        "#d5aba4",
-        "#d08690",
-        "#922f00",
-        "#0d131a",
-        "#ed8599",
-        "#ffffff"
-      ]
+      "colors": ["#f7c6bd", "#f09ba5", "#d5aba4", "#d08690", "#922f00", "#0d131a", "#ed8599", "#ffffff"]
     },
     {
       "name": "vulpix",
@@ -643,82 +567,32 @@
     {
       "name": "ninetales",
       "id": 38,
-      "colors": [
-        "#fff8b0",
-        "#ddd698",
-        "#ef8200",
-        "#cf7100",
-        "#e50044",
-        "#c6003a",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#fff8b0", "#ddd698", "#ef8200", "#cf7100", "#e50044", "#c6003a", "#0d131a", "#ffffff"]
     },
     {
       "name": "jigglypuff",
       "id": 39,
-      "colors": [
-        "#f6c8dd",
-        "#d5adbf",
-        "#0d131a",
-        "#ffffff",
-        "#2cb5a9",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#f6c8dd", "#d5adbf", "#0d131a", "#ffffff", "#2cb5a9", "#922f00", "#ed8599"]
     },
     {
       "name": "wigglytuff",
       "id": 40,
-      "colors": [
-        "#f6c8dd",
-        "#ffffff",
-        "#d5adbf",
-        "#dbdcdc",
-        "#0d131a",
-        "#2cb5a9",
-        "#ed8599",
-        "#922f00"
-      ]
+      "colors": ["#f6c8dd", "#ffffff", "#d5adbf", "#dbdcdc", "#0d131a", "#2cb5a9", "#ed8599", "#922f00"]
     },
     {
       "name": "zubat",
       "id": 41,
-      "colors": [
-        "#a499c9",
-        "#8e84ae",
-        "#00aee5",
-        "#0d131a",
-        "#796bae",
-        "#695c97",
-        "#0098c7",
-        "#ffffff"
-      ]
+      "colors": ["#a499c9", "#8e84ae", "#00aee5", "#0d131a", "#796bae", "#695c97", "#0098c7", "#ffffff"]
     },
     {
       "name": "golbat",
       "id": 42,
-      "colors": [
-        "#a499c9",
-        "#8e84ae",
-        "#00aee5",
-        "#0098c7",
-        "#ffffff",
-        "#0d131a"
-      ]
+      "colors": ["#a499c9", "#8e84ae", "#00aee5", "#0098c7", "#ffffff", "#0d131a"]
     },
     {
       "name": "oddish",
       "id": 43,
-      "colors": [
-        "#0d131a",
-        "#00a63c",
-        "#767cba",
-        "#e9545d",
-        "#ed8599",
-        "#666ba1",
-        "#009233"
-      ]
+      "colors": ["#0d131a", "#00a63c", "#767cba", "#e9545d", "#ed8599", "#666ba1", "#009233"]
     },
     {
       "name": "gloom",
@@ -739,17 +613,7 @@
     {
       "name": "vileplume",
       "id": 45,
-      "colors": [
-        "#0d131a",
-        "#5892bf",
-        "#46799e",
-        "#e9545d",
-        "#ed8599",
-        "#c94850",
-        "#f2984f",
-        "#c18963",
-        "#f9dbe1"
-      ]
+      "colors": ["#0d131a", "#5892bf", "#46799e", "#e9545d", "#ed8599", "#c94850", "#f2984f", "#c18963", "#f9dbe1"]
     },
     {
       "name": "paras",
@@ -771,17 +635,7 @@
     {
       "name": "parasect",
       "id": 47,
-      "colors": [
-        "#d60040",
-        "#b50033",
-        "#0d131a",
-        "#f5ac3c",
-        "#d49433",
-        "#ef834a",
-        "#ce723f",
-        "#ffffff",
-        "#dbdcdc"
-      ]
+      "colors": ["#d60040", "#b50033", "#0d131a", "#f5ac3c", "#d49433", "#ef834a", "#ce723f", "#ffffff", "#dbdcdc"]
     },
     {
       "name": "venonat",
@@ -822,46 +676,17 @@
     {
       "name": "diglett",
       "id": 50,
-      "colors": [
-        "#b9bf9c",
-        "#92967b",
-        "#0d131a",
-        "#865b15",
-        "#6a4504",
-        "#eb6d80",
-        "#cb5e71",
-        "#f6c7ce",
-        "#ffffff"
-      ]
+      "colors": ["#b9bf9c", "#92967b", "#0d131a", "#865b15", "#6a4504", "#eb6d80", "#cb5e71", "#f6c7ce", "#ffffff"]
     },
     {
       "name": "dugtrio",
       "id": 51,
-      "colors": [
-        "#b9bf9c",
-        "#92967b",
-        "#865b15",
-        "#6a4504",
-        "#ffffff",
-        "#eb6d80",
-        "#0d131a",
-        "#f6c7ce"
-      ]
+      "colors": ["#b9bf9c", "#92967b", "#865b15", "#6a4504", "#ffffff", "#eb6d80", "#0d131a", "#f6c7ce"]
     },
     {
       "name": "meowth",
       "id": 52,
-      "colors": [
-        "#cc5d00",
-        "#fff3c2",
-        "#fbd6a0",
-        "#0d131a",
-        "#f29739",
-        "#ffffff",
-        "#922f00",
-        "#ed8599",
-        "#f9be00"
-      ]
+      "colors": ["#cc5d00", "#fff3c2", "#fbd6a0", "#0d131a", "#f29739", "#ffffff", "#922f00", "#ed8599", "#f9be00"]
     },
     {
       "name": "persian",
@@ -883,14 +708,7 @@
     {
       "name": "psyduck",
       "id": 54,
-      "colors": [
-        "#0d131a",
-        "#fff1ac",
-        "#dcd096",
-        "#f9be00",
-        "#d7a400",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#fff1ac", "#dcd096", "#f9be00", "#d7a400", "#ffffff"]
     },
     {
       "name": "golduck",
@@ -914,31 +732,12 @@
     {
       "name": "mankey",
       "id": 56,
-      "colors": [
-        "#0d131a",
-        "#f2d4b4",
-        "#a3611c",
-        "#d1b89d",
-        "#804a0c",
-        "#ffffff",
-        "#cc5d00",
-        "#d18344"
-      ]
+      "colors": ["#0d131a", "#f2d4b4", "#a3611c", "#d1b89d", "#804a0c", "#ffffff", "#cc5d00", "#d18344"]
     },
     {
       "name": "primeape",
       "id": 57,
-      "colors": [
-        "#a3611c",
-        "#515457",
-        "#804a0c",
-        "#0d131a",
-        "#f2d4b4",
-        "#d18344",
-        "#ffffff",
-        "#ab6b35",
-        "#d1b89d"
-      ]
+      "colors": ["#a3611c", "#515457", "#804a0c", "#0d131a", "#f2d4b4", "#d18344", "#ffffff", "#ab6b35", "#d1b89d"]
     },
     {
       "name": "growlithe",
@@ -960,32 +759,12 @@
     {
       "name": "arcanine",
       "id": 59,
-      "colors": [
-        "#0d131a",
-        "#b94100",
-        "#fff3c2",
-        "#dbd2a9",
-        "#db4f03",
-        "#ffffff",
-        "#922f00",
-        "#ed8599",
-        "#8a969d"
-      ]
+      "colors": ["#0d131a", "#b94100", "#fff3c2", "#dbd2a9", "#db4f03", "#ffffff", "#922f00", "#ed8599", "#8a969d"]
     },
     {
       "name": "poliwag",
       "id": 60,
-      "colors": [
-        "#bad4ee",
-        "#0d131a",
-        "#5892bf",
-        "#46799e",
-        "#ffffff",
-        "#dbdcdc",
-        "#f09cb4",
-        "#d0879d",
-        "#ed8599"
-      ]
+      "colors": ["#bad4ee", "#0d131a", "#5892bf", "#46799e", "#ffffff", "#dbdcdc", "#f09cb4", "#d0879d", "#ed8599"]
     },
     {
       "name": "poliwhirl",
@@ -1000,15 +779,7 @@
     {
       "name": "abra",
       "id": 63,
-      "colors": [
-        "#edc300",
-        "#c6a400",
-        "#a4725d",
-        "#815847",
-        "#0d131a",
-        "#fffac6",
-        "#dcd8ac"
-      ]
+      "colors": ["#edc300", "#c6a400", "#a4725d", "#815847", "#0d131a", "#fffac6", "#dcd8ac"]
     },
     {
       "name": "kadabra",
@@ -1050,15 +821,7 @@
     {
       "name": "machop",
       "id": 66,
-      "colors": [
-        "#0d131a",
-        "#d3d9db",
-        "#adb2b4",
-        "#ffffff",
-        "#e50020",
-        "#ecde7b",
-        "#cbc06b"
-      ]
+      "colors": ["#0d131a", "#d3d9db", "#adb2b4", "#ffffff", "#e50020", "#ecde7b", "#cbc06b"]
     },
     {
       "name": "machoke",
@@ -1110,17 +873,7 @@
     {
       "name": "bellsprout",
       "id": 69,
-      "colors": [
-        "#0d131a",
-        "#a7d081",
-        "#bf794e",
-        "#f0e800",
-        "#cec900",
-        "#f4b1b1",
-        "#d3999b",
-        "#ffffff",
-        "#90b571"
-      ]
+      "colors": ["#0d131a", "#a7d081", "#bf794e", "#f0e800", "#cec900", "#f4b1b1", "#d3999b", "#ffffff", "#90b571"]
     },
     {
       "name": "weepinbell",
@@ -1177,17 +930,7 @@
     {
       "name": "tentacruel",
       "id": 73,
-      "colors": [
-        "#958c87",
-        "#766e6a",
-        "#0d131a",
-        "#00a0cf",
-        "#00b8ee",
-        "#ba0031",
-        "#990024",
-        "#db8f86",
-        "#ffffff"
-      ]
+      "colors": ["#958c87", "#766e6a", "#0d131a", "#00a0cf", "#00b8ee", "#ba0031", "#990024", "#db8f86", "#ffffff"]
     },
     {
       "name": "geodude",
@@ -1197,15 +940,7 @@
     {
       "name": "graveler",
       "id": 75,
-      "colors": [
-        "#717069",
-        "#888780",
-        "#ed8599",
-        "#ce7486",
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#717069", "#888780", "#ed8599", "#ce7486", "#ffffff", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "golem",
@@ -1263,16 +998,7 @@
     {
       "name": "slowpoke",
       "id": 79,
-      "colors": [
-        "#ed8599",
-        "#fff1ac",
-        "#ffffff",
-        "#ce7486",
-        "#dcd096",
-        "#922f00",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#ed8599", "#fff1ac", "#ffffff", "#ce7486", "#dcd096", "#922f00", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "slowbro",
@@ -1402,80 +1128,32 @@
     {
       "name": "seel",
       "id": 86,
-      "colors": [
-        "#ffffff",
-        "#f0e78e",
-        "#ed8599",
-        "#d3ebea",
-        "#dbdcdc",
-        "#b6cbcb",
-        "#ce7486",
-        "#0d131a",
-        "#8a969d"
-      ]
+      "colors": ["#ffffff", "#f0e78e", "#ed8599", "#d3ebea", "#dbdcdc", "#b6cbcb", "#ce7486", "#0d131a", "#8a969d"]
     },
     {
       "name": "dewgong",
       "id": 87,
-      "colors": [
-        "#ed8599",
-        "#ffffff",
-        "#ce7486",
-        "#dbdcdc",
-        "#cccccc",
-        "#0d131a",
-        "#8a969d"
-      ]
+      "colors": ["#ed8599", "#ffffff", "#ce7486", "#dbdcdc", "#cccccc", "#0d131a", "#8a969d"]
     },
     {
       "name": "grimer",
       "id": 88,
-      "colors": [
-        "#8b92c7",
-        "#797fad",
-        "#cea6cc",
-        "#0d131a",
-        "#ffffff",
-        "#b390b1",
-        "#63688f"
-      ]
+      "colors": ["#8b92c7", "#797fad", "#cea6cc", "#0d131a", "#ffffff", "#b390b1", "#63688f"]
     },
     {
       "name": "muk",
       "id": 89,
-      "colors": [
-        "#767cba",
-        "#666ba1",
-        "#ffffff",
-        "#cea6cc",
-        "#0d131a",
-        "#b390b1"
-      ]
+      "colors": ["#767cba", "#666ba1", "#ffffff", "#cea6cc", "#0d131a", "#b390b1"]
     },
     {
       "name": "shellder",
       "id": 90,
-      "colors": [
-        "#8b92c7",
-        "#ffffff",
-        "#0d131a",
-        "#797fad",
-        "#ed8599",
-        "#ce7486"
-      ]
+      "colors": ["#8b92c7", "#ffffff", "#0d131a", "#797fad", "#ed8599", "#ce7486"]
     },
     {
       "name": "cloyster",
       "id": 91,
-      "colors": [
-        "#b4b4b5",
-        "#888888",
-        "#a499c9",
-        "#8e84ae",
-        "#0d131a",
-        "#ffffff",
-        "#8a969d"
-      ]
+      "colors": ["#b4b4b5", "#888888", "#a499c9", "#8e84ae", "#0d131a", "#ffffff", "#8a969d"]
     },
     {
       "name": "gastly",
@@ -1496,15 +1174,7 @@
     {
       "name": "haunter",
       "id": 93,
-      "colors": [
-        "#664497",
-        "#593984",
-        "#ffffff",
-        "#ed8599",
-        "#dbdcdc",
-        "#ce7486",
-        "#0d131a"
-      ]
+      "colors": ["#664497", "#593984", "#ffffff", "#ed8599", "#dbdcdc", "#ce7486", "#0d131a"]
     },
     {
       "name": "gengar",
@@ -1519,94 +1189,37 @@
     {
       "name": "drowzee",
       "id": 96,
-      "colors": [
-        "#ffeb3f",
-        "#763a00",
-        "#a3611c",
-        "#ffffff",
-        "#542400",
-        "#ddcb37",
-        "#804a0c",
-        "#0d131a"
-      ]
+      "colors": ["#ffeb3f", "#763a00", "#a3611c", "#ffffff", "#542400", "#ddcb37", "#804a0c", "#0d131a"]
     },
     {
       "name": "hypno",
       "id": 97,
-      "colors": [
-        "#ffeb3f",
-        "#ddcb37",
-        "#ffffff",
-        "#a3611c",
-        "#cad3cc",
-        "#804a0c",
-        "#dbdcdc",
-        "#a6ada8",
-        "#0d131a"
-      ]
+      "colors": ["#ffeb3f", "#ddcb37", "#ffffff", "#a3611c", "#cad3cc", "#804a0c", "#dbdcdc", "#a6ada8", "#0d131a"]
     },
     {
       "name": "krabby",
       "id": 98,
-      "colors": [
-        "#ef8337",
-        "#fad7b5",
-        "#0d131a",
-        "#ce712e",
-        "#ffffff",
-        "#d8ba9d"
-      ]
+      "colors": ["#ef8337", "#fad7b5", "#0d131a", "#ce712e", "#ffffff", "#d8ba9d"]
     },
     {
       "name": "kingler",
       "id": 99,
-      "colors": [
-        "#f2d4b4",
-        "#e95504",
-        "#0d131a",
-        "#ffffff",
-        "#ca4800",
-        "#d1b89d"
-      ]
+      "colors": ["#f2d4b4", "#e95504", "#0d131a", "#ffffff", "#ca4800", "#d1b89d"]
     },
     {
       "name": "voltorb",
       "id": 100,
-      "colors": [
-        "#eeeeef",
-        "#e50044",
-        "#ffffff",
-        "#c8c9ca",
-        "#c6003a",
-        "#0d131a"
-      ]
+      "colors": ["#eeeeef", "#e50044", "#ffffff", "#c8c9ca", "#c6003a", "#0d131a"]
     },
     {
       "name": "electrode",
       "id": 101,
-      "colors": [
-        "#e50044",
-        "#eeeeef",
-        "#ffffff",
-        "#dbdcdc",
-        "#c8c9ca",
-        "#c6003a",
-        "#0d131a"
-      ]
+      "colors": ["#e50044", "#eeeeef", "#ffffff", "#dbdcdc", "#c8c9ca", "#c6003a", "#0d131a"]
     },
     {
       "name": "exeggcute",
       "id": 102,
-      "colors": [
-        "#f9dad9",
-        "#ed8599",
-        "#ffe100",
-        "#ffffff",
-        "#d7bdbc",
-        "#dcc200",
-        "#ce7486",
-        "#0d131a"
-      ]
+      "colors": ["#f9dad9", "#ed8599", "#ffe100", "#ffffff", "#d7bdbc", "#dcc200", "#ce7486", "#0d131a"]
     },
     {
       "name": "exeggutor",
@@ -1628,17 +1241,7 @@
     {
       "name": "cubone",
       "id": 104,
-      "colors": [
-        "#dcdbd6",
-        "#b4b4b0",
-        "#a95b00",
-        "#cf7100",
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a",
-        "#f9f1ab",
-        "#d3cd91"
-      ]
+      "colors": ["#dcdbd6", "#b4b4b0", "#a95b00", "#cf7100", "#ffffff", "#dbdcdc", "#0d131a", "#f9f1ab", "#d3cd91"]
     },
     {
       "name": "marowak",
@@ -1727,31 +1330,12 @@
     {
       "name": "weezing",
       "id": 110,
-      "colors": [
-        "#a586bc",
-        "#ed8599",
-        "#ffffff",
-        "#f0e78e",
-        "#8f75a3",
-        "#ce7486",
-        "#c9c279",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#a586bc", "#ed8599", "#ffffff", "#f0e78e", "#8f75a3", "#ce7486", "#c9c279", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "rhyhorn",
       "id": 111,
-      "colors": [
-        "#87b1d0",
-        "#ffffff",
-        "#e50044",
-        "#c6dcdb",
-        "#0d131a",
-        "#759ab5",
-        "#a7bab9",
-        "#dbdcdc"
-      ]
+      "colors": ["#87b1d0", "#ffffff", "#e50044", "#c6dcdb", "#0d131a", "#759ab5", "#a7bab9", "#dbdcdc"]
     },
     {
       "name": "rhydon",
@@ -1775,29 +1359,12 @@
     {
       "name": "chansey",
       "id": 113,
-      "colors": [
-        "#0d131a",
-        "#d08690",
-        "#f09ba5",
-        "#f6c8d6",
-        "#d5adba",
-        "#ffffff",
-        "#fffbda",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#0d131a", "#d08690", "#f09ba5", "#f6c8d6", "#d5adba", "#ffffff", "#fffbda", "#922f00", "#ed8599"]
     },
     {
       "name": "tangela",
       "id": 114,
-      "colors": [
-        "#0d131a",
-        "#4573ab",
-        "#5084c4",
-        "#ffffff",
-        "#c94850",
-        "#e9545d"
-      ]
+      "colors": ["#0d131a", "#4573ab", "#5084c4", "#ffffff", "#c94850", "#e9545d"]
     },
     {
       "name": "kangaskhan",
@@ -1825,43 +1392,17 @@
     {
       "name": "horsea",
       "id": 116,
-      "colors": [
-        "#0d131a",
-        "#fffac6",
-        "#dcd8ac",
-        "#00b8ee",
-        "#00a0cf",
-        "#ffffff",
-        "#e50020"
-      ]
+      "colors": ["#0d131a", "#fffac6", "#dcd8ac", "#00b8ee", "#00a0cf", "#ffffff", "#e50020"]
     },
     {
       "name": "seadra",
       "id": 117,
-      "colors": [
-        "#00b8ee",
-        "#fffac6",
-        "#0d131a",
-        "#ffffff",
-        "#00a0cf",
-        "#dcd8ac",
-        "#dbdcdc"
-      ]
+      "colors": ["#00b8ee", "#fffac6", "#0d131a", "#ffffff", "#00a0cf", "#dcd8ac", "#dbdcdc"]
     },
     {
       "name": "goldeen",
       "id": 118,
-      "colors": [
-        "#0d131a",
-        "#ffffff",
-        "#f4af8f",
-        "#ec6d45",
-        "#dbdcdc",
-        "#fad7b5",
-        "#f9dbe1",
-        "#ed8599",
-        "#84cabf"
-      ]
+      "colors": ["#0d131a", "#ffffff", "#f4af8f", "#ec6d45", "#dbdcdc", "#fad7b5", "#f9dbe1", "#ed8599", "#84cabf"]
     },
     {
       "name": "seaking",
@@ -1899,16 +1440,7 @@
     {
       "name": "starmie",
       "id": 121,
-      "colors": [
-        "#8b92c7",
-        "#ffe100",
-        "#ba0031",
-        "#797fad",
-        "#dcc200",
-        "#990024",
-        "#db8f86",
-        "#0d131a"
-      ]
+      "colors": ["#8b92c7", "#ffe100", "#ba0031", "#797fad", "#dcc200", "#990024", "#db8f86", "#0d131a"]
     },
     {
       "name": "mr-mime",
@@ -1970,15 +1502,7 @@
     {
       "name": "electabuzz",
       "id": 125,
-      "colors": [
-        "#0d131a",
-        "#dbdcdc",
-        "#ffe100",
-        "#dcc200",
-        "#515457",
-        "#383839",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#dbdcdc", "#ffe100", "#dcc200", "#515457", "#383839", "#ffffff"]
     },
     {
       "name": "magmar",
@@ -2003,14 +1527,7 @@
     {
       "name": "pinsir",
       "id": 127,
-      "colors": [
-        "#0d131a",
-        "#c9c9c4",
-        "#b1826f",
-        "#956e5d",
-        "#9e9e9a",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#c9c9c4", "#b1826f", "#956e5d", "#9e9e9a", "#ffffff"]
     },
     {
       "name": "tauros",
@@ -2031,16 +1548,7 @@
     {
       "name": "magikarp",
       "id": 129,
-      "colors": [
-        "#e95532",
-        "#f8f397",
-        "#ffffff",
-        "#ee848c",
-        "#dbdcdc",
-        "#d5d283",
-        "#ca4829",
-        "#0d131a"
-      ]
+      "colors": ["#e95532", "#f8f397", "#ffffff", "#ee848c", "#dbdcdc", "#d5d283", "#ca4829", "#0d131a"]
     },
     {
       "name": "gyarados",
@@ -2086,16 +1594,7 @@
     {
       "name": "eevee",
       "id": 133,
-      "colors": [
-        "#ba5400",
-        "#0d131a",
-        "#fff1ac",
-        "#933f00",
-        "#dcd096",
-        "#ed8599",
-        "#922f00",
-        "#ffffff"
-      ]
+      "colors": ["#ba5400", "#0d131a", "#fff1ac", "#933f00", "#dcd096", "#ed8599", "#922f00", "#ffffff"]
     },
     {
       "name": "vaporeon",
@@ -2123,16 +1622,7 @@
     {
       "name": "flareon",
       "id": 136,
-      "colors": [
-        "#e95520",
-        "#0d131a",
-        "#faed00",
-        "#3e4e57",
-        "#ffffff",
-        "#d7cd00",
-        "#ca4819",
-        "#27333a"
-      ]
+      "colors": ["#e95520", "#0d131a", "#faed00", "#3e4e57", "#ffffff", "#d7cd00", "#ca4819", "#27333a"]
     },
     {
       "name": "porygon",
@@ -2158,15 +1648,7 @@
     {
       "name": "omanyte",
       "id": 138,
-      "colors": [
-        "#00a0b6",
-        "#0d131a",
-        "#e3c582",
-        "#ffffff",
-        "#dbdcdc",
-        "#bfa56f",
-        "#008c9f"
-      ]
+      "colors": ["#00a0b6", "#0d131a", "#e3c582", "#ffffff", "#dbdcdc", "#bfa56f", "#008c9f"]
     },
     {
       "name": "omastar",
@@ -2187,30 +1669,12 @@
     {
       "name": "kabuto",
       "id": 140,
-      "colors": [
-        "#ffe45f",
-        "#f9dbe8",
-        "#f3b3cf",
-        "#0d131a",
-        "#dcc552",
-        "#d18200",
-        "#ab6a00",
-        "#8a969d",
-        "#fff2b8"
-      ]
+      "colors": ["#ffe45f", "#f9dbe8", "#f3b3cf", "#0d131a", "#dcc552", "#d18200", "#ab6a00", "#8a969d", "#fff2b8"]
     },
     {
       "name": "kabutops",
       "id": 141,
-      "colors": [
-        "#d3d9db",
-        "#0d131a",
-        "#ffffff",
-        "#955e0c",
-        "#adb2b4",
-        "#764800",
-        "#dbdcdc"
-      ]
+      "colors": ["#d3d9db", "#0d131a", "#ffffff", "#955e0c", "#adb2b4", "#764800", "#dbdcdc"]
     },
     {
       "name": "aerodactyl",
@@ -2232,17 +1696,7 @@
     {
       "name": "snorlax",
       "id": 143,
-      "colors": [
-        "#006a6b",
-        "#005454",
-        "#0d131a",
-        "#fdeabe",
-        "#ffffff",
-        "#dacaa5",
-        "#dbdcdc",
-        "#76491b",
-        "#5c370c"
-      ]
+      "colors": ["#006a6b", "#005454", "#0d131a", "#fdeabe", "#ffffff", "#dacaa5", "#dbdcdc", "#76491b", "#5c370c"]
     },
     {
       "name": "articuno",
@@ -2284,73 +1738,27 @@
     {
       "name": "moltres",
       "id": 146,
-      "colors": [
-        "#fccf00",
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a",
-        "#cc5d00",
-        "#f1d8e8",
-        "#e73820",
-        "#dab300",
-        "#a74a00"
-      ]
+      "colors": ["#fccf00", "#ffffff", "#dbdcdc", "#0d131a", "#cc5d00", "#f1d8e8", "#e73820", "#dab300", "#a74a00"]
     },
     {
       "name": "dratini",
       "id": 147,
-      "colors": [
-        "#0d131a",
-        "#dbdcdc",
-        "#b4b4b5",
-        "#88a3d4",
-        "#778db8",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#dbdcdc", "#b4b4b5", "#88a3d4", "#778db8", "#ffffff"]
     },
     {
       "name": "dragonair",
       "id": 148,
-      "colors": [
-        "#00a4e3",
-        "#1d2087",
-        "#181878",
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a",
-        "#008fc5",
-        "#8d80bb"
-      ]
+      "colors": ["#00a4e3", "#1d2087", "#181878", "#ffffff", "#dbdcdc", "#0d131a", "#008fc5", "#8d80bb"]
     },
     {
       "name": "dragonite",
       "id": 149,
-      "colors": [
-        "#5dc1cf",
-        "#50a8b4",
-        "#f9be00",
-        "#d7a400",
-        "#fff3c2",
-        "#dbd2a9",
-        "#dbdcdc",
-        "#ffffff",
-        "#0d131a"
-      ]
+      "colors": ["#5dc1cf", "#50a8b4", "#f9be00", "#d7a400", "#fff3c2", "#dbd2a9", "#dbdcdc", "#ffffff", "#0d131a"]
     },
     {
       "name": "mewtwo",
       "id": 150,
-      "colors": [
-        "#e6d4e7",
-        "#cea6cc",
-        "#0d131a",
-        "#9b7fa6",
-        "#836b8d",
-        "#ffffff",
-        "#dbdcdc",
-        "#a586bc",
-        "#8f75a3"
-      ]
+      "colors": ["#e6d4e7", "#cea6cc", "#0d131a", "#9b7fa6", "#836b8d", "#ffffff", "#dbdcdc", "#a586bc", "#8f75a3"]
     },
     {
       "name": "mew",
@@ -2414,31 +1822,12 @@
     {
       "name": "cyndaquil",
       "id": 155,
-      "colors": [
-        "#ef821e",
-        "#0d131a",
-        "#ffe33f",
-        "#008086",
-        "#fff8b0",
-        "#d2ecfa",
-        "#ddd698",
-        "#b6ccd9"
-      ]
+      "colors": ["#ef821e", "#0d131a", "#ffe33f", "#008086", "#fff8b0", "#d2ecfa", "#ddd698", "#b6ccd9"]
     },
     {
       "name": "quilava",
       "id": 156,
-      "colors": [
-        "#ef821e",
-        "#008086",
-        "#ffffff",
-        "#fff8b0",
-        "#ffe33f",
-        "#e50044",
-        "#ddd698",
-        "#c6003a",
-        "#0d131a"
-      ]
+      "colors": ["#ef821e", "#008086", "#ffffff", "#fff8b0", "#ffe33f", "#e50044", "#ddd698", "#c6003a", "#0d131a"]
     },
     {
       "name": "typhlosion",
@@ -2476,17 +1865,7 @@
     {
       "name": "croconaw",
       "id": 159,
-      "colors": [
-        "#0d131a",
-        "#e9545d",
-        "#f4b0a9",
-        "#00aecb",
-        "#0098b1",
-        "#ffe792",
-        "#dbc77f",
-        "#ffffff",
-        "#f8c058"
-      ]
+      "colors": ["#0d131a", "#e9545d", "#f4b0a9", "#00aecb", "#0098b1", "#ffe792", "#dbc77f", "#ffffff", "#f8c058"]
     },
     {
       "name": "feraligatr",
@@ -2510,17 +1889,7 @@
     {
       "name": "sentret",
       "id": 161,
-      "colors": [
-        "#0d131a",
-        "#60615f",
-        "#f09cb4",
-        "#b1826f",
-        "#956e5d",
-        "#4a4b4a",
-        "#ffffff",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#0d131a", "#60615f", "#f09cb4", "#b1826f", "#956e5d", "#4a4b4a", "#ffffff", "#922f00", "#ed8599"]
     },
     {
       "name": "furret",
@@ -2578,16 +1947,7 @@
     {
       "name": "ledyba",
       "id": 165,
-      "colors": [
-        "#0d131a",
-        "#e95520",
-        "#fff1ac",
-        "#dcd096",
-        "#ffffff",
-        "#d4e9d7",
-        "#b7caba",
-        "#767cba"
-      ]
+      "colors": ["#0d131a", "#e95520", "#fff1ac", "#dcd096", "#ffffff", "#d4e9d7", "#b7caba", "#767cba"]
     },
     {
       "name": "ledian",
@@ -2661,17 +2021,7 @@
     {
       "name": "chinchou",
       "id": 170,
-      "colors": [
-        "#0d131a",
-        "#65a9dc",
-        "#ffec60",
-        "#5892bf",
-        "#bad4ee",
-        "#a1b8ce",
-        "#922f00",
-        "#ed8599",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#65a9dc", "#ffec60", "#5892bf", "#bad4ee", "#a1b8ce", "#922f00", "#ed8599", "#ffffff"]
     },
     {
       "name": "lanturn",
@@ -2700,29 +2050,12 @@
     {
       "name": "cleffa",
       "id": 173,
-      "colors": [
-        "#f7c6bd",
-        "#524423",
-        "#ed8599",
-        "#922f00",
-        "#d5aba4",
-        "#3e3315",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#f7c6bd", "#524423", "#ed8599", "#922f00", "#d5aba4", "#3e3315", "#0d131a", "#ffffff"]
     },
     {
       "name": "igglybuff",
       "id": 174,
-      "colors": [
-        "#f9dbe8",
-        "#d7beca",
-        "#0d131a",
-        "#ba004f",
-        "#ffffff",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#f9dbe8", "#d7beca", "#0d131a", "#ba004f", "#ffffff", "#922f00", "#ed8599"]
     },
     {
       "name": "togepi",
@@ -2744,16 +2077,7 @@
     {
       "name": "togetic",
       "id": 176,
-      "colors": [
-        "#ffffff",
-        "#0075c1",
-        "#922f00",
-        "#ed8599",
-        "#e50044",
-        "#dbdcdc",
-        "#c6003a",
-        "#0d131a"
-      ]
+      "colors": ["#ffffff", "#0075c1", "#922f00", "#ed8599", "#e50044", "#dbdcdc", "#c6003a", "#0d131a"]
     },
     {
       "name": "natu",
@@ -2898,17 +2222,7 @@
     {
       "name": "sudowoodo",
       "id": 185,
-      "colors": [
-        "#0d131a",
-        "#bf794e",
-        "#965e3a",
-        "#00a63c",
-        "#009233",
-        "#fcd13e",
-        "#ffffff",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#0d131a", "#bf794e", "#965e3a", "#00a63c", "#009233", "#fcd13e", "#ffffff", "#922f00", "#ed8599"]
     },
     {
       "name": "politoed",
@@ -2933,29 +2247,12 @@
     {
       "name": "hoppip",
       "id": 187,
-      "colors": [
-        "#ed85ad",
-        "#cd7497",
-        "#0d131a",
-        "#6fb92c",
-        "#5fa124",
-        "#922f00",
-        "#ed8599",
-        "#ffeb3f"
-      ]
+      "colors": ["#ed85ad", "#cd7497", "#0d131a", "#6fb92c", "#5fa124", "#922f00", "#ed8599", "#ffeb3f"]
     },
     {
       "name": "skiploom",
       "id": 188,
-      "colors": [
-        "#0d131a",
-        "#6cba5a",
-        "#5da24d",
-        "#ef8200",
-        "#ffffff",
-        "#ffe45f",
-        "#dbdcdc"
-      ]
+      "colors": ["#0d131a", "#6cba5a", "#5da24d", "#ef8200", "#ffffff", "#ffe45f", "#dbdcdc"]
     },
     {
       "name": "jumpluff",
@@ -2978,14 +2275,7 @@
     {
       "name": "aipom",
       "id": 190,
-      "colors": [
-        "#a586bc",
-        "#ffe792",
-        "#ffffff",
-        "#8f75a3",
-        "#dbc77f",
-        "#0d131a"
-      ]
+      "colors": ["#a586bc", "#ffe792", "#ffffff", "#8f75a3", "#dbc77f", "#0d131a"]
     },
     {
       "name": "sunkern",
@@ -3009,14 +2299,7 @@
     {
       "name": "sunflora",
       "id": 192,
-      "colors": [
-        "#a7d081",
-        "#90b571",
-        "#0d131a",
-        "#fcd13e",
-        "#fff1ac",
-        "#dcd096"
-      ]
+      "colors": ["#a7d081", "#90b571", "#0d131a", "#fcd13e", "#fff1ac", "#dcd096"]
     },
     {
       "name": "yanma",
@@ -3037,16 +2320,7 @@
     {
       "name": "wooper",
       "id": 194,
-      "colors": [
-        "#d0bad9",
-        "#0d131a",
-        "#59c2e1",
-        "#4da9c3",
-        "#ffffff",
-        "#005e96",
-        "#ed8599",
-        "#922f00"
-      ]
+      "colors": ["#d0bad9", "#0d131a", "#59c2e1", "#4da9c3", "#ffffff", "#005e96", "#ed8599", "#922f00"]
     },
     {
       "name": "quagsire",
@@ -3072,15 +2346,7 @@
     {
       "name": "umbreon",
       "id": 197,
-      "colors": [
-        "#485157",
-        "#ffe100",
-        "#0d131a",
-        "#30353a",
-        "#dcc200",
-        "#e95550",
-        "#ffffff"
-      ]
+      "colors": ["#485157", "#ffe100", "#0d131a", "#30353a", "#dcc200", "#e95550", "#ffffff"]
     },
     {
       "name": "murkrow",
@@ -3145,16 +2411,7 @@
     {
       "name": "wobbuffet",
       "id": 202,
-      "colors": [
-        "#00b7de",
-        "#595757",
-        "#922f00",
-        "#ed8599",
-        "#ffffff",
-        "#00a0c2",
-        "#3e3a39",
-        "#0d131a"
-      ]
+      "colors": ["#00b7de", "#595757", "#922f00", "#ed8599", "#ffffff", "#00a0c2", "#3e3a39", "#0d131a"]
     },
     {
       "name": "girafarig",
@@ -3178,69 +2435,27 @@
     {
       "name": "pineco",
       "id": 204,
-      "colors": [
-        "#0099a9",
-        "#ffffff",
-        "#e7372f",
-        "#0d131a",
-        "#008290",
-        "#dbdcdc",
-        "#c82e27"
-      ]
+      "colors": ["#0099a9", "#ffffff", "#e7372f", "#0d131a", "#008290", "#dbdcdc", "#c82e27"]
     },
     {
       "name": "forretress",
       "id": 205,
-      "colors": [
-        "#e6d4e7",
-        "#ba0031",
-        "#c7b7c8",
-        "#990024",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#e6d4e7", "#ba0031", "#c7b7c8", "#990024", "#0d131a", "#ffffff"]
     },
     {
       "name": "dunsparce",
       "id": 206,
-      "colors": [
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a",
-        "#fff362",
-        "#fffbda",
-        "#5dc1cf",
-        "#50a8b4",
-        "#ded255"
-      ]
+      "colors": ["#ffffff", "#dbdcdc", "#0d131a", "#fff362", "#fffbda", "#5dc1cf", "#50a8b4", "#ded255"]
     },
     {
       "name": "gligar",
       "id": 207,
-      "colors": [
-        "#cb7db0",
-        "#b06c99",
-        "#0d131a",
-        "#6c9bd2",
-        "#ffffff",
-        "#ee846d",
-        "#ce725f",
-        "#5d86b6",
-        "#dbdcdc"
-      ]
+      "colors": ["#cb7db0", "#b06c99", "#0d131a", "#6c9bd2", "#ffffff", "#ee846d", "#ce725f", "#5d86b6", "#dbdcdc"]
     },
     {
       "name": "steelix",
       "id": 208,
-      "colors": [
-        "#87b1d0",
-        "#759ab5",
-        "#0d131a",
-        "#ffffff",
-        "#cccccc",
-        "#e50038",
-        "#c6002f"
-      ]
+      "colors": ["#87b1d0", "#759ab5", "#0d131a", "#ffffff", "#cccccc", "#e50038", "#c6002f"]
     },
     {
       "name": "snubbull",
@@ -3263,17 +2478,7 @@
     {
       "name": "granbull",
       "id": 210,
-      "colors": [
-        "#cea6cc",
-        "#30353a",
-        "#60615f",
-        "#ffffff",
-        "#922f00",
-        "#b390b1",
-        "#212226",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#cea6cc", "#30353a", "#60615f", "#ffffff", "#922f00", "#b390b1", "#212226", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "qwilfish",
@@ -3311,27 +2516,12 @@
     {
       "name": "shuckle",
       "id": 213,
-      "colors": [
-        "#ffe100",
-        "#dcc200",
-        "#0d131a",
-        "#eddbb3",
-        "#c7b997",
-        "#e50038",
-        "#c6002f"
-      ]
+      "colors": ["#ffe100", "#dcc200", "#0d131a", "#eddbb3", "#c7b997", "#e50038", "#c6002f"]
     },
     {
       "name": "heracross",
       "id": 214,
-      "colors": [
-        "#0d131a",
-        "#ffffff",
-        "#dbdcdc",
-        "#46799e",
-        "#5892bf",
-        "#ffe100"
-      ]
+      "colors": ["#0d131a", "#ffffff", "#dbdcdc", "#46799e", "#5892bf", "#ffe100"]
     },
     {
       "name": "sneasel",
@@ -3353,17 +2543,7 @@
     {
       "name": "teddiursa",
       "id": 216,
-      "colors": [
-        "#f29739",
-        "#d18331",
-        "#0d131a",
-        "#ffffff",
-        "#ffe792",
-        "#fffac6",
-        "#515457",
-        "#ed8599",
-        "#dcd8ac"
-      ]
+      "colors": ["#f29739", "#d18331", "#0d131a", "#ffffff", "#ffe792", "#fffac6", "#515457", "#ed8599", "#dcd8ac"]
     },
     {
       "name": "ursaring",
@@ -3407,81 +2587,32 @@
     {
       "name": "swinub",
       "id": 220,
-      "colors": [
-        "#bf794e",
-        "#854c3b",
-        "#965e3a",
-        "#0d131a",
-        "#f09ba5",
-        "#d08690"
-      ]
+      "colors": ["#bf794e", "#854c3b", "#965e3a", "#0d131a", "#f09ba5", "#d08690"]
     },
     {
       "name": "piloswine",
       "id": 221,
-      "colors": [
-        "#bf794e",
-        "#f09ba5",
-        "#c6dcdb",
-        "#965e3a",
-        "#a7bab9",
-        "#d08690",
-        "#0d131a"
-      ]
+      "colors": ["#bf794e", "#f09ba5", "#c6dcdb", "#965e3a", "#a7bab9", "#d08690", "#0d131a"]
     },
     {
       "name": "corsola",
       "id": 222,
-      "colors": [
-        "#ed8599",
-        "#ce7486",
-        "#0d131a",
-        "#a2c3c9",
-        "#bbe1e8",
-        "#e50012",
-        "#b50005",
-        "#ffffff"
-      ]
+      "colors": ["#ed8599", "#ce7486", "#0d131a", "#a2c3c9", "#bbe1e8", "#e50012", "#b50005", "#ffffff"]
     },
     {
       "name": "remoraid",
       "id": 223,
-      "colors": [
-        "#c6dcdb",
-        "#0099a9",
-        "#ffffff",
-        "#dbdcdc",
-        "#a7bab9",
-        "#008290",
-        "#0d131a"
-      ]
+      "colors": ["#c6dcdb", "#0099a9", "#ffffff", "#dbdcdc", "#a7bab9", "#008290", "#0d131a"]
     },
     {
       "name": "octillery",
       "id": 224,
-      "colors": [
-        "#0d131a",
-        "#e50012",
-        "#ec6d45",
-        "#c6000b",
-        "#fcd13e",
-        "#d9b536",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#e50012", "#ec6d45", "#c6000b", "#fcd13e", "#d9b536", "#ffffff"]
     },
     {
       "name": "delibird",
       "id": 225,
-      "colors": [
-        "#fff095",
-        "#dccf81",
-        "#0d131a",
-        "#e9eff8",
-        "#c9cfd7",
-        "#e50012",
-        "#c6000b",
-        "#ffffff"
-      ]
+      "colors": ["#fff095", "#dccf81", "#0d131a", "#e9eff8", "#c9cfd7", "#e50012", "#c6000b", "#ffffff"]
     },
     {
       "name": "mantine",
@@ -3526,16 +2657,7 @@
     {
       "name": "houndour",
       "id": 228,
-      "colors": [
-        "#485157",
-        "#30353a",
-        "#dbdcdc",
-        "#b4b4b5",
-        "#0d131a",
-        "#ce723f",
-        "#ef834a",
-        "#ffffff"
-      ]
+      "colors": ["#485157", "#30353a", "#dbdcdc", "#b4b4b5", "#0d131a", "#ce723f", "#ef834a", "#ffffff"]
     },
     {
       "name": "houndoom",
@@ -3556,17 +2678,7 @@
     {
       "name": "kingdra",
       "id": 230,
-      "colors": [
-        "#ffffff",
-        "#dbdcdc",
-        "#57c2e9",
-        "#4ba9cb",
-        "#0d131a",
-        "#f9be00",
-        "#d7a400",
-        "#e4004f",
-        "#c60044"
-      ]
+      "colors": ["#ffffff", "#dbdcdc", "#57c2e9", "#4ba9cb", "#0d131a", "#f9be00", "#d7a400", "#e4004f", "#c60044"]
     },
     {
       "name": "phanpy",
@@ -3604,17 +2716,7 @@
     {
       "name": "porygon2",
       "id": 233,
-      "colors": [
-        "#57c2e9",
-        "#4ba9cb",
-        "#d2ecfa",
-        "#0d131a",
-        "#e30077",
-        "#c60068",
-        "#f09cbb",
-        "#f9dbe8",
-        "#ffffff"
-      ]
+      "colors": ["#57c2e9", "#4ba9cb", "#d2ecfa", "#0d131a", "#e30077", "#c60068", "#f09cbb", "#f9dbe8", "#ffffff"]
     },
     {
       "name": "stantler",
@@ -3637,16 +2739,7 @@
     {
       "name": "smeargle",
       "id": 235,
-      "colors": [
-        "#e5e3da",
-        "#c1bfb8",
-        "#852a18",
-        "#ffffff",
-        "#598b1f",
-        "#adc186",
-        "#691b07",
-        "#0d131a"
-      ]
+      "colors": ["#e5e3da", "#c1bfb8", "#852a18", "#ffffff", "#598b1f", "#adc186", "#691b07", "#0d131a"]
     },
     {
       "name": "tyrogue",
@@ -3671,17 +2764,7 @@
     {
       "name": "hitmontop",
       "id": 237,
-      "colors": [
-        "#0d131a",
-        "#ffffff",
-        "#dbdcdc",
-        "#00a6db",
-        "#0091bf",
-        "#c18963",
-        "#986c4c",
-        "#bad4ee",
-        "#a1b8ce"
-      ]
+      "colors": ["#0d131a", "#ffffff", "#dbdcdc", "#00a6db", "#0091bf", "#c18963", "#986c4c", "#bad4ee", "#a1b8ce"]
     },
     {
       "name": "smoochum",
@@ -3745,15 +2828,7 @@
     {
       "name": "blissey",
       "id": 242,
-      "colors": [
-        "#f6c8d6",
-        "#d5adba",
-        "#0d131a",
-        "#ffffff",
-        "#dbdcdc",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#f6c8d6", "#d5adba", "#0d131a", "#ffffff", "#dbdcdc", "#922f00", "#ed8599"]
     },
     {
       "name": "raikou",
@@ -3826,28 +2901,12 @@
     {
       "name": "larvitar",
       "id": 246,
-      "colors": [
-        "#b4ce8e",
-        "#97ae79",
-        "#0d131a",
-        "#ffffff",
-        "#ba0031",
-        "#990024",
-        "#e50044",
-        "#dbdcdc"
-      ]
+      "colors": ["#b4ce8e", "#97ae79", "#0d131a", "#ffffff", "#ba0031", "#990024", "#e50044", "#dbdcdc"]
     },
     {
       "name": "pupitar",
       "id": 247,
-      "colors": [
-        "#96bede",
-        "#7fa1bb",
-        "#ffffff",
-        "#0d131a",
-        "#dbdcdc",
-        "#e4004f"
-      ]
+      "colors": ["#96bede", "#7fa1bb", "#ffffff", "#0d131a", "#dbdcdc", "#e4004f"]
     },
     {
       "name": "tyranitar",
@@ -4126,17 +3185,7 @@
     {
       "name": "zigzagoon",
       "id": 263,
-      "colors": [
-        "#0d131a",
-        "#efeddf",
-        "#c9c8bc",
-        "#61532e",
-        "#524423",
-        "#dbdcdc",
-        "#ffffff",
-        "#6f4e25",
-        "#5a3e19"
-      ]
+      "colors": ["#0d131a", "#efeddf", "#c9c8bc", "#61532e", "#524423", "#dbdcdc", "#ffffff", "#6f4e25", "#5a3e19"]
     },
     {
       "name": "linoone",
@@ -4158,17 +3207,7 @@
     {
       "name": "wurmple",
       "id": 265,
-      "colors": [
-        "#0d131a",
-        "#e85377",
-        "#c94768",
-        "#e7e7b9",
-        "#c2c29d",
-        "#fff1ac",
-        "#dcd096",
-        "#ffffff",
-        "#dbdcdc"
-      ]
+      "colors": ["#0d131a", "#e85377", "#c94768", "#e7e7b9", "#c2c29d", "#fff1ac", "#dcd096", "#ffffff", "#dbdcdc"]
     },
     {
       "name": "silcoon",
@@ -4195,16 +3234,7 @@
     {
       "name": "cascoon",
       "id": 268,
-      "colors": [
-        "#e6d4e7",
-        "#c7b7c8",
-        "#0d131a",
-        "#baa0ca",
-        "#a28ab0",
-        "#e85377",
-        "#c94768",
-        "#ffffff"
-      ]
+      "colors": ["#e6d4e7", "#c7b7c8", "#0d131a", "#baa0ca", "#a28ab0", "#e85377", "#c94768", "#ffffff"]
     },
     {
       "name": "dustox",
@@ -4226,31 +3256,12 @@
     {
       "name": "lotad",
       "id": 270,
-      "colors": [
-        "#0d131a",
-        "#6cba5a",
-        "#5da24d",
-        "#0098c7",
-        "#00aee5",
-        "#ffffff",
-        "#ffe792",
-        "#007b36",
-        "#00662a"
-      ]
+      "colors": ["#0d131a", "#6cba5a", "#5da24d", "#0098c7", "#00aee5", "#ffffff", "#ffe792", "#007b36", "#00662a"]
     },
     {
       "name": "lombre",
       "id": 271,
-      "colors": [
-        "#0d131a",
-        "#ee848c",
-        "#ce737b",
-        "#6cba5a",
-        "#5da24d",
-        "#a3d5c0",
-        "#8cb9a7",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#ee848c", "#ce737b", "#6cba5a", "#5da24d", "#a3d5c0", "#8cb9a7", "#ffffff"]
     },
     {
       "name": "ludicolo",
@@ -4276,16 +3287,7 @@
     {
       "name": "seedot",
       "id": 273,
-      "colors": [
-        "#0d131a",
-        "#888780",
-        "#595750",
-        "#fbd375",
-        "#d9b766",
-        "#89694e",
-        "#755740",
-        "#3e3a39"
-      ]
+      "colors": ["#0d131a", "#888780", "#595750", "#fbd375", "#d9b766", "#89694e", "#755740", "#3e3a39"]
     },
     {
       "name": "nuzleaf",
@@ -4322,17 +3324,7 @@
     {
       "name": "taillow",
       "id": 276,
-      "colors": [
-        "#0d131a",
-        "#ffe45f",
-        "#dcc552",
-        "#001c3c",
-        "#ffffff",
-        "#dbdcdc",
-        "#08294d",
-        "#910a2f",
-        "#740020"
-      ]
+      "colors": ["#0d131a", "#ffe45f", "#dcc552", "#001c3c", "#ffffff", "#dbdcdc", "#08294d", "#910a2f", "#740020"]
     },
     {
       "name": "swellow",
@@ -4371,31 +3363,12 @@
     {
       "name": "pelipper",
       "id": 279,
-      "colors": [
-        "#0d131a",
-        "#eef3f6",
-        "#cacfd2",
-        "#00aeeb",
-        "#0098cd",
-        "#ffe45f",
-        "#dcc552",
-        "#922f00"
-      ]
+      "colors": ["#0d131a", "#eef3f6", "#cacfd2", "#00aeeb", "#0098cd", "#ffe45f", "#dcc552", "#922f00"]
     },
     {
       "name": "ralts",
       "id": 280,
-      "colors": [
-        "#ed85ad",
-        "#a7d081",
-        "#eef3f6",
-        "#ed8599",
-        "#922f00",
-        "#cd7497",
-        "#90b571",
-        "#d3d9db",
-        "#0d131a"
-      ]
+      "colors": ["#ed85ad", "#a7d081", "#eef3f6", "#ed8599", "#922f00", "#cd7497", "#90b571", "#d3d9db", "#0d131a"]
     },
     {
       "name": "kirlia",
@@ -4432,29 +3405,12 @@
     {
       "name": "surskit",
       "id": 283,
-      "colors": [
-        "#00b8ee",
-        "#00a0cf",
-        "#ffe792",
-        "#dbc77f",
-        "#ed8599",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#00b8ee", "#00a0cf", "#ffe792", "#dbc77f", "#ed8599", "#0d131a", "#ffffff"]
     },
     {
       "name": "masquerain",
       "id": 284,
-      "colors": [
-        "#d2ecfa",
-        "#b6ccd9",
-        "#0d131a",
-        "#f19975",
-        "#d08466",
-        "#ffffff",
-        "#ad4885",
-        "#dbdcdc"
-      ]
+      "colors": ["#d2ecfa", "#b6ccd9", "#0d131a", "#f19975", "#d08466", "#ffffff", "#ad4885", "#dbdcdc"]
     },
     {
       "name": "shroomish",
@@ -4535,14 +3491,7 @@
     {
       "name": "nincada",
       "id": 290,
-      "colors": [
-        "#0d131a",
-        "#dbe6ed",
-        "#b8c2c8",
-        "#d6e6ae",
-        "#b6ae9c",
-        "#958e80"
-      ]
+      "colors": ["#0d131a", "#dbe6ed", "#b8c2c8", "#d6e6ae", "#b6ae9c", "#958e80"]
     },
     {
       "name": "ninjask",
@@ -4565,28 +3514,12 @@
     {
       "name": "shedinja",
       "id": 292,
-      "colors": [
-        "#0d131a",
-        "#ffffff",
-        "#dbdcdc",
-        "#e3c582",
-        "#bfa56f",
-        "#c0b8b4",
-        "#97918e"
-      ]
+      "colors": ["#0d131a", "#ffffff", "#dbdcdc", "#e3c582", "#bfa56f", "#c0b8b4", "#97918e"]
     },
     {
       "name": "whismur",
       "id": 293,
-      "colors": [
-        "#0d131a",
-        "#d0bad9",
-        "#b4a1bc",
-        "#ffe792",
-        "#dbc77f",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#0d131a", "#d0bad9", "#b4a1bc", "#ffe792", "#dbc77f", "#922f00", "#ed8599"]
     },
     {
       "name": "loudred",
@@ -4631,15 +3564,7 @@
     {
       "name": "makuhita",
       "id": 296,
-      "colors": [
-        "#0d131a",
-        "#fff095",
-        "#dccf81",
-        "#1a657e",
-        "#074f64",
-        "#ffffff",
-        "#e9545d"
-      ]
+      "colors": ["#0d131a", "#fff095", "#dccf81", "#1a657e", "#074f64", "#ffffff", "#e9545d"]
     },
     {
       "name": "hariyama",
@@ -4661,17 +3586,7 @@
     {
       "name": "azurill",
       "id": 298,
-      "colors": [
-        "#0d131a",
-        "#00aeeb",
-        "#0098cd",
-        "#e9545d",
-        "#c94850",
-        "#ffffff",
-        "#922f00",
-        "#ed8599",
-        "#9ed8f5"
-      ]
+      "colors": ["#0d131a", "#00aeeb", "#0098cd", "#e9545d", "#c94850", "#ffffff", "#922f00", "#ed8599", "#9ed8f5"]
     },
     {
       "name": "nosepass",
@@ -4697,28 +3612,12 @@
     {
       "name": "delcatty",
       "id": 301,
-      "colors": [
-        "#ffe792",
-        "#dbc77f",
-        "#796bae",
-        "#695c97",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#ffe792", "#dbc77f", "#796bae", "#695c97", "#0d131a", "#ffffff"]
     },
     {
       "name": "sableye",
       "id": 302,
-      "colors": [
-        "#00aeeb",
-        "#51308e",
-        "#47277d",
-        "#e50012",
-        "#a0caec",
-        "#8aafcc",
-        "#f19975",
-        "#0d131a"
-      ]
+      "colors": ["#00aeeb", "#51308e", "#47277d", "#e50012", "#a0caec", "#8aafcc", "#f19975", "#0d131a"]
     },
     {
       "name": "mawile",
@@ -4739,16 +3638,7 @@
     {
       "name": "aron",
       "id": 304,
-      "colors": [
-        "#0d131a",
-        "#dcdbd6",
-        "#b4b4b0",
-        "#515457",
-        "#383839",
-        "#57c2e9",
-        "#4ba9cb",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#dcdbd6", "#b4b4b0", "#515457", "#383839", "#57c2e9", "#4ba9cb", "#ffffff"]
     },
     {
       "name": "lairon",
@@ -4785,30 +3675,12 @@
     {
       "name": "meditite",
       "id": 307,
-      "colors": [
-        "#dad8e4",
-        "#00aee5",
-        "#ed8599",
-        "#ffffff",
-        "#922f00",
-        "#b7b6c0",
-        "#0098c7",
-        "#0d131a"
-      ]
+      "colors": ["#dad8e4", "#00aee5", "#ed8599", "#ffffff", "#922f00", "#b7b6c0", "#0098c7", "#0d131a"]
     },
     {
       "name": "medicham",
       "id": 308,
-      "colors": [
-        "#f4f3f9",
-        "#e30077",
-        "#dbc77f",
-        "#ffe792",
-        "#ffffff",
-        "#c60068",
-        "#d3d2d8",
-        "#0d131a"
-      ]
+      "colors": ["#f4f3f9", "#e30077", "#dbc77f", "#ffe792", "#ffffff", "#c60068", "#d3d2d8", "#0d131a"]
     },
     {
       "name": "electrike",
@@ -4830,46 +3702,17 @@
     {
       "name": "manectric",
       "id": 310,
-      "colors": [
-        "#f0e78e",
-        "#c9c279",
-        "#59bdec",
-        "#dbdcdc",
-        "#ffffff",
-        "#4ca4cd",
-        "#0d131a",
-        "#c94768",
-        "#e85377"
-      ]
+      "colors": ["#f0e78e", "#c9c279", "#59bdec", "#dbdcdc", "#ffffff", "#4ca4cd", "#0d131a", "#c94768", "#e85377"]
     },
     {
       "name": "plusle",
       "id": 311,
-      "colors": [
-        "#e9545d",
-        "#c94850",
-        "#f4b0a9",
-        "#fff3c2",
-        "#dbd2a9",
-        "#ed8599",
-        "#922f00",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#e9545d", "#c94850", "#f4b0a9", "#fff3c2", "#dbd2a9", "#ed8599", "#922f00", "#0d131a", "#ffffff"]
     },
     {
       "name": "minun",
       "id": 312,
-      "colors": [
-        "#00b8ee",
-        "#00a0cf",
-        "#0d131a",
-        "#fff3c2",
-        "#dbd2a9",
-        "#922f00",
-        "#ed8599",
-        "#ffffff"
-      ]
+      "colors": ["#00b8ee", "#00a0cf", "#0d131a", "#fff3c2", "#dbd2a9", "#922f00", "#ed8599", "#ffffff"]
     },
     {
       "name": "volbeat",
@@ -4935,29 +3778,12 @@
     {
       "name": "swalot",
       "id": 317,
-      "colors": [
-        "#8d80bb",
-        "#7c70a2",
-        "#fff095",
-        "#eb6d80",
-        "#ffffff",
-        "#0d131a"
-      ]
+      "colors": ["#8d80bb", "#7c70a2", "#fff095", "#eb6d80", "#ffffff", "#0d131a"]
     },
     {
       "name": "carvanha",
       "id": 318,
-      "colors": [
-        "#ffe45f",
-        "#dcc552",
-        "#c90060",
-        "#aa0050",
-        "#0d131a",
-        "#005a9f",
-        "#004985",
-        "#ffffff",
-        "#dbdcdc"
-      ]
+      "colors": ["#ffe45f", "#dcc552", "#c90060", "#aa0050", "#0d131a", "#005a9f", "#004985", "#ffffff", "#dbdcdc"]
     },
     {
       "name": "sharpedo",
@@ -4981,42 +3807,17 @@
     {
       "name": "wailmer",
       "id": 320,
-      "colors": [
-        "#0d131a",
-        "#005e96",
-        "#efeaba",
-        "#c9c59d",
-        "#922f00",
-        "#ed8599",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#005e96", "#efeaba", "#c9c59d", "#922f00", "#ed8599", "#ffffff"]
     },
     {
       "name": "wailord",
       "id": 321,
-      "colors": [
-        "#00a4e3",
-        "#dcdbd6",
-        "#ffffff",
-        "#b4b4b0",
-        "#008fc5",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#00a4e3", "#dcdbd6", "#ffffff", "#b4b4b0", "#008fc5", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "numel",
       "id": 322,
-      "colors": [
-        "#fbd58b",
-        "#d8b879",
-        "#6cba5a",
-        "#fff1ac",
-        "#dcd096",
-        "#9e9d94",
-        "#ffffff",
-        "#0d131a"
-      ]
+      "colors": ["#fbd58b", "#d8b879", "#6cba5a", "#fff1ac", "#dcd096", "#9e9d94", "#ffffff", "#0d131a"]
     },
     {
       "name": "camerupt",
@@ -5037,82 +3838,32 @@
     {
       "name": "torkoal",
       "id": 324,
-      "colors": [
-        "#0d131a",
-        "#f2984f",
-        "#d18344",
-        "#686d70",
-        "#515457",
-        "#eeeeef",
-        "#c8c9ca",
-        "#e9545d"
-      ]
+      "colors": ["#0d131a", "#f2984f", "#d18344", "#686d70", "#515457", "#eeeeef", "#c8c9ca", "#e9545d"]
     },
     {
       "name": "spoink",
       "id": 325,
-      "colors": [
-        "#adb2b4",
-        "#838688",
-        "#0d131a",
-        "#f6c8d6",
-        "#ed85a7",
-        "#ffffff"
-      ]
+      "colors": ["#adb2b4", "#838688", "#0d131a", "#f6c8d6", "#ed85a7", "#ffffff"]
     },
     {
       "name": "grumpig",
       "id": 326,
-      "colors": [
-        "#f6c8dd",
-        "#d5adbf",
-        "#b4a1bc",
-        "#d0bad9",
-        "#71706d",
-        "#595754",
-        "#0d131a",
-        "#ffffff",
-        "#8a969d"
-      ]
+      "colors": ["#f6c8dd", "#d5adbf", "#b4a1bc", "#d0bad9", "#71706d", "#595754", "#0d131a", "#ffffff", "#8a969d"]
     },
     {
       "name": "spinda",
       "id": 327,
-      "colors": [
-        "#f4e8d0",
-        "#d3c9b5",
-        "#0d131a",
-        "#eb6d65",
-        "#ed8599",
-        "#cb5d57"
-      ]
+      "colors": ["#f4e8d0", "#d3c9b5", "#0d131a", "#eb6d65", "#ed8599", "#cb5d57"]
     },
     {
       "name": "trapinch",
       "id": 328,
-      "colors": [
-        "#f19963",
-        "#d18456",
-        "#ffffff",
-        "#eeeeef",
-        "#c8c9ca",
-        "#0d131a",
-        "#f8ceb0"
-      ]
+      "colors": ["#f19963", "#d18456", "#ffffff", "#eeeeef", "#c8c9ca", "#0d131a", "#f8ceb0"]
     },
     {
       "name": "vibrava",
       "id": 329,
-      "colors": [
-        "#3f3927",
-        "#00a63c",
-        "#eeed80",
-        "#cdcd6f",
-        "#0d131a",
-        "#ffffff",
-        "#dbdcdc",
-        "#009233"
-      ]
+      "colors": ["#3f3927", "#00a63c", "#eeed80", "#cdcd6f", "#0d131a", "#ffffff", "#dbdcdc", "#009233"]
     },
     {
       "name": "flygon",
@@ -5134,69 +3885,27 @@
     {
       "name": "cacnea",
       "id": 331,
-      "colors": [
-        "#0d131a",
-        "#007b36",
-        "#00662a",
-        "#8bc56c",
-        "#78ab5e",
-        "#fcd13e",
-        "#d9b536",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#007b36", "#00662a", "#8bc56c", "#78ab5e", "#fcd13e", "#d9b536", "#ffffff"]
     },
     {
       "name": "cacturne",
       "id": 332,
-      "colors": [
-        "#007b36",
-        "#c0dc96",
-        "#a5be83",
-        "#00662a",
-        "#0d131a",
-        "#fcd13e"
-      ]
+      "colors": ["#007b36", "#c0dc96", "#a5be83", "#00662a", "#0d131a", "#fcd13e"]
     },
     {
       "name": "swablu",
       "id": 333,
-      "colors": [
-        "#0d131a",
-        "#00b8ee",
-        "#00a0cf",
-        "#ffffff",
-        "#dbdcdc",
-        "#ed8599",
-        "#ce7486"
-      ]
+      "colors": ["#0d131a", "#00b8ee", "#00a0cf", "#ffffff", "#dbdcdc", "#ed8599", "#ce7486"]
     },
     {
       "name": "altaria",
       "id": 334,
-      "colors": [
-        "#00b8ee",
-        "#00a0cf",
-        "#0d131a",
-        "#ffffff",
-        "#dbdcdc",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#00b8ee", "#00a0cf", "#0d131a", "#ffffff", "#dbdcdc", "#922f00", "#ed8599"]
     },
     {
       "name": "zangoose",
       "id": 335,
-      "colors": [
-        "#0d131a",
-        "#ffffff",
-        "#dbdcdc",
-        "#e85377",
-        "#c94768",
-        "#d0879d",
-        "#595757",
-        "#3e3a39",
-        "#f09cb4"
-      ]
+      "colors": ["#0d131a", "#ffffff", "#dbdcdc", "#e85377", "#c94768", "#d0879d", "#595757", "#3e3a39", "#f09cb4"]
     },
     {
       "name": "seviper",
@@ -5223,54 +3932,22 @@
     {
       "name": "solrock",
       "id": 338,
-      "colors": [
-        "#0d131a",
-        "#ffee7d",
-        "#dccd6c",
-        "#ef821e",
-        "#ce7117",
-        "#e50012"
-      ]
+      "colors": ["#0d131a", "#ffee7d", "#dccd6c", "#ef821e", "#ce7117", "#e50012"]
     },
     {
       "name": "barboach",
       "id": 339,
-      "colors": [
-        "#57c2e9",
-        "#4ba9cb",
-        "#d3d9db",
-        "#adb2b4",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#57c2e9", "#4ba9cb", "#d3d9db", "#adb2b4", "#0d131a", "#ffffff"]
     },
     {
       "name": "whiscash",
       "id": 340,
-      "colors": [
-        "#1d2087",
-        "#181878",
-        "#57c2e9",
-        "#4ba9cb",
-        "#dbc77f",
-        "#0d131a",
-        "#ffe792",
-        "#ffffff"
-      ]
+      "colors": ["#1d2087", "#181878", "#57c2e9", "#4ba9cb", "#dbc77f", "#0d131a", "#ffe792", "#ffffff"]
     },
     {
       "name": "corphish",
       "id": 341,
-      "colors": [
-        "#0d131a",
-        "#e95532",
-        "#ca4829",
-        "#b3aea6",
-        "#dbd5ca",
-        "#922f00",
-        "#ed8599",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#e95532", "#ca4829", "#b3aea6", "#dbd5ca", "#922f00", "#ed8599", "#ffffff"]
     },
     {
       "name": "crawdaunt",
@@ -5297,17 +3974,7 @@
     {
       "name": "claydol",
       "id": 344,
-      "colors": [
-        "#595757",
-        "#3e3a39",
-        "#ffffff",
-        "#dcc552",
-        "#ffe45f",
-        "#dbdcdc",
-        "#0d131a",
-        "#ea6d8d",
-        "#cb5e7c"
-      ]
+      "colors": ["#595757", "#3e3a39", "#ffffff", "#dcc552", "#ffe45f", "#dbdcdc", "#0d131a", "#ea6d8d", "#cb5e7c"]
     },
     {
       "name": "lileep",
@@ -5328,15 +3995,7 @@
     {
       "name": "cradily",
       "id": 346,
-      "colors": [
-        "#0d131a",
-        "#a7d081",
-        "#90b571",
-        "#ffe792",
-        "#dbc77f",
-        "#f9dad9",
-        "#db6aa3"
-      ]
+      "colors": ["#0d131a", "#a7d081", "#90b571", "#ffe792", "#dbc77f", "#f9dad9", "#db6aa3"]
     },
     {
       "name": "anorith",
@@ -5378,32 +4037,12 @@
     {
       "name": "feebas",
       "id": 349,
-      "colors": [
-        "#a1bfd3",
-        "#839dae",
-        "#0d131a",
-        "#d4c79f",
-        "#b7ad8a",
-        "#9f8c55",
-        "#ed85a7",
-        "#cd7491",
-        "#ffffff"
-      ]
+      "colors": ["#a1bfd3", "#839dae", "#0d131a", "#d4c79f", "#b7ad8a", "#9f8c55", "#ed85a7", "#cd7491", "#ffffff"]
     },
     {
       "name": "milotic",
       "id": 350,
-      "colors": [
-        "#e85377",
-        "#c94768",
-        "#0d131a",
-        "#00aeeb",
-        "#fff1ac",
-        "#ba004f",
-        "#dcd096",
-        "#0098cd",
-        "#ffffff"
-      ]
+      "colors": ["#e85377", "#c94768", "#0d131a", "#00aeeb", "#fff1ac", "#ba004f", "#dcd096", "#0098cd", "#ffffff"]
     },
     {
       "name": "castform",
@@ -5413,85 +4052,32 @@
     {
       "name": "kecleon",
       "id": 352,
-      "colors": [
-        "#0d131a",
-        "#39b382",
-        "#2f9c73",
-        "#f2e100",
-        "#b50029",
-        "#8f001a",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#39b382", "#2f9c73", "#f2e100", "#b50029", "#8f001a", "#ffffff"]
     },
     {
       "name": "shuppet",
       "id": 353,
-      "colors": [
-        "#567c9d",
-        "#6791b9",
-        "#0d131a",
-        "#7fccec",
-        "#fff095",
-        "#c6e7f9",
-        "#b6c6dc",
-        "#fffbd0"
-      ]
+      "colors": ["#567c9d", "#6791b9", "#0d131a", "#7fccec", "#fff095", "#c6e7f9", "#b6c6dc", "#fffbd0"]
     },
     {
       "name": "banette",
       "id": 354,
-      "colors": [
-        "#ffee7d",
-        "#dccd6c",
-        "#888888",
-        "#595757",
-        "#ed85ad",
-        "#cd7497",
-        "#ffffff",
-        "#0d131a"
-      ]
+      "colors": ["#ffee7d", "#dccd6c", "#888888", "#595757", "#ed85ad", "#cd7497", "#ffffff", "#0d131a"]
     },
     {
       "name": "duskull",
       "id": 355,
-      "colors": [
-        "#0d131a",
-        "#716f5f",
-        "#3e392d",
-        "#e6e2c8",
-        "#c1bea9",
-        "#f9dbe8",
-        "#f3b3cf",
-        "#ffffff"
-      ]
+      "colors": ["#0d131a", "#716f5f", "#3e392d", "#e6e2c8", "#c1bea9", "#f9dbe8", "#f3b3cf", "#ffffff"]
     },
     {
       "name": "dusclops",
       "id": 356,
-      "colors": [
-        "#e5e3da",
-        "#c1bfb8",
-        "#888780",
-        "#595750",
-        "#ffffff",
-        "#ea6d8d",
-        "#0d131a"
-      ]
+      "colors": ["#e5e3da", "#c1bfb8", "#888780", "#595750", "#ffffff", "#ea6d8d", "#0d131a"]
     },
     {
       "name": "tropius",
       "id": 357,
-      "colors": [
-        "#e8b67d",
-        "#ffee7d",
-        "#00a63c",
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a",
-        "#009233",
-        "#c39969",
-        "#dccd6c"
-      ]
+      "colors": ["#e8b67d", "#ffee7d", "#00a63c", "#ffffff", "#dbdcdc", "#0d131a", "#009233", "#c39969", "#dccd6c"]
     },
     {
       "name": "chimecho",
@@ -5512,73 +4098,27 @@
     {
       "name": "absol",
       "id": 359,
-      "colors": [
-        "#0d131a",
-        "#005e96",
-        "#004c7e",
-        "#cacfd2",
-        "#eef3f6",
-        "#ffffff",
-        "#e50044",
-        "#c6003a"
-      ]
+      "colors": ["#0d131a", "#005e96", "#004c7e", "#cacfd2", "#eef3f6", "#ffffff", "#e50044", "#c6003a"]
     },
     {
       "name": "wynaut",
       "id": 360,
-      "colors": [
-        "#0d131a",
-        "#5dc1cf",
-        "#50a8b4",
-        "#595757",
-        "#3e3a39",
-        "#ffffff",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#0d131a", "#5dc1cf", "#50a8b4", "#595757", "#3e3a39", "#ffffff", "#922f00", "#ed8599"]
     },
     {
       "name": "snorunt",
       "id": 361,
-      "colors": [
-        "#686d70",
-        "#515457",
-        "#ffe792",
-        "#dbc77f",
-        "#ef8337",
-        "#ce712e",
-        "#ffffff",
-        "#00b8ee",
-        "#0d131a"
-      ]
+      "colors": ["#686d70", "#515457", "#ffe792", "#dbc77f", "#ef8337", "#ce712e", "#ffffff", "#00b8ee", "#0d131a"]
     },
     {
       "name": "glalie",
       "id": 362,
-      "colors": [
-        "#30353a",
-        "#9ba4a9",
-        "#d3ebf3",
-        "#b6ccd2",
-        "#00b8ee",
-        "#00a0cf",
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#30353a", "#9ba4a9", "#d3ebf3", "#b6ccd2", "#00b8ee", "#00a0cf", "#ffffff", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "spheal",
       "id": 363,
-      "colors": [
-        "#0d131a",
-        "#65a9dc",
-        "#5892bf",
-        "#fffbda",
-        "#dcd9bd",
-        "#ffffff",
-        "#dbdcdc"
-      ]
+      "colors": ["#0d131a", "#65a9dc", "#5892bf", "#fffbda", "#dcd9bd", "#ffffff", "#dbdcdc"]
     },
     {
       "name": "sealeo",
@@ -5651,55 +4191,22 @@
     {
       "name": "gorebyss",
       "id": 368,
-      "colors": [
-        "#a586bc",
-        "#8f75a3",
-        "#f6c8dd",
-        "#d5adbf",
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#a586bc", "#8f75a3", "#f6c8dd", "#d5adbf", "#ffffff", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "relicanth",
       "id": 369,
-      "colors": [
-        "#585a4e",
-        "#727364",
-        "#c6bca8",
-        "#a69f8e",
-        "#e63556",
-        "#0d131a"
-      ]
+      "colors": ["#585a4e", "#727364", "#c6bca8", "#a69f8e", "#e63556", "#0d131a"]
     },
     {
       "name": "luvdisc",
       "id": 370,
-      "colors": [
-        "#f6c8d6",
-        "#cd7491",
-        "#ed85a7",
-        "#ffffff",
-        "#fceef4",
-        "#fae5ee",
-        "#0d131a"
-      ]
+      "colors": ["#f6c8d6", "#cd7491", "#ed85a7", "#ffffff", "#fceef4", "#fae5ee", "#0d131a"]
     },
     {
       "name": "bagon",
       "id": 371,
-      "colors": [
-        "#0d131a",
-        "#00b8ee",
-        "#00a0cf",
-        "#adb2b4",
-        "#fff095",
-        "#dccf81",
-        "#ffffff",
-        "#d3d9db",
-        "#dbdcdc"
-      ]
+      "colors": ["#0d131a", "#00b8ee", "#00a0cf", "#adb2b4", "#fff095", "#dccf81", "#ffffff", "#d3d9db", "#dbdcdc"]
     },
     {
       "name": "shelgon",
@@ -5738,52 +4245,22 @@
     {
       "name": "beldum",
       "id": 374,
-      "colors": [
-        "#dcdbd6",
-        "#b4b4b0",
-        "#00add1",
-        "#0093b2",
-        "#0d131a",
-        "#e85377",
-        "#ffffff"
-      ]
+      "colors": ["#dcdbd6", "#b4b4b0", "#00add1", "#0093b2", "#0d131a", "#e85377", "#ffffff"]
     },
     {
       "name": "metang",
       "id": 375,
-      "colors": [
-        "#dcdbd6",
-        "#00add1",
-        "#0093b2",
-        "#b4b4b0",
-        "#0d131a",
-        "#e85377"
-      ]
+      "colors": ["#dcdbd6", "#00add1", "#0093b2", "#b4b4b0", "#0d131a", "#e85377"]
     },
     {
       "name": "metagross",
       "id": 376,
-      "colors": [
-        "#0d131a",
-        "#9e9e9a",
-        "#00add1",
-        "#0093b2",
-        "#005366",
-        "#c9c9c4",
-        "#e85377"
-      ]
+      "colors": ["#0d131a", "#9e9e9a", "#00add1", "#0093b2", "#005366", "#c9c9c4", "#e85377"]
     },
     {
       "name": "regirock",
       "id": 377,
-      "colors": [
-        "#dbd5ca",
-        "#b3aea6",
-        "#db4f03",
-        "#b94100",
-        "#f19963",
-        "#0d131a"
-      ]
+      "colors": ["#dbd5ca", "#b3aea6", "#db4f03", "#b94100", "#f19963", "#0d131a"]
     },
     {
       "name": "regice",
@@ -5793,57 +4270,22 @@
     {
       "name": "registeel",
       "id": 379,
-      "colors": [
-        "#dce5dd",
-        "#b9c1bb",
-        "#595757",
-        "#191919",
-        "#e63556",
-        "#0d131a",
-        "#c72b4a",
-        "#eef3ef"
-      ]
+      "colors": ["#dce5dd", "#b9c1bb", "#595757", "#191919", "#e63556", "#0d131a", "#c72b4a", "#eef3ef"]
     },
     {
       "name": "latias",
       "id": 380,
-      "colors": [
-        "#e50044",
-        "#c6003a",
-        "#0d131a",
-        "#d2e5f6",
-        "#ffffff",
-        "#ed8599",
-        "#b5c6d5",
-        "#008fc5",
-        "#f9be00"
-      ]
+      "colors": ["#e50044", "#c6003a", "#0d131a", "#d2e5f6", "#ffffff", "#ed8599", "#b5c6d5", "#008fc5", "#f9be00"]
     },
     {
       "name": "latios",
       "id": 381,
-      "colors": [
-        "#ffffff",
-        "#dbdcdc",
-        "#0d131a",
-        "#00a4e3",
-        "#e50044",
-        "#b4b4b5",
-        "#008fc5"
-      ]
+      "colors": ["#ffffff", "#dbdcdc", "#0d131a", "#00a4e3", "#e50044", "#b4b4b5", "#008fc5"]
     },
     {
       "name": "kyogre",
       "id": 382,
-      "colors": [
-        "#005d9b",
-        "#e50038",
-        "#0d131a",
-        "#eef3f6",
-        "#cacfd2",
-        "#00497d",
-        "#ffe45f"
-      ]
+      "colors": ["#005d9b", "#e50038", "#0d131a", "#eef3f6", "#cacfd2", "#00497d", "#ffe45f"]
     },
     {
       "name": "groudon",
@@ -6077,17 +4519,7 @@
     {
       "name": "starly",
       "id": 396,
-      "colors": [
-        "#e3eff5",
-        "#3f3927",
-        "#888780",
-        "#ef8200",
-        "#717069",
-        "#cf7100",
-        "#c1cbd1",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#e3eff5", "#3f3927", "#888780", "#ef8200", "#717069", "#cf7100", "#c1cbd1", "#0d131a", "#ffffff"]
     },
     {
       "name": "staravia",
@@ -6125,17 +4557,7 @@
     {
       "name": "bidoof",
       "id": 399,
-      "colors": [
-        "#d18200",
-        "#776b59",
-        "#ffffff",
-        "#e50012",
-        "#fff3c2",
-        "#dbd2a9",
-        "#ab6a00",
-        "#594f41",
-        "#0d131a"
-      ]
+      "colors": ["#d18200", "#776b59", "#ffffff", "#e50012", "#fff3c2", "#dbd2a9", "#ab6a00", "#594f41", "#0d131a"]
     },
     {
       "name": "bibarel",
@@ -6223,15 +4645,7 @@
     {
       "name": "luxray",
       "id": 405,
-      "colors": [
-        "#f9be00",
-        "#3e3a39",
-        "#d7a400",
-        "#0d131a",
-        "#7dccf3",
-        "#e50012",
-        "#6cb2d3"
-      ]
+      "colors": ["#f9be00", "#3e3a39", "#d7a400", "#0d131a", "#7dccf3", "#e50012", "#6cb2d3"]
     },
     {
       "name": "budew",
@@ -6310,75 +4724,27 @@
     {
       "name": "shieldon",
       "id": 410,
-      "colors": [
-        "#fbd375",
-        "#71706d",
-        "#ffffff",
-        "#dbdcdc",
-        "#bebeba",
-        "#595754",
-        "#d9b766",
-        "#b4b4b5",
-        "#0d131a"
-      ]
+      "colors": ["#fbd375", "#71706d", "#ffffff", "#dbdcdc", "#bebeba", "#595754", "#d9b766", "#b4b4b5", "#0d131a"]
     },
     {
       "name": "bastiodon",
       "id": 411,
-      "colors": [
-        "#717071",
-        "#595757",
-        "#fbd375",
-        "#ce7486",
-        "#dbdcdc",
-        "#d9b766",
-        "#333333",
-        "#b4b4b5",
-        "#0d131a"
-      ]
+      "colors": ["#717071", "#595757", "#fbd375", "#ce7486", "#dbdcdc", "#d9b766", "#333333", "#b4b4b5", "#0d131a"]
     },
     {
       "name": "burmy",
       "id": 412,
-      "colors": [
-        "#717071",
-        "#68ae28",
-        "#be9c59",
-        "#56931f",
-        "#a5874c",
-        "#595757",
-        "#0d131a",
-        "#fcd13e"
-      ]
+      "colors": ["#717071", "#68ae28", "#be9c59", "#56931f", "#a5874c", "#595757", "#0d131a", "#fcd13e"]
     },
     {
       "name": "wormadam-plant",
       "id": 413,
-      "colors": [
-        "#68ae28",
-        "#ffffff",
-        "#006e38",
-        "#717071",
-        "#56931f",
-        "#005b2b",
-        "#595757",
-        "#0d131a"
-      ]
+      "colors": ["#68ae28", "#ffffff", "#006e38", "#717071", "#56931f", "#005b2b", "#595757", "#0d131a"]
     },
     {
       "name": "mothim",
       "id": 414,
-      "colors": [
-        "#717071",
-        "#fcd25b",
-        "#ef8200",
-        "#eeeeef",
-        "#d9b64f",
-        "#cf7100",
-        "#595757",
-        "#c8c9ca",
-        "#0d131a"
-      ]
+      "colors": ["#717071", "#fcd25b", "#ef8200", "#eeeeef", "#d9b64f", "#cf7100", "#595757", "#c8c9ca", "#0d131a"]
     },
     {
       "name": "combee",
@@ -6419,15 +4785,7 @@
     {
       "name": "pachirisu",
       "id": 417,
-      "colors": [
-        "#ffffff",
-        "#80cce3",
-        "#dbdcdc",
-        "#0d131a",
-        "#ffe45f",
-        "#922f00",
-        "#ed8599"
-      ]
+      "colors": ["#ffffff", "#80cce3", "#dbdcdc", "#0d131a", "#ffe45f", "#922f00", "#ed8599"]
     },
     {
       "name": "buizel",
@@ -6468,83 +4826,32 @@
     {
       "name": "cherubi",
       "id": 420,
-      "colors": [
-        "#ee848c",
-        "#ba0058",
-        "#ce737b",
-        "#0d131a",
-        "#009f50",
-        "#008c46",
-        "#f6c6c5",
-        "#ffffff"
-      ]
+      "colors": ["#ee848c", "#ba0058", "#ce737b", "#0d131a", "#009f50", "#008c46", "#f6c6c5", "#ffffff"]
     },
     {
       "name": "cherrim",
       "id": 421,
-      "colors": [
-        "#b76870",
-        "#904f57",
-        "#915e82",
-        "#7f5072",
-        "#009f50",
-        "#008c46",
-        "#0d131a"
-      ]
+      "colors": ["#b76870", "#904f57", "#915e82", "#7f5072", "#009f50", "#008c46", "#0d131a"]
     },
     {
       "name": "shellos",
       "id": 422,
-      "colors": [
-        "#f09cb4",
-        "#ffe33f",
-        "#ffffff",
-        "#ea6d8d",
-        "#dbdcdc",
-        "#d0879d",
-        "#dcc437",
-        "#0d131a"
-      ]
+      "colors": ["#f09cb4", "#ffe33f", "#ffffff", "#ea6d8d", "#dbdcdc", "#d0879d", "#dcc437", "#0d131a"]
     },
     {
       "name": "gastrodon",
       "id": 423,
-      "colors": [
-        "#a4725d",
-        "#ffe33f",
-        "#f09cb4",
-        "#d0879d",
-        "#815847",
-        "#dcc437",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#a4725d", "#ffe33f", "#f09cb4", "#d0879d", "#815847", "#dcc437", "#0d131a", "#ffffff"]
     },
     {
       "name": "ambipom",
       "id": 424,
-      "colors": [
-        "#fff1ac",
-        "#dcd096",
-        "#796bae",
-        "#695c97",
-        "#0d131a",
-        "#e95532",
-        "#ffffff",
-        "#ca4829"
-      ]
+      "colors": ["#fff1ac", "#dcd096", "#796bae", "#695c97", "#0d131a", "#e95532", "#ffffff", "#ca4829"]
     },
     {
       "name": "drifloon",
       "id": 425,
-      "colors": [
-        "#a586bc",
-        "#fcd13e",
-        "#8f75a3",
-        "#0d131a",
-        "#ffffff",
-        "#dbdcdc"
-      ]
+      "colors": ["#a586bc", "#fcd13e", "#8f75a3", "#0d131a", "#ffffff", "#dbdcdc"]
     },
     {
       "name": "drifblim",
@@ -6582,16 +4889,7 @@
     {
       "name": "lopunny",
       "id": 428,
-      "colors": [
-        "#fff1ac",
-        "#dcd096",
-        "#0d131a",
-        "#ce723f",
-        "#a95c31",
-        "#d0879d",
-        "#f09cb4",
-        "#ffffff"
-      ]
+      "colors": ["#fff1ac", "#dcd096", "#0d131a", "#ce723f", "#a95c31", "#d0879d", "#f09cb4", "#ffffff"]
     },
     {
       "name": "mismagius",
@@ -6644,46 +4942,17 @@
     {
       "name": "purugly",
       "id": 432,
-      "colors": [
-        "#ffffff",
-        "#fff095",
-        "#a586bc",
-        "#f09cb4",
-        "#72a6be",
-        "#5c899d",
-        "#dbdcdc",
-        "#d0879d",
-        "#0d131a"
-      ]
+      "colors": ["#ffffff", "#fff095", "#a586bc", "#f09cb4", "#72a6be", "#5c899d", "#dbdcdc", "#d0879d", "#0d131a"]
     },
     {
       "name": "chingling",
       "id": 433,
-      "colors": [
-        "#e85377",
-        "#e9eff8",
-        "#c94768",
-        "#c9cfd7",
-        "#0d131a",
-        "#fcd13e",
-        "#d9b536",
-        "#595757"
-      ]
+      "colors": ["#e85377", "#e9eff8", "#c94768", "#c9cfd7", "#0d131a", "#fcd13e", "#d9b536", "#595757"]
     },
     {
       "name": "stunky",
       "id": 434,
-      "colors": [
-        "#ffffff",
-        "#55295a",
-        "#fff3c2",
-        "#49204e",
-        "#f29600",
-        "#d18200",
-        "#dbdcdc",
-        "#dbd2a9",
-        "#0d131a"
-      ]
+      "colors": ["#ffffff", "#55295a", "#fff3c2", "#49204e", "#f29600", "#d18200", "#dbdcdc", "#dbd2a9", "#0d131a"]
     },
     {
       "name": "skuntank",
@@ -6705,46 +4974,17 @@
     {
       "name": "bronzor",
       "id": 436,
-      "colors": [
-        "#009fd9",
-        "#008086",
-        "#f9be00",
-        "#008cbe",
-        "#00666c",
-        "#76b8bd",
-        "#7fccec",
-        "#0d131a"
-      ]
+      "colors": ["#009fd9", "#008086", "#f9be00", "#008cbe", "#00666c", "#76b8bd", "#7fccec", "#0d131a"]
     },
     {
       "name": "bronzong",
       "id": 437,
-      "colors": [
-        "#c6dcdb",
-        "#0099a9",
-        "#67b4b6",
-        "#008290",
-        "#485157",
-        "#e73820",
-        "#589d9f",
-        "#a7bab9",
-        "#0d131a"
-      ]
+      "colors": ["#c6dcdb", "#0099a9", "#67b4b6", "#008290", "#485157", "#e73820", "#589d9f", "#a7bab9", "#0d131a"]
     },
     {
       "name": "bonsly",
       "id": 438,
-      "colors": [
-        "#00a63c",
-        "#009233",
-        "#0d131a",
-        "#d3965c",
-        "#ad7b49",
-        "#fff095",
-        "#ed8599",
-        "#922f00",
-        "#ce7486"
-      ]
+      "colors": ["#00a63c", "#009233", "#0d131a", "#d3965c", "#ad7b49", "#fff095", "#ed8599", "#922f00", "#ce7486"]
     },
     {
       "name": "mime-jr",
@@ -6765,15 +5005,7 @@
     {
       "name": "happiny",
       "id": 440,
-      "colors": [
-        "#f9dbe1",
-        "#ee848c",
-        "#ffffff",
-        "#d7bdc4",
-        "#ce737b",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#f9dbe1", "#ee848c", "#ffffff", "#d7bdc4", "#ce737b", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "chatot",
@@ -6801,31 +5033,12 @@
     {
       "name": "spiritomb",
       "id": 442,
-      "colors": [
-        "#ba7aa5",
-        "#a16990",
-        "#68ae28",
-        "#dbd5ca",
-        "#b3aea6",
-        "#ffee7d",
-        "#56931f",
-        "#0d131a"
-      ]
+      "colors": ["#ba7aa5", "#a16990", "#68ae28", "#dbd5ca", "#b3aea6", "#ffee7d", "#56931f", "#0d131a"]
     },
     {
       "name": "gible",
       "id": 443,
-      "colors": [
-        "#4b91ad",
-        "#e73820",
-        "#ffffff",
-        "#7fccec",
-        "#377389",
-        "#6db2cd",
-        "#c82e19",
-        "#dbdcdc",
-        "#0d131a"
-      ]
+      "colors": ["#4b91ad", "#e73820", "#ffffff", "#7fccec", "#377389", "#6db2cd", "#c82e19", "#dbdcdc", "#0d131a"]
     },
     {
       "name": "gabite",
@@ -6865,16 +5078,7 @@
     {
       "name": "munchlax",
       "id": 446,
-      "colors": [
-        "#dcd096",
-        "#dbdcdc",
-        "#0099a9",
-        "#ffffff",
-        "#fff1ac",
-        "#008290",
-        "#0d131a",
-        "#804a0c"
-      ]
+      "colors": ["#dcd096", "#dbdcdc", "#0099a9", "#ffffff", "#fff1ac", "#008290", "#0d131a", "#804a0c"]
     },
     {
       "name": "riolu",
@@ -6912,17 +5116,7 @@
     {
       "name": "hippopotas",
       "id": 449,
-      "colors": [
-        "#fbd375",
-        "#be9c59",
-        "#864b16",
-        "#d9b766",
-        "#ffffff",
-        "#0d131a",
-        "#6a3906",
-        "#a5874c",
-        "#dbdcdc"
-      ]
+      "colors": ["#fbd375", "#be9c59", "#864b16", "#d9b766", "#ffffff", "#0d131a", "#6a3906", "#a5874c", "#dbdcdc"]
     },
     {
       "name": "hippowdon",
@@ -6943,17 +5137,7 @@
     {
       "name": "skorupi",
       "id": 451,
-      "colors": [
-        "#88a3d4",
-        "#009be4",
-        "#778db8",
-        "#ffffff",
-        "#4b5170",
-        "#393d59",
-        "#dbdcdc",
-        "#c6d0ea",
-        "#0d131a"
-      ]
+      "colors": ["#88a3d4", "#009be4", "#778db8", "#ffffff", "#4b5170", "#393d59", "#dbdcdc", "#c6d0ea", "#0d131a"]
     },
     {
       "name": "drapion",
@@ -7028,68 +5212,27 @@
     {
       "name": "finneon",
       "id": 456,
-      "colors": [
-        "#9ed8f5",
-        "#e75297",
-        "#003a59",
-        "#88bbd5",
-        "#c94683",
-        "#002d49",
-        "#0d131a",
-        "#85899c",
-        "#ffffff"
-      ]
+      "colors": ["#9ed8f5", "#e75297", "#003a59", "#88bbd5", "#c94683", "#002d49", "#0d131a", "#85899c", "#ffffff"]
     },
     {
       "name": "lumineon",
       "id": 457,
-      "colors": [
-        "#9ed8f5",
-        "#003a59",
-        "#002d49",
-        "#e75297",
-        "#88bbd5",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#9ed8f5", "#003a59", "#002d49", "#e75297", "#88bbd5", "#0d131a", "#ffffff"]
     },
     {
       "name": "mantyke",
       "id": 458,
-      "colors": [
-        "#00a4e3",
-        "#008fc5",
-        "#d2ecfa",
-        "#b6ccd9",
-        "#0d131a",
-        "#ffffff",
-        "#9fd2f1"
-      ]
+      "colors": ["#00a4e3", "#008fc5", "#d2ecfa", "#b6ccd9", "#0d131a", "#ffffff", "#9fd2f1"]
     },
     {
       "name": "snover",
       "id": 459,
-      "colors": [
-        "#0099a9",
-        "#b1826f",
-        "#ffffff",
-        "#008290",
-        "#dbdcdc",
-        "#956e5d",
-        "#0d131a"
-      ]
+      "colors": ["#0099a9", "#b1826f", "#ffffff", "#008290", "#dbdcdc", "#956e5d", "#0d131a"]
     },
     {
       "name": "abomasnow",
       "id": 460,
-      "colors": [
-        "#ffffff",
-        "#0099a9",
-        "#dbdcdc",
-        "#cea6cc",
-        "#008290",
-        "#0d131a"
-      ]
+      "colors": ["#ffffff", "#0099a9", "#dbdcdc", "#cea6cc", "#008290", "#0d131a"]
     },
     {
       "name": "weavile",
@@ -7149,30 +5292,12 @@
     {
       "name": "rhyperior",
       "id": 464,
-      "colors": [
-        "#b94100",
-        "#5f5264",
-        "#c9cfd7",
-        "#ffffff",
-        "#e50044",
-        "#504454",
-        "#922f00",
-        "#a5aab0",
-        "#0d131a"
-      ]
+      "colors": ["#b94100", "#5f5264", "#c9cfd7", "#ffffff", "#e50044", "#504454", "#922f00", "#a5aab0", "#0d131a"]
     },
     {
       "name": "tangrowth",
       "id": 465,
-      "colors": [
-        "#717071",
-        "#00add1",
-        "#e9545d",
-        "#0093b2",
-        "#c94850",
-        "#0d131a",
-        "#ffffff"
-      ]
+      "colors": ["#717071", "#00add1", "#e9545d", "#0093b2", "#c94850", "#0d131a", "#ffffff"]
     },
     {
       "name": "electivire",
@@ -7230,45 +5355,17 @@
     {
       "name": "yanmega",
       "id": 469,
-      "colors": [
-        "#e85377",
-        "#ffffff",
-        "#0d131a",
-        "#007b36",
-        "#3e3a39",
-        "#00662a",
-        "#c94768",
-        "#f3b1b9"
-      ]
+      "colors": ["#e85377", "#ffffff", "#0d131a", "#007b36", "#3e3a39", "#00662a", "#c94768", "#f3b1b9"]
     },
     {
       "name": "leafeon",
       "id": 470,
-      "colors": [
-        "#fff1ac",
-        "#a36102",
-        "#39b382",
-        "#c0dc96",
-        "#ffffff",
-        "#dcd096",
-        "#804a00",
-        "#2f9c73",
-        "#0d131a"
-      ]
+      "colors": ["#fff1ac", "#a36102", "#39b382", "#c0dc96", "#ffffff", "#dcd096", "#804a00", "#2f9c73", "#0d131a"]
     },
     {
       "name": "glaceon",
       "id": 471,
-      "colors": [
-        "#d2ecfa",
-        "#007a95",
-        "#00b8ee",
-        "#00a0cf",
-        "#00657d",
-        "#b6ccd9",
-        "#ffffff",
-        "#0d131a"
-      ]
+      "colors": ["#d2ecfa", "#007a95", "#00b8ee", "#00a0cf", "#00657d", "#b6ccd9", "#ffffff", "#0d131a"]
     },
     {
       "name": "gliscor",
@@ -7309,16 +5406,7 @@
     {
       "name": "porygon-z",
       "id": 474,
-      "colors": [
-        "#e40065",
-        "#fcd13e",
-        "#00a4e3",
-        "#c60057",
-        "#008fc5",
-        "#9fd2f1",
-        "#f09bad",
-        "#0d131a"
-      ]
+      "colors": ["#e40065", "#fcd13e", "#00a4e3", "#c60057", "#008fc5", "#9fd2f1", "#f09bad", "#0d131a"]
     },
     {
       "name": "gallade",
@@ -7357,60 +5445,22 @@
     {
       "name": "dusknoir",
       "id": 477,
-      "colors": [
-        "#cbd1ab",
-        "#595649",
-        "#0d131a",
-        "#edc300",
-        "#e50044",
-        "#352012",
-        "#3e392d",
-        "#c6a400",
-        "#a6ab8c"
-      ]
+      "colors": ["#cbd1ab", "#595649", "#0d131a", "#edc300", "#e50044", "#352012", "#3e392d", "#c6a400", "#a6ab8c"]
     },
     {
       "name": "froslass",
       "id": 478,
-      "colors": [
-        "#ffffff",
-        "#664497",
-        "#7dccf3",
-        "#ffe33f",
-        "#e95520",
-        "#dbdcdc",
-        "#6cb2d3",
-        "#dcc437",
-        "#0d131a"
-      ]
+      "colors": ["#ffffff", "#664497", "#7dccf3", "#ffe33f", "#e95520", "#dbdcdc", "#6cb2d3", "#dcc437", "#0d131a"]
     },
     {
       "name": "rotom",
       "id": 479,
-      "colors": [
-        "#65a9dc",
-        "#bbe1e8",
-        "#f19963",
-        "#ffffff",
-        "#007bba",
-        "#d18456",
-        "#f8ceb0",
-        "#0d131a"
-      ]
+      "colors": ["#65a9dc", "#bbe1e8", "#f19963", "#ffffff", "#007bba", "#d18456", "#f8ceb0", "#0d131a"]
     },
     {
       "name": "uxie",
       "id": 480,
-      "colors": [
-        "#ffee7d",
-        "#d2ecfa",
-        "#e85377",
-        "#f3b1b9",
-        "#dccd6c",
-        "#b6ccd9",
-        "#c94768",
-        "#0d131a"
-      ]
+      "colors": ["#ffee7d", "#d2ecfa", "#e85377", "#f3b1b9", "#dccd6c", "#b6ccd9", "#c94768", "#0d131a"]
     },
     {
       "name": "mesprit",

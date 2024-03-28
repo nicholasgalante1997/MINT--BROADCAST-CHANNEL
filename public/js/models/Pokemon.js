@@ -24,17 +24,7 @@ class Pokemon {
   current_health;
   trainer;
 
-  constructor(
-    id,
-    name,
-    type,
-    level,
-    attacks,
-    images,
-    max_health,
-    current_health,
-    trainer
-  ) {
+  constructor(id, name, type, level, attacks, images, max_health, current_health, trainer) {
     this.id = id;
     this.name = name;
     this.type = type;

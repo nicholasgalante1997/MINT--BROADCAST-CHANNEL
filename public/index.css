@@ -114,6 +114,12 @@ body {
                     font-family: system-ui;
                     margin-top: auto;
                     cursor: pointer;
+                    transition: transform 300ms;
+                }
+
+                button:hover {
+                    transform: scale(1.24);
+                    transition: transform 300ms;
                 }
             }
         }

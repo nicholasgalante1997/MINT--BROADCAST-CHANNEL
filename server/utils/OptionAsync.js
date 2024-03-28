@@ -15,11 +15,7 @@ class OptionAsync {
       this.data = t;
       this.error = null;
     } catch (e) {
-      Logger.error(
-        'OptionAsync performed %s and threw %s',
-        callback?.displayName || 'AnonFn',
-        e
-      );
+      Logger.error('OptionAsync performed %s and threw %s', callback?.displayName || 'AnonFn', e);
 
       this.data = null;
       this.error = e;

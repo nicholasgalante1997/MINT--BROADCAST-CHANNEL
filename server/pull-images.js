@@ -10,8 +10,7 @@ import pokeApiClient from './clients/PokeAPIClient.js';
 let asyncFsWrite = util.promisify(fs.writeFile);
 
 void (async () => {
-  const IMAGE_ENDPOINT =
-    'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/'; // /1.SVG;
+  const IMAGE_ENDPOINT = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/';
   let [, UPPER_BOUND] = pokeApiClient.getBDSPBounds();
 
   for (let x = 1; x <= UPPER_BOUND; x++) {
