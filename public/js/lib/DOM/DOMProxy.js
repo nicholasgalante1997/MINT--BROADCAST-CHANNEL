@@ -160,7 +160,7 @@ class DOMProxy {
         let pokemonData = pokemon[index];
 
         let cardWrapper = document.createElement('div');
-        cardWrapper.className = 'pokemon-card';
+        cardWrapper.className = 'alt-pokemon-card';
         cardWrapper.style.cursor = 'pointer';
         cardWrapper.onclick = function () {
           DOMProxy.updateInspiredByPokemonSprite(pokemonData);
@@ -168,19 +168,16 @@ class DOMProxy {
         };
 
         cardWrapper.innerHTML = `
-          <div class="pokemon-card-info">
-            <img src="/svgs/${pokemonData.id}.svg" alt="${pokemonData.name}" loading="lazy">
-            <div>
-              <h1>${pokemonData.name.toCapitalCase()}</h1>
+            <div class="wrapper">
+              <div class="cover-image">
+                <span class="poke-id">
+                  <b>Poke ID:</b>
+                  &nbsp;${pokemonData.id}
+                </span>
+              </div>
             </div>
-          </div>
-          <div>
-            <p>Color Cycle</p>
-            <hr />
-            <div class="pokemon-card-color-wheel">
-              ${DOMProxy.renderColorWheel(colorScheme.colors)}
-            </div>
-          </div>
+            <h1 class="title">${pokemonData.name.toCapitalCase()}</h1>
+            <img src="/svgs/${pokemonData.id}.svg" class="character" loading="lazy" />
         `;
 
         cards.push(cardWrapper);

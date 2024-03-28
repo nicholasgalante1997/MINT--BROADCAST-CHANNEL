@@ -19,6 +19,21 @@
     src: url("./assets/PokemonSolid.ttf") format(truetype);
 }
 
+@font-face {
+    font-family: "Space Grotesk Bold";
+    src: url("./assets/spacegrotesk/fonts/static/SpaceGrotesk-Bold.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Space Grotesk Medium";
+    src: url("./assets/spacegrotesk/fonts/static/SpaceGrotesk-Medium.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Space Grotesk Regular";
+    src: url("./assets/spacegrotesk/fonts/static/SpaceGrotesk-Regular.ttf") format(truetype);
+}
+
 html,
 body {
     box-sizing: border-box;
@@ -30,7 +45,7 @@ body {
     scrollbar-width: none;
     margin: 0;
     padding: 0;
-    font-family: system-ui;
+    font-family: "Space Grotesk Regular", system-ui;
     background-color: var(--root-black);
 
     main {
@@ -111,7 +126,7 @@ body {
                     padding-right: 16px;
                     padding-top: 8px;
                     padding-bottom: 8px;
-                    font-family: system-ui;
+                    font-family: "Space Grotesk Bold";
                     margin-top: auto;
                     cursor: pointer;
                     transition: transform 300ms;
@@ -198,7 +213,7 @@ body {
 
                 box-sizing: border-box;
                 margin: 0;
-                gap: 16px 8px;
+                gap: 48px 24px;
 
                 overflow-x: hidden;
                 overflow-y: scroll;
@@ -269,6 +284,131 @@ body {
                 .pokemon-card:hover {
                     transform: scale(1.05);
                     transition: transform 300ms;
+                }
+
+                .alt-pokemon-card {
+                    --card-height: 300px;
+                    --card-width: calc(var(--card-height) / 1.5);
+                    box-sizing: border-box;
+                    width: var(--card-width);
+                    height: var(--card-height);
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    perspective: 2500px;
+                    border-radius: 8px;
+
+                    .wrapper {
+                        transition: all 0.5s;
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        z-index: -1;
+                        border-radius: 8px;
+                    }
+
+                    .wrapper::before,
+                    .wrapper::after {
+                        content: "";
+                        opacity: 0;
+                        width: 100%;
+                        height: 80px;
+                        transition: all 0.5s;
+                        position: absolute;
+                        left: 0;
+                    }
+
+                    .wrapper::before {
+                        top: 0;
+                        height: 100%;
+                        background-image: linear-gradient(
+                            to top,
+                            transparent 46%,
+                            rgba(12, 13, 19, 0.5) 68%,
+                            rgba(12, 13, 19) 97%
+                        );
+                    }
+
+                    .wrapper::after {
+                        bottom: 0;
+                        opacity: 1;
+                        background-image: linear-gradient(
+                            to bottom,
+                            transparent 46%,
+                            rgba(12, 13, 19, 0.5) 68%,
+                            rgba(12, 13, 19) 97%
+                        );
+                    }
+
+                    .cover-image {
+                        background: #2f4858;
+                        width: 100%;
+                        min-height: 100%;
+                        border-radius: 8px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        box-sizing: border-box;
+                        padding: 16px;
+
+                        .poke-id {
+                            font-family: "Space Grotesk Medium";
+                            font-size: 16px;
+                            font-weight: 400;
+
+                            b {
+                                font-weight: 600;
+                            }
+                        }
+                      }
+
+                    .title {
+                        transition: transform 0.5s;
+                        font-family: "Space Grotesk Bold";
+                        letter-spacing: normal;
+                        line-height: 1.15;
+                        font-size: 20px;
+                        font-weight: 500;
+                        margin-block-end: 8px;
+                        color: white;
+                    }
+
+                    
+                    .character {
+                        width: 100%;
+                        opacity: 0;
+                        transition: all 0.5s;
+                        position: absolute;
+                        z-index: -1;
+                    }
+                      
+                }
+
+                .alt-pokemon-card:hover .wrapper {
+                    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+                    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+                }
+
+                .alt-pokemon-card:hover .wrapper::before,
+                .wrapper::after {
+                    opacity: 1;
+                }
+
+                .alt-pokemon-card:hover .wrapper::after {
+                    height: 120px;
+                }
+
+                .alt-pokemon-card:hover .title {
+                    transform: translate3d(0%, -20px, 100px);
+                }
+
+                .alt-pokemon-card:hover .character {
+                    opacity: 1;
+                    transform: translate3d(0%, -40%, 100px);
                 }
             }
         }
