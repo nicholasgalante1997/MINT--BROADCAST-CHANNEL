@@ -30,6 +30,7 @@ async function bootAsyncStore() {
     .catch((e) => {
       Logger.warn('bootAsyncStore failed');
       Logger.warn(e);
+      throw e;
     });
 }
 

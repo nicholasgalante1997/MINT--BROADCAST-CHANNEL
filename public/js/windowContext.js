@@ -36,5 +36,13 @@ function isPrimaryWindow() {
   return instancePrime === instanceId;
 }
 
+function hasPreviouslyVisited() {
+  const key = 'has-already-visited';
+  const value = window.localStorage.getItem(key);
+  if (value && parseInt(value) > 0) {
+    return true;
+  }
+  return false;
+}
 
-export { isPrimaryWindow, prepareSecondaryWindow, startPrimaryWindowColorCycle };
+export { isPrimaryWindow, prepareSecondaryWindow, startPrimaryWindowColorCycle, hasPreviouslyVisited };

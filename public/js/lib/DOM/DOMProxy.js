@@ -35,10 +35,13 @@ class DOMProxy {
   static attachOnDOMContentLoaded() {
     window.addEventListener('DOMContentLoaded', () => {
       logger.info('DOMContentLoaded event has fired.');
+
       const openInstancesAsString = window.localStorage.getItem(
         config.window.storage.instanceKey
       );
+
       let openInstances = 0;
+
       if (openInstancesAsString && parseInt(openInstancesAsString, 10) > 0) {
         openInstances = parseInt(openInstancesAsString, 10);
       }
@@ -77,9 +80,11 @@ class DOMProxy {
     window.addEventListener('unload', (event) => {
       logger.info('unload event has fired.');
       event.preventDefault();
+      
       const currentOpenInstancesAsString = window.localStorage.getItem(
         config.window.storage.instanceKey
       );
+
       if (currentOpenInstancesAsString) {
         let currentOpenInstances = parseInt(currentOpenInstancesAsString, 10);
         currentOpenInstances -= 1;
@@ -89,7 +94,14 @@ class DOMProxy {
         );
       }
 
+      let params = new window.URLSearchParams(window.location.search);
+      let index = params.get('index');
+      if (index) {
+        window.localStorage.removeItem(`${config.window.storage.instanceUUID}-${index}`);
+      }
+
       if (isPrimaryWindow()) {
+        window.localStorage.removeItem(config.window.storage.instancePrime)
         const destroyChannel = getChannelManager().getChannel('destroy');
         destroyChannel.postMessage({ type: "end" });
       }
@@ -301,6 +313,32 @@ class DOMProxy {
     const controllerSection = document.getElementById('controller-section');
     if (controllerSection) {
       controllerSection.style.display = 'none';
+    }
+  }
+
+  static showNewUserModal() {
+    const colorSectionElement = document.getElementById('color-section');
+    if (colorSectionElement) {
+      const imageElement = colorSectionElement.childNodes.item(0);
+      const modal = document.createElement('div');
+      modal.id = "new-user-modal";
+      modal.innerHTML = `
+        <img src="/assets/Angry-Pikachu.png" alt="A pikachu ready to attack!" height="116px" width="auto">
+        <h1>Blackthorn</h1>
+        <p>Blackthorn is a browser-based lighting synchronizer. It gets its name from the Dragon Type Gym in the Pokemon Gold and Silver games.</p>
+        <p>You can use Blackthorn to set the lighting backdrop for gaming, development, editing, or whatever you want.</p>
+        <a href="#" style="margin-top:24px;">Check out our usage demo</a>
+        <button id="new-user-modal__dismiss-modal-btn">Dismiss</button>
+      `;
+      colorSectionElement.insertBefore(modal, imageElement);
+
+      const dismissBtn = modal.querySelector('#new-user-modal__dismiss-modal-btn');
+      if (dismissBtn) {
+        dismissBtn.addEventListener('click', () => {
+          modal.remove();
+          window.localStorage.setItem('has-already-visited', new Date().getTime());
+        })
+      }
     }
   }
 }
