@@ -1,0 +1,1 @@
+import './toCapitalCase.js';

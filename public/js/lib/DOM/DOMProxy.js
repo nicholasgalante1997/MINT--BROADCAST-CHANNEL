@@ -8,11 +8,12 @@ import { getChannelManager } from '../ChannelManager.js';
 import logger from '../Logger.js';
 import { isPrimaryWindow } from '../../windowContext.js';
 
-String.prototype.toCapitalCase = function () {
-  return this.split(' ')
-    .map((str) => str.charAt(0).toUpperCase() + str.slice(1).toLowerCase())
-    .join(' ');
-};
+import DOMContentLoadedEventHandler from './events/OnDOMContentLoaded.js';
+import UnloadEventHandler from './events/OnUnload.js';
+import SearchInputEventHandler from './events/Controller/SearchInput/Input.js';
+import ExpansionClickEventHandler from './events/Controller/Expansion/Click.js';
+import AllTabClickEventHandler from './events/Controller/TabSwitch/All/Click.js';
+import PopularTabClickEventHandler from './events/Controller/TabSwitch/Popular/Click.js';
 
 class DOMProxy {
   /**
@@ -20,126 +21,28 @@ class DOMProxy {
    */
   static _interval;
 
-  /**
-   * @private
-   */
-  static _expandOrCollapseControllerVisibilityState = false;
-
   static attachEventListeners() {
-    DOMProxy.attachOnDOMContentLoaded();
-    DOMProxy.attachUnloadEvent();
-    DOMProxy.attachExpandOrCollapseControllerSectionEventListeners();
-    DOMProxy.attachSearchEventListeners();
+    DOMContentLoadedEventHandler.attachTo(window);
+    UnloadEventHandler.attachTo(window);
+    ExpansionClickEventHandler.attachTo(document.getElementById('controller-bar-expand-or-collapse-container'));
+    SearchInputEventHandler.attachTo(document.getElementById('pokemon-search'));
+    AllTabClickEventHandler.attachTo(document.getElementById('switch-all-tab'));
+    PopularTabClickEventHandler.attachTo(document.getElementById('switch-popular-tab'))
   }
 
-  static attachOnDOMContentLoaded() {
-    window.addEventListener('DOMContentLoaded', () => {
-      logger.info('DOMContentLoaded event has fired.');
+  static attachOnTabSwitchEventListeners() {
+    const allTab = document.getElementById('switch-all-tab');
+    const popularTab = document.getElementById('switch-popular-tab');
 
-      const openInstancesAsString = window.localStorage.getItem(config.window.storage.instanceKey);
+    allTab.addEventListener('click', () => {
+      allTab.dataset.tabState = 'active';
+      popularTab.dataset.tabState = 'inactive';
+    })
 
-      let openInstances = 0;
-
-      if (openInstancesAsString && parseInt(openInstancesAsString, 10) > 0) {
-        openInstances = parseInt(openInstancesAsString, 10);
-      }
-
-      if (openInstances == 0) {
-        window.localStorage.setItem(config.window.storage.instancePrime, config.app.id);
-      }
-
-      openInstances += 1;
-      window.localStorage.setItem(config.window.storage.instanceKey, openInstances.toString());
-
-      window.localStorage.setItem(`${config.window.storage.instanceUUID}-${openInstances}`, config.app.id);
-
-      if (window.location.search === '') {
-        const urlParams = new window.URLSearchParams([
-          ['index', openInstances.toString()],
-          ['instanceUuid', config.app.id]
-        ]);
-
-        const nextUrl = window.location.href + '?' + urlParams.toString();
-        window.history.pushState(null, null, nextUrl);
-      }
-    });
-  }
-
-  static attachUnloadEvent() {
-    window.addEventListener('unload', (event) => {
-      logger.info('unload event has fired.');
-      event.preventDefault();
-
-      const currentOpenInstancesAsString = window.localStorage.getItem(config.window.storage.instanceKey);
-
-      if (currentOpenInstancesAsString) {
-        let currentOpenInstances = parseInt(currentOpenInstancesAsString, 10);
-        currentOpenInstances -= 1;
-        window.localStorage.setItem(config.window.storage.instanceKey, currentOpenInstances.toString());
-      }
-
-      let params = new window.URLSearchParams(window.location.search);
-      let index = params.get('index');
-      if (index) {
-        window.localStorage.removeItem(`${config.window.storage.instanceUUID}-${index}`);
-      }
-
-      if (isPrimaryWindow()) {
-        window.localStorage.removeItem(config.window.storage.instancePrime);
-        const destroyChannel = getChannelManager().getChannel('destroy');
-        destroyChannel.postMessage({ type: 'end' });
-      }
-    });
-  }
-
-  static attachSearchEventListeners() {
-    const input = document.getElementById('pokemon-search');
-    input.addEventListener('input', (event) => {
-      const val = event.target.value;
-      const pokemon = getState().db.pokemon.pokemon;
-      const colors = getState().db.colors.colors;
-      if (!val || val === '') {
-        DOMProxy.removePokemonCards();
-        DOMProxy.renderPokemonCards(pokemon, colors);
-      } else {
-        const fPokemon = pokemon.filter((p) => p.name.toLowerCase().includes(val.toLowerCase()));
-        const fColors = colors.filter((col) => col.name.toLowerCase().includes(val.toLowerCase()));
-        DOMProxy.removePokemonCards();
-        DOMProxy.renderPokemonCards(fPokemon, fColors);
-      }
-    });
-  }
-
-  static attachExpandOrCollapseControllerSectionEventListeners() {
-    const expandOrCollapseContainer = document.getElementById('controller-bar-expand-or-collapse-container');
-    if (expandOrCollapseContainer) {
-      expandOrCollapseContainer.addEventListener('click', () => {
-        const controllerSectionBarIconId = 'controller-bar-expand-or-collapse-icon';
-        const controllerSectionBarIcon = document.getElementById(controllerSectionBarIconId);
-        const controllerContentSectionId = 'controller-content-container';
-        const controllerContentElement = document.getElementById(controllerContentSectionId);
-        const searchBarSectionId = 'controller-search-bar';
-        const searchBarSectionElement = document.getElementById(searchBarSectionId);
-
-        if (DOMProxy._expandOrCollapseControllerVisibilityState) {
-          /** Turn Off */
-          DOMProxy._expandOrCollapseControllerVisibilityState = false;
-          searchBarSectionElement.style.display = 'none';
-          controllerContentElement.style.display = 'none';
-          controllerContentElement.style.padding = 'none';
-          controllerSectionBarIcon.style.transform = 'rotate(180deg)';
-          DOMProxy.removePokemonCards();
-        } else {
-          /** Turn On */
-          DOMProxy._expandOrCollapseControllerVisibilityState = true;
-          searchBarSectionElement.style.display = 'flex';
-          controllerContentElement.style.display = 'flex';
-          controllerContentElement.style.padding = 'var(--spacing-unit)';
-          controllerSectionBarIcon.style.transform = 'rotate(0deg)';
-          DOMProxy.renderPokemonCards(getState().db.pokemon.pokemon, getState().db.colors.colors);
-        }
-      });
-    }
+    popularTab.addEventListener('click', () => {
+      popularTab.dataset.tabState = 'active';
+      allTab.dataset.tabState = 'inactive';
+    })
   }
 
   static renderColorWheel(colors) {

@@ -1,3 +1,5 @@
+import './lib/DOM/ponyfills/index.js';
+
 import config from './config/app.js';
 import DOMProxy from './lib/DOM/DOMProxy.js';
 import Logger from './lib/Logger.js';
