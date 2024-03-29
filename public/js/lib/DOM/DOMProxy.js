@@ -148,6 +148,45 @@ class DOMProxy {
       .join('');
   }
 
+  static renderTypeBadges(types) {
+    return types
+      .map(({ type }) => `<span class="badge ${type.name}-type">${type.name.toUpperCase()}</span>`)
+      .join('');
+  }
+
+  static renderSprites(spritesObj) {
+    let spritesAsImgArr = [];
+    const { 
+      other: { 
+        "official-artwork": {
+          front_default: officialArtworkFrontDefault
+        },
+        showdown: {
+          front_default: showdownImageFrontDefault
+        }
+      },
+      versions
+    } = spritesObj;
+    
+    function formatRawImageSrc(src) {
+      return `<img src="${src}" loading="lazy" height="24px" width="24px" class="poke-sprite" />`;
+    }
+
+    for (const [k, v] of Object.entries(versions)) {
+      for (const [k2, v2] of Object.entries(v)) {
+        const { front_default } = v2;
+        if (front_default) {
+          spritesAsImgArr.push(formatRawImageSrc(front_default));
+        }
+      }
+    }
+
+    spritesAsImgArr.push(formatRawImageSrc(officialArtworkFrontDefault));
+    spritesAsImgArr.push(formatRawImageSrc(showdownImageFrontDefault));
+    
+    return spritesAsImgArr.join('');
+  }
+
   static renderPokemonCards(pokemon, colors) {
     const controllerContentSectionId = 'controller-content-container';
     const controllerContentElement = document.getElementById(controllerContentSectionId);
@@ -174,6 +213,16 @@ class DOMProxy {
                   <b>Poke ID:</b>
                   &nbsp;${pokemonData.id}
                 </span>
+                <div class="poke-types">
+                  ${DOMProxy.renderTypeBadges(pokemonData.types)}
+                </div>
+                <span class="color-wheel-title">${pokemonData.name.toCapitalCase()}'s Colors</span>
+                <div class="color-wheel">
+                  ${DOMProxy.renderColorWheel(colorScheme.colors)}
+                </div>
+                <div class="pokecard-gif-container">
+                  <img src="${pokemonData.sprites.other.showdown.front_default}" loading="lazy" height="92px" width="auto" class="pokecard-gif" />
+                </div>
               </div>
             </div>
             <h1 class="title">${pokemonData.name.toCapitalCase()}</h1>

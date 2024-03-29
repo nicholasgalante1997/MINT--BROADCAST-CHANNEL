@@ -10,7 +10,7 @@ function run() {
   const port = process.env.PORT || 8080;
   const server = setupServer();
   server.listen(port, function () {
-    Logger.info('BROADCAST_CHANNEL_SERVER STARTED');
+    Logger.info('blackthorn-static-server started on port ' + port);
   });
 }
 

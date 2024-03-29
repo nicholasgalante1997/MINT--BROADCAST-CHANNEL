@@ -11,6 +11,7 @@
     "db:write": "node server/write-db.js",
     "db:write-colors": "node server/write-color-db.js",
     "rake:svgs": "node server/pull-images.js",
+    "dev": "node --watch-path=./public/js --watch-path=./server server/server.js",
     "start": "node server/server.js",
     "clean:dist": "rm -rf dist",
     "make:dist": "mkdir -p dist dist/db dist/svgs;",
