@@ -1,12 +1,6 @@
 import ColorScale from 'color-scales';
 
-import config from '../../config/app.js';
-
-import { getState } from '../../store/index.js';
 import { getChannelManager } from '../ChannelManager.js';
-
-import logger from '../Logger.js';
-import { isPrimaryWindow } from '../../windowContext.js';
 
 import DOMContentLoadedEventHandler from './events/OnDOMContentLoaded.js';
 import UnloadEventHandler from './events/OnUnload.js';
@@ -28,21 +22,6 @@ class DOMProxy {
     SearchInputEventHandler.attachTo(document.getElementById('pokemon-search'));
     AllTabClickEventHandler.attachTo(document.getElementById('switch-all-tab'));
     PopularTabClickEventHandler.attachTo(document.getElementById('switch-popular-tab'))
-  }
-
-  static attachOnTabSwitchEventListeners() {
-    const allTab = document.getElementById('switch-all-tab');
-    const popularTab = document.getElementById('switch-popular-tab');
-
-    allTab.addEventListener('click', () => {
-      allTab.dataset.tabState = 'active';
-      popularTab.dataset.tabState = 'inactive';
-    })
-
-    popularTab.addEventListener('click', () => {
-      popularTab.dataset.tabState = 'active';
-      allTab.dataset.tabState = 'inactive';
-    })
   }
 
   static renderColorWheel(colors) {
