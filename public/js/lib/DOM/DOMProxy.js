@@ -129,7 +129,7 @@ class DOMProxy {
               </div>
             </div>
             <h1 class="title">${pokemonData.name.toCapitalCase()}</h1>
-            <img src="/svgs/${pokemonData.id}.svg" class="character" loading="lazy" />
+            <img src="/assets/svgs/${pokemonData.id}.svg" class="character" loading="lazy" />
         `;
 
         cards.push(cardWrapper);
@@ -231,7 +231,7 @@ class DOMProxy {
       const modal = document.createElement('div');
       modal.id = 'new-user-modal';
       modal.innerHTML = `
-        <img src="/assets/Angry-Pikachu.png" alt="A pikachu ready to attack!" height="116px" width="auto">
+        <img src="/assets/images/Angry-Pikachu.png" alt="A pikachu ready to attack!" height="116px" width="auto">
         <h1>Blackthorn</h1>
         <p>Blackthorn is a browser-based lighting synchronizer. It gets its name from the Dragon Type Gym in the Pokemon Gold and Silver games.</p>
         <p>You can use Blackthorn to set the lighting backdrop for gaming, development, editing, or whatever you want.</p>

@@ -7,7 +7,7 @@ import setupStaticFileServing from './middleware/express-static.js';
 import Logger from './utils/Logger.js';
 
 function run() {
-  const port = process.env.PORT || 8080;
+  const port = process.env.PORT || 8082;
   const server = setupServer();
   server.listen(port, function () {
     Logger.info('blackthorn-static-server started on port ' + port);

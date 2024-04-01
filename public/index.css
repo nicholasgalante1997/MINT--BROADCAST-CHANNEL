@@ -29,27 +29,27 @@
 
 @font-face {
     font-family: "Pokemon Hollow";
-    src: url("./assets/PokemonHollow.ttf") format(truetype);
+    src: url("./assets/fonts/PokemonHollow.ttf") format(truetype);
 }
 
 @font-face {
     font-family: "Pokemon Solid";
-    src: url("./assets/PokemonSolid.ttf") format(truetype);
+    src: url("./assets/fonts/PokemonSolid.ttf") format(truetype);
 }
 
 @font-face {
     font-family: "Space Grotesk Bold";
-    src: url("./assets/spacegrotesk/fonts/static/SpaceGrotesk-Bold.ttf") format(truetype);
+    src: url("./assets/fonts/spacegrotesk/fonts/static/SpaceGrotesk-Bold.ttf") format(truetype);
 }
 
 @font-face {
     font-family: "Space Grotesk Medium";
-    src: url("./assets/spacegrotesk/fonts/static/SpaceGrotesk-Medium.ttf") format(truetype);
+    src: url("./assets/fonts/spacegrotesk/fonts/static/SpaceGrotesk-Medium.ttf") format(truetype);
 }
 
 @font-face {
     font-family: "Space Grotesk Regular";
-    src: url("./assets/spacegrotesk/fonts/static/SpaceGrotesk-Regular.ttf") format(truetype);
+    src: url("./assets/fonts/spacegrotesk/fonts/static/SpaceGrotesk-Regular.ttf") format(truetype);
 }
 
 html,
