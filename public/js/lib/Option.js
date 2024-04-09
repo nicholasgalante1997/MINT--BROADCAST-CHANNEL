@@ -24,6 +24,14 @@ class Option {
       return none(this.error);
     }
   }
+
+  ok() {
+    return this.data;
+  }
+
+  none() {
+    return this.error;
+  }
 }
 
 export default Option;

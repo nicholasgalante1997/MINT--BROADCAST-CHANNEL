@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <base href="/">
-  <link rel="stylesheet" href="index.css">
+  
   <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
@@ -14,6 +14,23 @@
   <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+
+  <link rel="preload" as="style" href="index.css">
+  <link rel="stylesheet" href="index.css" />
+
+
+  <link rel="preload" crossorigin="anonymous" as="script" href="https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm">
+  <link rel="preload" crossorigin="anonymous" as="script" href="https://cdn.skypack.dev/color-scales">
+  <link rel="preload" crossorigin="anonymous" as="script" href="https://jspm.dev/uuid">
+  <script type="importmap">
+    {
+      "imports": {
+        "color-scales": "https://cdn.skypack.dev/color-scales",
+        "lodash": "https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm",
+        "uuid": "https://jspm.dev/uuid"
+      }
+    }
+  </script>
   <!-- 
                   _,........__
                 ,-'            "`-.
@@ -54,7 +71,7 @@
   <main>
     <div id="color-section">
       <span id="color-inspired-by">
-        <img id="color-inspired-by-pokemon-sprite" height="100px" width="auto">
+        <img id="color-inspired-by-pokemon-sprite" src="/assets/svgs/149.svg" height="100px" width="auto" loading="eager">
       </span>
     </div>
     <div id="controller-section">
@@ -83,15 +100,6 @@
       </div>
     </div>
   </main>
-  <script type="importmap">
-    {
-      "imports": {
-        "color-scales": "https://cdn.skypack.dev/color-scales",
-        "lodash": "https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm",
-        "uuid": "https://jspm.dev/uuid"
-      }
-    }
-  </script>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

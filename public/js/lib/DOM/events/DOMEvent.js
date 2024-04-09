@@ -1,23 +1,25 @@
-import Logger from "../../Logger.js";
+import Logger from '../../Logger.js';
 
 class DOMEvent {
-    _type;
-    
-    constructor(type) {
-        this._type = type;
-    }
+  _type;
 
-    listener(_e) {/** Classes that extend DOMEvent must override this method */}
+  constructor(type) {
+    this._type = type;
+  }
 
-    attachTo(element) {
-        Logger.info(`Attaching listener to ${this._type} event...`);
-        element.addEventListener(this._type, this.listener);
-    }
+  listener(_e) {
+    /** Classes that extend DOMEvent must override this method */
+  }
 
-    removeFrom(element) {
-        Logger.warn(`Removing listener to ${this._type} event...`);
-        element.remove(this._type, this.listener);
-    }
+  attachTo(element) {
+    Logger.info(`Attaching listener to ${this._type} event...`);
+    element.addEventListener(this._type, this.listener);
+  }
+
+  removeFrom(element) {
+    Logger.warn(`Removing listener to ${this._type} event...`);
+    element.remove(this._type, this.listener);
+  }
 }
 
 export default DOMEvent;

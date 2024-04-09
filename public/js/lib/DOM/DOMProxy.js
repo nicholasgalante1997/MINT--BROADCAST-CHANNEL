@@ -21,7 +21,7 @@ class DOMProxy {
     ExpansionClickEventHandler.attachTo(document.getElementById('controller-bar-expand-or-collapse-container'));
     SearchInputEventHandler.attachTo(document.getElementById('pokemon-search'));
     AllTabClickEventHandler.attachTo(document.getElementById('switch-all-tab'));
-    PopularTabClickEventHandler.attachTo(document.getElementById('switch-popular-tab'))
+    PopularTabClickEventHandler.attachTo(document.getElementById('switch-popular-tab'));
   }
 
   static renderColorWheel(colors) {
@@ -31,25 +31,19 @@ class DOMProxy {
   }
 
   static renderTypeBadges(types) {
-    return types
-      .map(({ type }) => `<span class="badge ${type.name}-type">${type.name.toUpperCase()}</span>`)
-      .join('');
+    return types.map(({ type }) => `<span class="badge ${type.name}-type">${type.name.toUpperCase()}</span>`).join('');
   }
 
   static renderSprites(spritesObj) {
     let spritesAsImgArr = [];
-    const { 
-      other: { 
-        "official-artwork": {
-          front_default: officialArtworkFrontDefault
-        },
-        showdown: {
-          front_default: showdownImageFrontDefault
-        }
+    const {
+      other: {
+        'official-artwork': { front_default: officialArtworkFrontDefault },
+        showdown: { front_default: showdownImageFrontDefault }
       },
       versions
     } = spritesObj;
-    
+
     function formatRawImageSrc(src) {
       return `<img src="${src}" loading="lazy" height="24px" width="24px" class="poke-sprite" />`;
     }
@@ -65,7 +59,7 @@ class DOMProxy {
 
     spritesAsImgArr.push(formatRawImageSrc(officialArtworkFrontDefault));
     spritesAsImgArr.push(formatRawImageSrc(showdownImageFrontDefault));
-    
+
     return spritesAsImgArr.join('');
   }
 
@@ -141,7 +135,7 @@ class DOMProxy {
   static updateInspiredByPokemonSprite(pokemon) {
     let inspiredByPokemonSpriteElement = document.getElementById('color-inspired-by-pokemon-sprite');
     if (inspiredByPokemonSpriteElement) {
-      inspiredByPokemonSpriteElement.src = pokemon.sprites.other.dream_world.front_default;
+      inspiredByPokemonSpriteElement.src = `/assets/svgs/${pokemon.id}.svg`;
       inspiredByPokemonSpriteElement.alt = `An image of a ${pokemon.name} pokemon`;
     }
   }

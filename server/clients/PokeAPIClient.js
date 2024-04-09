@@ -1,5 +1,5 @@
 import axios from 'axios';
-import OptionAsync from '../utils/OptionAsync.js';
+import OptionAsync from '../lib/OptionAsync.js';
 
 class PokeApiClient {
   /**
@@ -46,18 +46,17 @@ class PokeApiClient {
    */
   static __DS_1_SET_BOUNDS__ = [388, 493];
 
-  constructor() {}
-
   async fetch(identifier) {
     const url = PokeApiClient.__URI__ + identifier + '/';
-    const asyncOption = new OptionAsync();
-    await asyncOption.invoke(async () => {
+    const asyncRequest = async () => {
       const { data, status, statusText } = await axios.get(url);
       if (status < 200 || status > 299 || data == null) {
         throw new Error(statusText);
       }
       return data;
-    });
+    };
+    const asyncOption = new OptionAsync(asyncRequest);
+    await asyncOption.call();
 
     if (asyncOption.ok()) {
       return asyncOption.ok();

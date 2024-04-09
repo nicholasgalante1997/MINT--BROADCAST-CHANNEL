@@ -1,42 +1,71 @@
 import axios from 'axios';
-import fs from 'fs';
-import path from 'path';
-import util from 'util';
+import { writeFile } from 'node:fs/promises';
+import path from 'node:path';
+import { performance } from 'node:perf_hooks';
 
-import OptionAsync from './utils/OptionAsync.js';
-import Logger from './utils/Logger.js';
+import Attempt from './lib/Attempt.js';
+import OptionAsync from './lib/OptionAsync.js';
+import { getCustomRethrowFn } from './lib/Rethrow.js';
+
+import Logger from './lib/Logger.js';
+
 import pokeApiClient from './clients/PokeAPIClient.js';
 
-let asyncFsWrite = util.promisify(fs.writeFile);
+const IMAGE_ENDPOINT = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/';
 
-void (async () => {
-  const IMAGE_ENDPOINT = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/';
-  let [, UPPER_BOUND] = pokeApiClient.getBDSPBounds();
+function logRunStarted() {
+  Logger.info(`pull-images.js run() started at ${performance.now()}`);
+}
 
-  for (let x = 1; x <= UPPER_BOUND; x++) {
-    const asyncOption = new OptionAsync();
-    await asyncOption.invoke(async () => {
-      const url = IMAGE_ENDPOINT + `${x}.svg`;
-      const { data, status, statusText } = await axios.get(url);
-      if (data) {
-        return data;
-      }
+function logRunEnded() {
+  Logger.info(`pull-images.js run() exited successfully at ${performance.now()}`);
+}
 
-      Logger.warn('Fetch of svg asset ' + x + ' has yielded an excption.');
-      Logger.error('Status: ' + status);
-      Logger.error('Status Text: ' + statusText);
-    });
-
-    if (asyncOption.ok()) {
-      const data = asyncOption.ok();
-      let outFile = path.resolve(process.cwd(), 'svgs', `${x}.svg`);
-
-      await asyncFsWrite(outFile, data, { encoding: 'utf-8' })
-        .then(() => Logger.info('Wrote out svg to svgs/' + x + '.svg'))
-        .catch((e) => {
-          Logger.error('An exception was thrown during asyncFsWrite(...).');
-          Logger.error(e);
-        });
-    }
+async function fetchAsset(url) {
+  const callback = async () => {
+    const { data } = await axios.get(url);
+    return data;
+  };
+  const option = new OptionAsync(callback);
+  await option.call();
+  if (option.ok()) {
+    return option.ok();
   }
-})();
+  return null;
+}
+
+async function writeAsset(path, data) {
+  const callback = async () => await writeFile(path, data, { encoding: 'utf-8' });
+  await Attempt.runAsync(callback, getCustomRethrowFn('writeAsset(...) threw.'));
+}
+
+async function fetchAndWrite(index) {
+  const url = IMAGE_ENDPOINT + `${index}.svg`;
+  const svg = await fetchAsset(url);
+  if (svg == null) {
+    throw new Error('fetchAndWrite() failed.');
+  }
+  const outfile = path.resolve(process.cwd(), 'public', 'assets', 'svgs', `${index}.svg`);
+  await writeAsset(outfile, svg);
+}
+
+function getPromises() {
+  let [, UPPER_BOUND] = pokeApiClient.getBDSPBounds();
+  const promises = [];
+  for (let index = 1; index < UPPER_BOUND + 1; index++) {
+    promises.push(fetchAndWrite(index));
+  }
+  return promises;
+}
+
+async function resolvePromises(promises) {
+  await Promise.all(promises).then(() => Logger.info('pull-images.js succeeded.'));
+}
+
+async function run() {
+  logRunStarted();
+  await resolvePromises(getPromises());
+  logRunEnded();
+}
+
+await run();

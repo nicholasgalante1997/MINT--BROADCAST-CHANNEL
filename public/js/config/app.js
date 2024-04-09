@@ -22,6 +22,9 @@ export default {
       name: 'dragonite'
     }
   },
+  popular: {
+    ids: [25, 137]
+  },
   window: {
     storage: {
       instanceUUID: 'raichu-min-armoury-crate-instance-uuid',

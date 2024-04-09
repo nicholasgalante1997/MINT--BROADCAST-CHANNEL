@@ -1,11 +1,10 @@
-import DOMEvent from "../../DOMEvent.js";
-import DOMProxy from "../../../DOMProxy.js";
-import { getState } from '../../../../../store/index.js'
+import DOMEvent from '../../DOMEvent.js';
+import DOMProxy from '../../../DOMProxy.js';
+import { getState } from '../../../../../store/index.js';
 
-const EVENT_NAME = "click";
+const EVENT_NAME = 'click';
 
 class ControllerExpansionClickDOMEvent extends DOMEvent {
-    
   /**
    * @private
    */
@@ -18,7 +17,7 @@ class ControllerExpansionClickDOMEvent extends DOMEvent {
     const controllerContentElement = document.getElementById(controllerContentSectionId);
     const searchBarSectionId = 'controller-search-bar';
     const searchBarSectionElement = document.getElementById(searchBarSectionId);
-    const searchInput = document.getElementById("pokemon-search");
+    const searchInput = document.getElementById('pokemon-search');
 
     const modalIsVisible = Boolean(document.getElementById('new-user-modal'));
     if (modalIsVisible) return; // Short circuit & exit early if new user modal is still visible
@@ -31,7 +30,7 @@ class ControllerExpansionClickDOMEvent extends DOMEvent {
       controllerContentElement.style.padding = 'none';
       controllerSectionBarIcon.style.transform = 'rotate(180deg)';
       DOMProxy.removePokemonCards();
-      searchInput.value = "";
+      searchInput.value = '';
     } else {
       /** Turn On */
       this._expandOrCollapseControllerVisibilityState = true;
