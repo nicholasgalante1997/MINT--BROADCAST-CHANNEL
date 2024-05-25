@@ -224,6 +224,13 @@ body {
                     background-color: var(--root-contrast-layer-medium);
                     gap: 8px;
 
+                    /** Removing Switch */
+                    /** TODO: Deprecate */
+                    display: none;
+                    height: 0;
+                    width: 0;
+                    overflow: hidden;
+
                     .switch-tab {
                         color: white;
                         box-sizing: border-box;
